@@ -6,7 +6,7 @@
 
 ###  
 #   GUID-Ranges:  
-#   1600000xxx - 1600000xxx 
+#   1600000044 - 1600000047 
 #
 #
 #
@@ -27,17 +27,23 @@
 
 <!-- Common Specialists -->
 <Group>
-    <Include File="items-common/Test-C.xml" />
+    
 </Group>
 
 <!-- Rare Specialists -->
 <Group>
-
+    <Include File="items-rare/AreaEffect-NeedRewardCelcicTownHallMoneyIncConsumptionRoast-R.xml" />
+    <Include File="items-rare/AreaEffect-NeedRewardTheaterIncomeIncConsumptionTogas-R.xml" />
 </Group>
 
 <!-- Epic Specialists -->
 <Group>
-
+    <Include File="items-epic/AreaEffect-ForumMarketNeedRewardIncomeIncConsumptionCheese-E.xml" />
+    <Include File="items-epic/AreaEffect-NeedRewardBathsHealthRedSoapConsumption-E.xml" />
+    <Include File="items-epic/AreaEffect-NeedRewardCelticSportsgroundIncomeIncConsumptionTunicTrousers-E.xml" />
+    <Include File="items-epic/GoodConsumptionDecrease-E.xml" />
+    <Include File="items-epic/NeedRewardbyConsumptionIncBeerHappiness-E.xml" />
+    <Include File="items-epic/NeedRewardbyConsumptionIncGarum-E.xml" />
 </Group>
 
 <!-- Legendary Specialists -->

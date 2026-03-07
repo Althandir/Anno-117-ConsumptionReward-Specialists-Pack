@@ -1,42 +1,42 @@
 <ModOps>
-<!-- Item Definition GUID:1600000000 - 1600000001 | LineID:1600000000 - 1600000001 -->
+<!-- Item Definition GUID:1600000104 - 1600000105 | LineID:1600000104 - 1600000105 -->
   <Group>
     <ModOp Type="addNextSibling" GUID="106410">
       <Asset>
         <Template>Item</Template>
         <Values>
           <Standard>
-            <GUID>1600000000</GUID>
-            <Name>Specialist Test-C</Name>
-            <IconFilename>data/base/graphics/icons/Russ_Question.jpeg</IconFilename>
-            <InfoDescription>1600000001</InfoDescription>
+            <GUID>1600000104</GUID>
+            <Name>Specialist GoodConsumptionDecrease-E</Name>
+            <IconFilename>data/base/graphics/icons/celtic_female_env.png</IconFilename>
+            <InfoDescription>1600000105</InfoDescription>
           </Standard>
           <Effect>
-            <EffectScope>Radius</EffectScope> 
+            <EffectScope>Radius</EffectScope>  
             <SourceCategory>Item</SourceCategory>
             <Buffs>
               <Item>
-                <GUID>1600000001</GUID>
+                <GUID>1600000105</GUID>
               </Item>
             </Buffs>
             <Targets> <!-- Targets of Buff -->
               <Item>
-                <GUID>82494</GUID>
+                <GUID>31046</GUID>
               </Item>
             </Targets>
             <HideInGovernorsBar>1</HideInGovernorsBar>
           </Effect>
           <Item>
-            <Niche>Religion</Niche> 
-            <TradePrice>6000</TradePrice>
-            <BarkPool>83294</BarkPool> <!-- <GUID>83294</GUID> -->
-            <Rarity>Common</Rarity> 
+            <Niche>Agriculture</Niche>
+            <TradePrice>125000</TradePrice> 
+            <BarkPool>83352</BarkPool> <!-- <GUID>83352</GUID> -->
+            <Rarity>Epic</Rarity> 
           </Item>
           <Locked>
             <DefaultLockedState>0</DefaultLockedState>
           </Locked>
           <Text>
-            <OasisId>1600000000</OasisId>
+            <OasisId>1600000104</OasisId>
           </Text>
         </Values>
       </Asset>
@@ -51,31 +51,23 @@
             <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000001</GUID>
-                    <Name>Specialist Test-C BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/Russ_Question.jpeg</IconFilename>
+                    <GUID>1600000105</GUID>
+                    <Name>Specialist GoodConsumptionDecrease-E BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/celtic_female_env.png</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600000000</OasisId>
+                    <OasisId>1600000104</OasisId>
                 </Text>
                 <HealthUpgrade/>
-                <BuildingUpgrade>
-                </BuildingUpgrade>
+                <BuildingUpgrade/>
                 <DistributionUpgrade/>
                 <Buff>
                     <SourceCategory>Item</SourceCategory>
                 </Buff>
-                <ResidenceUpgrade/>
-                <FactoryUpgrade>
-                  <ProductivityUpgrade>
-                    <Value>10</Value>
-                    <Percental>1</Percental>
-                  </ProductivityUpgrade>
-                  <NeededAreaUpgrade>
-                    <Value>0</Value>
-                    <Percental>1</Percental>
-                  </NeededAreaUpgrade>
-                </FactoryUpgrade>
+                <ResidenceUpgrade>
+                  <ConsumptionModifierInPercent>-10</ConsumptionModifierInPercent>
+                </ResidenceUpgrade>
+                <FactoryUpgrade/>
                 <ModuleOwnerUpgrade/>
                 <MaintenanceUpgrade/>
                 <CityInstitutionUpgrade/>
@@ -87,7 +79,6 @@
             </Values>
         </Asset>
     </ModOp>
-    
-  </Group>
 
+  </Group>
 </ModOps>
