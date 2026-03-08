@@ -7,7 +7,7 @@
         <Values>
           <Standard>
             <GUID>1600000116</GUID>
-            <Name>Specialist NeedRewardbyConsumptionIncGarum-E</Name>
+            <Name>Specialist NeedRewardbyCon-IncGarum-E</Name>
             <IconFilename>data/base/graphics/icons/male_NeedRewardGarum.png</IconFilename>
             <InfoDescription>1600000117</InfoDescription>
           </Standard>
@@ -52,7 +52,7 @@
             <Values>
                 <Standard>
                     <GUID>1600000117</GUID>
-                    <Name>Specialist NeedRewardbyConsumptionIncGarum-E BuildingBuff</Name>
+                    <Name>Specialist NeedRewardbyCon-IncGarum-E BuildingBuff</Name>
                     <IconFilename>data/base/graphics/icons/male_NeedRewardGarum.png</IconFilename>
                 </Standard>
                 <Text>

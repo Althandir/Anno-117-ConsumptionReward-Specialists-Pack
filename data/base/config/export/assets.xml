@@ -32,18 +32,18 @@
 
 <!-- Rare Specialists -->
 <Group>
-    <Include File="items-rare/AreaEffect-NeedRewardCelcicTownHallMoneyIncConsumptionRoast-R.xml" />
-    <Include File="items-rare/AreaEffect-NeedRewardTheaterIncomeIncConsumptionTogas-R.xml" />
+    <Include File="items-rare/AE-NeedRewardCelcicTownHallMoneyCon-IncRoast-R.xml" />
+    <Include File="items-rare/AE-NeedRewardTheaterIncomeCon-IncTogas-R.xml" />
 </Group>
 
 <!-- Epic Specialists -->
 <Group>
-    <Include File="items-epic/AreaEffect-ForumMarketNeedRewardIncomeIncConsumptionCheese-E.xml" />
-    <Include File="items-epic/AreaEffect-NeedRewardBathsHealthRedSoapConsumption-E.xml" />
-    <Include File="items-epic/AreaEffect-NeedRewardCelticSportsgroundIncomeIncConsumptionTunicTrousers-E.xml" />
-    <Include File="items-epic/GoodConsumptionDecrease-E.xml" />
-    <Include File="items-epic/NeedRewardbyConsumptionIncBeerHappiness-E.xml" />
-    <Include File="items-epic/NeedRewardbyConsumptionIncGarum-E.xml" />
+    <Include File="items-epic/AE-ForumMarketNeedRewardIncomeCon-IncCheese-E.xml" />
+    <Include File="items-epic/AE-NeedRewardBathsHealthCon-RedSoap-E.xml" />
+    <Include File="items-epic/AE-NeedRewardCelticSportsgroundIncomeCon-IncTunicTrousers-E.xml" />
+    <Include File="items-epic/AllCon-Red-E.xml" />
+    <Include File="items-epic/NeedRewardbyCon-IncBeer-E.xml" />
+    <Include File="items-epic/NeedRewardbyCon-IncGarum-E.xml" />
 </Group>
 
 <!-- Legendary Specialists -->
