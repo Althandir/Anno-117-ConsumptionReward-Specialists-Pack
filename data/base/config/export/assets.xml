@@ -38,9 +38,9 @@
 
 <!-- Epic Specialists -->
 <Group>
-    <Include File="items-epic/AE-ForumMarketNeedRewardIncomeCon-IncCheese-E.xml" />
+    <Include File="items-epic/AE-NeedRewardForumMarketIncomeCon-IncCheese-E.xml" />
     <Include File="items-epic/AE-NeedRewardBathsHealthCon-RedSoap-E.xml" />
-    <Include File="items-epic/AE-NeedRewardCelticSportsgroundIncomeCon-IncTunicTrousers-E.xml" />
+    <Include File="items-epic/AE-NeedRewardCelticSportsIncomeCon-IncTunicTrousers-E.xml" />
     <Include File="items-epic/AllCon-Red-E.xml" />
     <Include File="items-epic/NeedRewardbyCon-IncBeer-E.xml" />
     <Include File="items-epic/NeedRewardbyCon-IncGarum-E.xml" />

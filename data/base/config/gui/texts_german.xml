@@ -96,7 +96,7 @@
     </ModOp>
   </Group>
   
-  <!-- Specialist AE-NeedRewardCelticSportsgroundIncomeCon-IncTunicTrousers-E -->
+  <!-- Specialist AE-NeedRewardCelticSportsIncomeCon-IncTunicTrousers-E -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -112,7 +112,7 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AE-ForumMarketNeedRewardIncomeCon-IncCheese-E -->
+  <!-- Specialist AE-NeedRewardForumMarketIncomeCon-IncCheese-E -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
