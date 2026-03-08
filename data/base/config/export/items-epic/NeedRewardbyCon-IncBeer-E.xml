@@ -7,7 +7,7 @@
         <Values>
           <Standard>
             <GUID>1600000114</GUID>
-            <Name>Specialist NeedRewardbyConsumptionIncBeerHappiness-E</Name>
+            <Name>Specialist NeedRewardbyCon-IncBeer-E</Name>
             <IconFilename>data/base/graphics/icons/male_NeedRewardBeer.png</IconFilename>
             <InfoDescription>1600000115</InfoDescription>
           </Standard>
@@ -52,7 +52,7 @@
             <Values>
                 <Standard>
                     <GUID>1600000115</GUID>
-                    <Name>Specialist NeedRewardbyConsumptionIncBeerHappiness-E BuildingBuff</Name>
+                    <Name>Specialist NeedRewardbyCon-IncBeer-E BuildingBuff</Name>
                     <IconFilename>data/base/graphics/icons/male_NeedRewardBeer.png</IconFilename>
                 </Standard>
                 <Text>

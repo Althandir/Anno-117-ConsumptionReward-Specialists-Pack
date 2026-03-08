@@ -1,6 +1,6 @@
 <ModOps>
 
-  <!-- Specialist AreaEffect-NeedRewardBathsHealthRedSoapConsumption-E -->
+  <!-- Specialist AE-NeedRewardBathsHealthCon-RedSoap-E -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -16,7 +16,7 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist GoodConsumptionDecrease-E -->
+  <!-- Specialist AllCon-Red-E -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -32,7 +32,7 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist NeedRewardbyConsumptionIncBeerHappiness-E -->
+  <!-- Specialist NeedRewardbyCon-IncBeer-E -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -48,7 +48,7 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist NeedRewardbyConsumptionIncGarum-E -->
+  <!-- Specialist NeedRewardbyCon-IncGarum-E -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -64,7 +64,7 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AreaEffect-NeedRewardCelcicTownHallMoneyIncConsumptionRoast-R -->
+  <!-- Specialist AE-NeedRewardCelcicTownHallMoneyCon-IncRoast-R -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -80,7 +80,7 @@
     </ModOp>
   </Group>
   
-  <!-- Specialist AreaEffect-NeedRewardTheaterIncomeIncConsumptionTogas-R -->
+  <!-- Specialist AE-NeedRewardTheaterIncomeCon-IncTogas-R -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -96,7 +96,7 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AreaEffect-NeedRewardCelticSportsgroundIncomeIncConsumptionTunicTrousers-E -->
+  <!-- Specialist AE-NeedRewardCelticSportsgroundIncomeCon-IncTunicTrousers-E -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -112,7 +112,7 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AreaEffect-ForumMarketNeedRewardIncomeIncConsumptionCheese-E -->
+  <!-- Specialist AE-ForumMarketNeedRewardIncomeCon-IncCheese-E -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->

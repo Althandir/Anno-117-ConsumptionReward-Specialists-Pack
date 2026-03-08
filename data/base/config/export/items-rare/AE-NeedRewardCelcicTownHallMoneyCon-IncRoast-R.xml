@@ -7,8 +7,8 @@
         <Values>
           <Standard>
             <GUID>1600000170</GUID>
-            <Name>Specialist AreaEffect-NeedRewardCelcicTownHallMoneyIncConsumptionRoast-R</Name>
-            <IconFilename>data/base/graphics/icons/celtic_female_CelticTownHallNeedRewardMoneyIncConsumptionRoast.png</IconFilename>
+            <Name>Specialist AE-NeedRewardCelcicTownHallMoneyCon-IncRoast-R</Name>
+            <IconFilename>data/base/graphics/icons/celtic_female_CelticTownHallNeedRewardMoneyCon-IncRoast.png</IconFilename>
             <InfoDescription>1600000171</InfoDescription>
           </Standard>
           <Effect>
@@ -52,8 +52,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000171</GUID>
-                    <Name>Specialist AreaEffect-NeedRewardCelcicTownHallMoneyIncConsumptionRoast-R BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/celtic_female_CelticTownHallNeedRewardMoneyIncConsumptionRoast.png</IconFilename>
+                    <Name>Specialist AE-NeedRewardCelcicTownHallMoneyCon-IncRoast-R BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/celtic_female_CelticTownHallNeedRewardMoneyCon-IncRoast.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000170</OasisId>
@@ -138,8 +138,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000172</GUID>
-                    <Name>Specialist AreaEffect-NeedRewardCelcicTownHallMoneyIncConsumptionRoast-R FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/celtic_female_CelticTownHallNeedRewardMoneyIncConsumptionRoast.png</IconFilename>
+                    <Name>Specialist AE-NeedRewardCelcicTownHallMoneyCon-IncRoast-R FunctionalEffect</Name>
+                    <IconFilename>data/base/graphics/icons/celtic_female_CelticTownHallNeedRewardMoneyCon-IncRoast.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>StreetDistance</EffectScope>
@@ -170,8 +170,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000173</GUID>
-                    <Name>Specialist AreaEffect-NeedRewardCelcicTownHallMoneyIncConsumptionRoast-R FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/celtic_female_CelticTownHallNeedRewardMoneyIncConsumptionRoast.png</IconFilename>
+                    <Name>Specialist AE-NeedRewardCelcicTownHallMoneyCon-IncRoast-R FunctionalEffect BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/celtic_female_CelticTownHallNeedRewardMoneyCon-IncRoast.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000170</OasisId>
