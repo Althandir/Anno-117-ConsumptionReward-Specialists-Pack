@@ -74,7 +74,7 @@
       </Text>
       <!-- Description -->
       <Text>
-          <Text>Cooks the roast very quickly... unfortunately not long enough. Note: The effect applies to all residential buildings within Street Range of the Alder Council.</Text>
+          <Text>Cooks the roast very quickly... unfortunately not long enough. &#xD;Hint: The effect applies to all residential buildings within Street Range of the Alder Council.</Text>
           <LineId>1600000171</LineId> 
       </Text>
     </ModOp>
@@ -122,7 +122,7 @@
       </Text>
       <!-- Description -->
       <Text>
-          <Text>Came up with the idea of melting cheese and combining it with sweet fruit. Some love this experimental cuisine, others hate it and give free rein to their anger. Note: The effect applies to all residential buildings within Street Range of the Market or Forum.</Text>
+          <Text>Came up with the idea of melting cheese and combining it with sweet fruit. Some love this experimental cuisine, others hate it and give free rein to their anger. &#xD;Hint: The effect applies to all residential buildings within Street Range of the Market or Forum.</Text>
           <LineId>1600000314</LineId> 
       </Text>
     </ModOp>

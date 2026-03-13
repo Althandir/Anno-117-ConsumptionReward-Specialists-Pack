@@ -74,7 +74,7 @@
       </Text>
       <!-- Description -->
       <Text>
-          <Text>Cuisson très rapide du rôti... malheureusement pas assez longue. Note : l'effet s'applique à tous les bâtiments résidentiels situés dans la zone d'influence du conseil municipal d'Alder.</Text>
+          <Text>Cuisson très rapide du rôti... malheureusement pas assez longue. &#xD;Indice: l'effet s'applique à tous les bâtiments résidentiels situés dans la zone d'influence du conseil municipal d'Alder.</Text>
           <LineId>1600000171</LineId> 
       </Text>
     </ModOp>
@@ -122,7 +122,7 @@
       </Text>
       <!-- Description -->
       <Text>
-          <Text>A eu l'idée de faire fondre du fromage et de le mélanger à des fruits sucrés. Certains adorent cette cuisine expérimentale, d'autres la détestent et laissent libre cours à leur colère. Remarque : l'effet s'applique à tous les bâtiments résidentiels situés dans le rayon d'action du marché ou du forum.</Text>
+          <Text>A eu l'idée de faire fondre du fromage et de le mélanger à des fruits sucrés. Certains adorent cette cuisine expérimentale, d'autres la détestent et laissent libre cours à leur colère. &#xD;Indice: l'effet s'applique à tous les bâtiments résidentiels situés dans le rayon d'action du marché ou du forum.</Text>
           <LineId>1600000314</LineId> 
       </Text>
     </ModOp>
