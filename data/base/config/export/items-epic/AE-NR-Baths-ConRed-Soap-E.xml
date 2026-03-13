@@ -7,8 +7,8 @@
         <Values>
           <Standard>
             <GUID>1600000044</GUID>
-            <Name>Specialist AE-NeedRewardBathsHealthRedSoapConsumption-E</Name>
-            <IconFilename>data/base/graphics/icons/male_AE-NeedRewardBathsHealthCon-RedSoap-E.png</IconFilename>
+            <Name>Specialist AE-NR-Baths-ConRed-Soap-E</Name>
+            <IconFilename>data/base/graphics/icons/male_AE-NR-Baths-ConRed-Soap-E.png</IconFilename>
             <InfoDescription>1600000045</InfoDescription>
           </Standard>
           <Effect>
@@ -52,8 +52,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000045</GUID>
-                    <Name>Specialist AE-NeedRewardBathsHealthRedSoapConsumption-E BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/male_AE-NeedRewardBathsHealthCon-RedSoap-E.png</IconFilename>
+                    <Name>Specialist AE-NR-Baths-ConRed-Soap-E BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/male_AE-NR-Baths-ConRed-Soap-E.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000044</OasisId>
@@ -114,8 +114,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000046</GUID>
-                    <Name>Specialist AE-NeedRewardBathsHealthRedSoapConsumption-E FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/male_AE-NeedRewardBathsHealthCon-RedSoap-E.png</IconFilename>
+                    <Name>Specialist AE-NR-Baths-ConRed-Soap-E FunctionalEffect</Name>
+                    <IconFilename>data/base/graphics/icons/male_AE-NR-Baths-ConRed-Soap-E.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>StreetDistance</EffectScope>
@@ -146,8 +146,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000047</GUID>
-                    <Name>Specialist AE-NeedRewardBathsHealthRedSoapConsumption-E FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/male_AE-NeedRewardBathsHealthCon-RedSoap-E.png</IconFilename>
+                    <Name>Specialist AE-NR-Baths-ConRed-Soap-E FunctionalEffect BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/male_AE-NR-Baths-ConRed-Soap-E.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000044</OasisId>
