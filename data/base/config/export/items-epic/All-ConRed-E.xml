@@ -7,7 +7,7 @@
         <Values>
           <Standard>
             <GUID>1600000104</GUID>
-            <Name>Specialist AllCon-Red-E</Name>
+            <Name>Specialist All-ConRed-E</Name>
             <IconFilename>data/base/graphics/icons/celtic_female_AllConRed-E.png</IconFilename>
             <InfoDescription>1600000105</InfoDescription>
           </Standard>
@@ -52,7 +52,7 @@
             <Values>
                 <Standard>
                     <GUID>1600000105</GUID>
-                    <Name>Specialist AllCon-Red-E BuildingBuff</Name>
+                    <Name>Specialist All-ConRed-E BuildingBuff</Name>
                     <IconFilename>data/base/graphics/icons/celtic_female_AllConRed-E.png</IconFilename>
                 </Standard>
                 <Text>

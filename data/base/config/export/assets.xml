@@ -17,14 +17,6 @@
 ###
 -->
 <ModOps>
-
-<!-- Testing -->
-<Group>
-<!--
-<Include File="testing/pools-forceSpawnTesting.xml"/> 
--->
-</Group>
-
 <!-- Common Specialists -->
 <Group>
     
@@ -32,18 +24,18 @@
 
 <!-- Rare Specialists -->
 <Group>
-    <Include File="items-rare/AE-NeedRewardCelcicTownHallMoneyCon-IncRoast-R.xml" />
-    <Include File="items-rare/AE-NeedRewardTheaterIncomeCon-IncTogas-R.xml" />
+    <Include File="items-rare/AE-NR-CTownHallCon-IncRoast-R.xml" />
+    <Include File="items-rare/AE-NR-TheaterCon-IncTogas-R.xml" />
 </Group>
 
 <!-- Epic Specialists -->
 <Group>
-    <Include File="items-epic/AE-NeedRewardForumMarketIncomeCon-IncCheese-E.xml" />
-    <Include File="items-epic/AE-NeedRewardBathsHealthCon-RedSoap-E.xml" />
-    <Include File="items-epic/AE-NeedRewardCelticSportsIncomeCon-IncTunicTrousers-E.xml" />
-    <Include File="items-epic/AllCon-Red-E.xml" />
-    <Include File="items-epic/NeedRewardbyCon-IncBeer-E.xml" />
-    <Include File="items-epic/NeedRewardbyCon-IncGarum-E.xml" />
+    <Include File="items-epic/AE-NR-ForumMarket-ConInc-Cheese-E.xml" />
+    <Include File="items-epic/AE-NR-Baths-ConRed-Soap-E.xml" />
+    <Include File="items-epic/AE-NR-CSports-ConInc-TunicTrousers-E.xml" />
+    <Include File="items-epic/All-ConRed-E.xml" />
+    <Include File="items-epic/NR-ConInc-Beer-E.xml" />
+    <Include File="items-epic/NR-ConInc-Garum-E.xml" />
 </Group>
 
 <!-- Legendary Specialists -->

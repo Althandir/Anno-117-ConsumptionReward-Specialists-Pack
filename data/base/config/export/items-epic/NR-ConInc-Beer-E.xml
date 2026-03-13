@@ -1,22 +1,22 @@
 <ModOps>
-<!-- Item Definition GUID:1600000116 - 1600000117 | LineID:1600000116 - 1600000117 -->
+<!-- Item Definition GUID:1600000114 - 1600000115 | LineID:1600000114 - 1600000115 -->
   <Group>
     <ModOp Type="addNextSibling" GUID="106410">
       <Asset>
         <Template>Item</Template>
         <Values>
           <Standard>
-            <GUID>1600000116</GUID>
-            <Name>Specialist NeedRewardbyCon-IncGarum-E</Name>
-            <IconFilename>data/base/graphics/icons/male_NeedRewardGarum.png</IconFilename>
-            <InfoDescription>1600000117</InfoDescription>
+            <GUID>1600000114</GUID>
+            <Name>Specialist NR-ConInc-Beer-E</Name>
+            <IconFilename>data/base/graphics/icons/male_NeedRewardBeer.png</IconFilename>
+            <InfoDescription>1600000115</InfoDescription>
           </Standard>
           <Effect>
             <EffectScope>Radius</EffectScope>  
             <SourceCategory>Item</SourceCategory>
             <Buffs>
               <Item>
-                <GUID>1600000117</GUID>
+                <GUID>1600000115</GUID>
               </Item>
             </Buffs>
             <Targets> <!-- Targets of Buff -->
@@ -29,14 +29,14 @@
           <Item>
             <Niche>Culture</Niche>
             <TradePrice>75000</TradePrice> 
-            <BarkPool>80242</BarkPool> <!-- <GUID>80242</GUID> -->
+            <BarkPool>83304</BarkPool> <!-- <GUID>83304</GUID> -->
             <Rarity>Epic</Rarity> 
           </Item>
           <Locked>
             <DefaultLockedState>0</DefaultLockedState>
           </Locked>
           <Text>
-            <OasisId>1600000116</OasisId>
+            <OasisId>1600000114</OasisId>
           </Text>
         </Values>
       </Asset>
@@ -51,12 +51,12 @@
             <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000117</GUID>
-                    <Name>Specialist NeedRewardbyCon-IncGarum-E BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/male_NeedRewardGarum.png</IconFilename>
+                    <GUID>1600000115</GUID>
+                    <Name>Specialist NR-ConInc-Beer-E BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/male_NeedRewardBeer.png</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600000116</OasisId>
+                    <OasisId>1600000114</OasisId>
                 </Text>
                 <HealthUpgrade/>
                 <BuildingUpgrade/>
@@ -67,14 +67,14 @@
                 <ResidenceUpgrade>
                   <GoodConsumptionUpgrade>
                     <Item>
-                      <ProvidedNeed>2139</ProvidedNeed>
+                      <ProvidedNeed>2154</ProvidedNeed>
                       <AmountInPercent>33</AmountInPercent>
                     </Item>
                   </GoodConsumptionUpgrade>
                   <NeedProvidedNeedAttributes>
                     <ChangeNeedAttributesOf>
                       <Item>
-                        <ProvidedProduct>2139</ProvidedProduct> <!-- <GUID>2139</GUID> -->
+                        <ProvidedProduct>2154</ProvidedProduct> <!-- <GUID>2154</GUID> -->
                       </Item>
                     </ChangeNeedAttributesOf>
                     <AdditionalNeedAttributes>
@@ -86,13 +86,13 @@
                       </Population>
                       <Money>
                         <AmountOrPercent>
-                          <Value>3</Value>
+                          <Value>2</Value>
                           <Percental>0</Percental>
                         </AmountOrPercent>
                       </Money>
                       <Happiness>
                         <AmountOrPercent>
-                          <Value>2</Value>
+                          <Value>3</Value>
                           <Percental>0</Percental>
                         </AmountOrPercent>
                       </Happiness>
@@ -102,12 +102,12 @@
                           <Percental>0</Percental>
                         </AmountOrPercent>
                       </Knowledge>
-                      <FireSafety>
+                      <Health>
                         <AmountOrPercent>
                           <Value>-1</Value>
                           <Percental>0</Percental>
                         </AmountOrPercent>
-                      </FireSafety>
+                      </Health>
                     </AdditionalNeedAttributes>
                   </NeedProvidedNeedAttributes>
                 </ResidenceUpgrade>

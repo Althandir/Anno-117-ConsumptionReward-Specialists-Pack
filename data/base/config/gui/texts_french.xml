@@ -1,6 +1,6 @@
 <ModOps>
 
-  <!-- Specialist AE-NeedRewardBathsHealthCon-RedSoap-E -->
+  <!-- Specialist AE-NR-Baths-ConRed-Soap-E -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -16,7 +16,7 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AllCon-Red-E -->
+  <!-- Specialist All-ConRed-E -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -32,7 +32,7 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist NeedRewardbyCon-IncBeer-E -->
+  <!-- Specialist NR-ConInc-Beer-E -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -48,7 +48,7 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist NeedRewardbyCon-IncGarum-E -->
+  <!-- Specialist NR-ConInc-Garum-E -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -64,7 +64,7 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AE-NeedRewardCelcicTownHallMoneyCon-IncRoast-R -->
+  <!-- Specialist AE-NR-CTownHallCon-IncRoast-R -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -80,7 +80,7 @@
     </ModOp>
   </Group>
   
-  <!-- Specialist AE-NeedRewardTheaterIncomeCon-IncTogas-R -->
+  <!-- Specialist AE-NR-TheaterCon-IncTogas-R -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -96,7 +96,7 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AE-NeedRewardCelticSportsIncomeCon-IncTunicTrousers-E -->
+  <!-- Specialist AE-NR-CSports-ConInc-TunicTrousers-E -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -112,7 +112,7 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AE-NeedRewardForumMarketIncomeCon-IncCheese-E -->
+  <!-- Specialist AE-NR-ForumMarket-ConInc-Cheese-E -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
