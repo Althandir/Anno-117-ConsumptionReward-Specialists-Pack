@@ -24,15 +24,15 @@
 
 <!-- Rare Specialists -->
 <Group>
-    <Include File="items-rare/AE-NR-CTownHallCon-IncRoast-R.xml" />
-    <Include File="items-rare/AE-NR-TheaterCon-IncTogas-R.xml" />
+    <Include File="items-rare/AE-NR-CTHall-Inc-Roast-R.xml" />
+    <Include File="items-rare/AE-NR-Theater-Inc-Toga-R.xml" />
 </Group>
 
 <!-- Epic Specialists -->
 <Group>
-    <Include File="items-epic/AE-NR-ForumMarket-ConInc-Cheese-E.xml" />
-    <Include File="items-epic/AE-NR-Baths-ConRed-Soap-E.xml" />
-    <Include File="items-epic/AE-NR-CSports-ConInc-TunicTrousers-E.xml" />
+    <Include File="items-epic/AE-NR-ForumMar-Inc-Cheese-E.xml" />
+    <Include File="items-epic/AE-NR-Bath-Red-Soap-E.xml" />
+    <Include File="items-epic/AE-NR-CSport-Inc-TunicTrouser-E.xml" />
     <Include File="items-epic/All-ConRed-E.xml" />
     <Include File="items-epic/NR-ConInc-Beer-E.xml" />
     <Include File="items-epic/NR-ConInc-Garum-E.xml" />
