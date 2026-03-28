@@ -19,7 +19,7 @@
 <ModOps>
 <!-- Common Specialists -->
 <Group>
-    
+    <Include File="items-common/NR-ConInc-GoodsCeres-C.xml" />
 </Group>
 
 <!-- Rare Specialists -->
@@ -45,7 +45,7 @@
 
 <!-- Add to Pools -->
 <Include File="pools/AssetList/AssetListPool.xml" />
-<Include File="pools/RewardPool/RewardPool-AllItems&Specialists.xml" />
+<Include File="pools/RewardPool/AllItems&Specialists.xml" />
 
 <!-- Add to Traderpools --> 
 <Include File="pools/Traders/pools-common.xml" />
