@@ -1,132 +1,244 @@
 <ModOps>
 
-  <!-- Specialist AE-NR-Bath-Red-Soap-E -->
-  <Group>
-    <ModOp Add="/TextExport/Texts">
-      <!-- Title -->
-      <Text>
-          <Text>Valerius Saponius, Meister der Seife</Text>
-          <LineId>1600000044</LineId> <!-- <GUID>1600000044</GUID> -->
-      </Text>
-      <!-- Description -->
-      <Text>
-          <Text>Durch die Verwendung von Seife in großen Wasserbecken können wir viele Menschen gleichzeitig reinigen. &#xD;Hinweis: Die Effekte gelten für jedes Gebäude in Straßenreichweite.</Text>
-          <LineId>1600000045</LineId> 
-      </Text>
-    </ModOp>
-  </Group>
+    <!-- Specialist AE-NR-Bath-Red-Soap-E -->
+    <Group>
+        <ModOp Add="/TextExport/Texts">
+        <!-- Title -->
+        <Text>
+            <Text>Valerius Saponius, Meister der Seife</Text>
+            <LineId>1600000044</LineId> <!-- <GUID>1600000044</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>Durch die Verwendung von Seife in großen Wasserbecken können wir viele Menschen gleichzeitig reinigen. &#xD;Hinweis: Die Effekte gelten für jedes Gebäude in Straßenreichweite.&#xD;(Consumption-Pack)</Text>
+            <LineId>1600000045</LineId> 
+        </Text>
+        </ModOp>
+    </Group>
 
-  <!-- Specialist All-ConRed-E -->
-  <Group>
-    <ModOp Add="/TextExport/Texts">
-      <!-- Title -->
-      <Text>
-          <Text>Iana Rodericia, Junge Umweltschützerin</Text>
-          <LineId>1600000104</LineId> <!-- <GUID>1600000104</GUID> -->
-      </Text>
-      <!-- Description -->
-      <Text>
-          <Text>Lehnt die Dekadenz ab und demonstiert stattdessen einen ökologischen Lebensstils ganz im Sinne der Natur.</Text>
-          <LineId>1600000105</LineId> 
-      </Text>
-    </ModOp>
-  </Group>
+    <!-- Specialist All-ConRed-E -->
+    <Group>
+        <ModOp Add="/TextExport/Texts">
+        <!-- Title -->
+        <Text>
+            <Text>Iana Rodericia, Junge Umweltschützerin</Text>
+            <LineId>1600000104</LineId> <!-- <GUID>1600000104</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>Lehnt die Dekadenz ab und demonstiert stattdessen einen ökologischen Lebensstils ganz im Sinne der Natur.&#xD;(Consumption-Pack)</Text>
+            <LineId>1600000105</LineId> 
+        </Text>
+        </ModOp>
+    </Group>
 
-  <!-- Specialist NR-ConInc-Beer-E -->
-  <Group>
-    <ModOp Add="/TextExport/Texts">
-      <!-- Title -->
-      <Text>
-          <Text>Ulpius, von Bacchus gesegnet</Text>
-          <LineId>1600000114</LineId> <!-- <GUID>1600000114</GUID> -->
-      </Text>
-      <!-- Description -->
-      <Text>
-          <Text>"Und die nächste Runde geht auf mich!"</Text>
-          <LineId>1600000115</LineId> 
-      </Text>
-    </ModOp>
-  </Group>
+    <!-- Specialist NR-ConInc-Beer-E -->
+    <Group>
+        <ModOp Add="/TextExport/Texts">
+        <!-- Title -->
+        <Text>
+            <Text>Ulpius, von Bacchus gesegnet</Text>
+            <LineId>1600000114</LineId> <!-- <GUID>1600000114</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>"Und die nächste Runde geht auf mich!"&#xD;(Consumption-Pack)</Text>
+            <LineId>1600000115</LineId> 
+        </Text>
+        </ModOp>
+    </Group>
 
-  <!-- Specialist NR-ConInc-Garum-E -->
-  <Group>
-    <ModOp Add="/TextExport/Texts">
-      <!-- Title -->
-      <Text>
-          <Text>Sericus Garum, Würzer aus Fernost</Text>
-          <LineId>1600000116</LineId> <!-- <GUID>1600000116</GUID> -->
-      </Text>
-      <!-- Description -->
-      <Text>
-          <Text>Würzt alles besonders salzig und erzeugt dabei einen Hauch von Wüste im Gaumen.</Text>
-          <LineId>1600000117</LineId> 
-      </Text>
-    </ModOp>
-  </Group>
+    <!-- Specialist NR-ConInc-Garum-E -->
+    <Group>
+        <ModOp Add="/TextExport/Texts">
+        <!-- Title -->
+        <Text>
+            <Text>Sericus Garum, Würzer aus Fernost</Text>
+            <LineId>1600000116</LineId> <!-- <GUID>1600000116</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>Würzt alles besonders salzig und erzeugt dabei einen Hauch von Wüste im Gaumen.&#xD;(Consumption-Pack)</Text>
+            <LineId>1600000117</LineId> 
+        </Text>
+        </ModOp>
+    </Group>
 
-  <!-- Specialist AE-NR-CTHall-Inc-Roast-R -->
-  <Group>
-    <ModOp Add="/TextExport/Texts">
-      <!-- Title -->
-      <Text>
-          <Text>Gehetzte Bräterin</Text>
-          <LineId>1600000170</LineId> <!-- <GUID>1600000170</GUID> -->
-      </Text>
-      <!-- Description -->
-      <Text>
-          <Text>Brät den Braten sehr schnell... leider nicht lang genug. &#xD;Hinweis: Der Effekt wirkt auf alle Wohngebäude in Straßenreichweite des Ältestensrats.</Text>
-          <LineId>1600000171</LineId> 
-      </Text>
-    </ModOp>
-  </Group>
+    <!-- Specialist AE-NR-CTHall-Inc-Roast-R -->
+    <Group>
+        <ModOp Add="/TextExport/Texts">
+        <!-- Title -->
+        <Text>
+            <Text>Gehetzte Bräterin</Text>
+            <LineId>1600000170</LineId> <!-- <GUID>1600000170</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>Brät den Braten sehr schnell... leider nicht lang genug. &#xD;Hinweis: Der Effekt wirkt auf alle Wohngebäude in Straßenreichweite des Ältestensrats.&#xD;(Consumption-Pack)</Text>
+            <LineId>1600000171</LineId> 
+        </Text>
+        </ModOp>
+    </Group>
 
-  <!-- Specialist AE-NR-Theater-Inc-Toga-R -->
-  <Group>
-    <ModOp Add="/TextExport/Texts">
-      <!-- Title -->
-      <Text>
-          <Text>Angehender Toga-Designer</Text>
-          <LineId>1600000182</LineId> <!-- <GUID>1600000182</GUID> -->
-      </Text>
-      <!-- Description -->
-      <Text>
-          <Text>Nutzt die Theaterbühne um seine erste Toga-Kollektion vorzustellen. &#xD;Hinweis: Der Effekt wirkt auf alle Wohnhäuser in Straßenreichweite des Theaters.</Text>
-          <LineId>1600000183</LineId> 
-      </Text>
-    </ModOp>
-  </Group>
-  
-  <!-- Specialist AE-NR-CSport-Inc-TunicTrouser-E -->
-  <Group>
-    <ModOp Add="/TextExport/Texts">
-      <!-- Title -->
-      <Text>
-          <Text>Vercatullos, Schwitzender Ausbilder</Text>
-          <LineId>1600000262</LineId> <!-- <GUID>1600000262</GUID> -->
-      </Text>
-      <!-- Description -->
-      <Text>
-          <Text>Bringt die Leute so richtig ins Schwitzen. Jeder sollte extra Tuniken und Hosten parat haben. &#xD;Hinweis: Der Effekt wirkt auf alle Wohngebäude in Straßenreichweite der Wettkampfwiese.</Text>
-          <LineId>1600000263</LineId> 
-      </Text>
-    </ModOp>
-  </Group>
+    <!-- Specialist AE-NR-Theater-Inc-Toga-R -->
+    <Group>
+        <ModOp Add="/TextExport/Texts">
+        <!-- Title -->
+        <Text>
+            <Text>Angehender Toga-Designer</Text>
+            <LineId>1600000182</LineId> <!-- <GUID>1600000182</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>Nutzt die Theaterbühne um seine erste Toga-Kollektion vorzustellen. &#xD;Hinweis: Der Effekt wirkt auf alle Wohnhäuser in Straßenreichweite des Theaters.&#xD;(Consumption-Pack)</Text>
+            <LineId>1600000183</LineId> 
+        </Text>
+        </ModOp>
+    </Group>
+    
+    <!-- Specialist AE-NR-CSport-Inc-TunicTrouser-E -->
+    <Group>
+        <ModOp Add="/TextExport/Texts">
+        <!-- Title -->
+        <Text>
+            <Text>Vercatullos, Schwitzender Ausbilder</Text>
+            <LineId>1600000262</LineId> <!-- <GUID>1600000262</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>Bringt die Leute so richtig ins Schwitzen. Jeder sollte extra Tuniken und Hosten parat haben. &#xD;Hinweis: Der Effekt wirkt auf alle Wohngebäude in Straßenreichweite der Wettkampfwiese.&#xD;(Consumption-Pack)</Text>
+            <LineId>1600000263</LineId> 
+        </Text>
+        </ModOp>
+    </Group>
 
-  <!-- Specialist AE-NR-ForumMar-Inc-Cheese-E -->
-  <Group>
-    <ModOp Add="/TextExport/Texts">
-      <!-- Title -->
-      <Text>
-          <Text>Cassiocaseos, Culinarius Casei</Text>
-          <LineId>1600000313</LineId> <!-- <GUID>1600000313</GUID> -->
-      </Text>
-      <!-- Description -->
-      <Text>
-          <Text>Kam auf die Idee den Käse zu schmelzen und mit einer Süßfrucht zu kombinieren. Einige lieben diese experimentelle Küche, andere Hassen es und lassen ihrer Wut freien Lauf. &#xD;Hinweis: Der Effekt wirkt auf alle Wohngebäude in Straßenreichweite des Markts oder Forums.</Text>
-          <LineId>1600000314</LineId> 
-      </Text>
-    </ModOp>
-  </Group>  
+    <!-- Specialist AE-NR-ForumMar-Inc-Cheese-E -->
+    <Group>
+        <ModOp Add="/TextExport/Texts">
+        <!-- Title -->
+        <Text>
+            <Text>Cassiocaseos, Culinarius Casei</Text>
+            <LineId>1600000313</LineId> <!-- <GUID>1600000313</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>Kam auf die Idee den Käse zu schmelzen und mit einer Süßfrucht zu kombinieren. Einige lieben diese experimentelle Küche, andere Hassen es und lassen ihrer Wut freien Lauf. &#xD;Hinweis: Der Effekt wirkt auf alle Wohngebäude in Straßenreichweite des Markts oder Forums.&#xD;(Consumption-Pack)</Text>
+            <LineId>1600000314</LineId> 
+        </Text>
+        </ModOp>
+    </Group>  
+
+    <!-- Specialist NR-ConInc-GoodsCeres-C -->
+    <Group>
+        <ModOp Add="/TextExport/Texts">
+            <!-- Title -->
+            <Text>
+                <Text>Opfergabensammler der Ceres</Text>
+                <LineId>1600000562</LineId> <!-- <GUID>1600000562</GUID> -->
+            </Text>
+            <!-- Description -->
+            <Text>
+                <Text>Sammelt Waren für ein Opfer im Namen von Ceres.&#xD;(Consumption-Pack)</Text>
+                <LineId>1600000563</LineId> 
+            </Text>
+        </ModOp>
+    </Group>
+
+    <!-- Specialist NR-ConInc-GoodsCernunnos-C -->
+    <Group>
+        <ModOp Add="/TextExport/Texts">
+            <!-- Title -->
+            <Text>
+                <Text>Opfergabensammler des Cernunnos</Text>
+                <LineId>1600000564</LineId> <!-- <GUID>1600000564</GUID> -->
+            </Text>
+            <!-- Description -->
+            <Text>
+                <Text>Sammelt Waren für ein Opfer im Namen von Cernunnos.&#xD;(Consumption-Pack)</Text>
+                <LineId>1600000565</LineId> 
+            </Text>
+        </ModOp>
+    </Group>
+
+    <!-- Specialist NR-ConInc-GoodsEpona-C -->
+    <Group>
+        <ModOp Add="/TextExport/Texts">
+            <!-- Title -->
+            <Text>
+                <Text>Opfergabensammler der Epona</Text>
+                <LineId>1600000566</LineId> <!-- <GUID>1600000566</GUID> -->
+            </Text>
+            <!-- Description -->
+            <Text>
+                <Text>Sammelt Waren für ein Opfer im Namen von Epona.&#xD;(Consumption-Pack)</Text>
+                <LineId>1600000567</LineId> 
+            </Text>
+        </ModOp>
+    </Group>
+
+    <!-- Specialist NR-ConInc-GoodsMars-C -->
+    <Group>
+        <ModOp Add="/TextExport/Texts">
+            <!-- Title -->
+            <Text>
+                <Text>Opfergabensammler des Mars</Text>
+                <LineId>1600000568</LineId> <!-- <GUID>1600000568</GUID> -->
+            </Text>
+            <!-- Description -->
+            <Text>
+                <Text>Sammelt Waren für ein Opfer im Namen von Mars.&#xD;(Consumption-Pack)</Text>
+                <LineId>1600000569</LineId> 
+            </Text>
+        </ModOp>
+    </Group>
+
+    <!-- Specialist NR-ConInc-GoodsMercury-R -->
+    <Group>
+        <ModOp Add="/TextExport/Texts">
+            <!-- Title -->
+            <Text>
+                <Text>Opfergabensammler des Merkur-Lugus</Text>
+                <LineId>1600000570</LineId> <!-- <GUID>1600000570</GUID> -->
+            </Text>
+            <!-- Description -->
+            <Text>
+                <Text>Sammelt Waren für ein Opfer im Namen von Merkur-Lugus.&#xD;(Consumption-Pack)</Text>
+                <LineId>1600000571</LineId> 
+            </Text>
+        </ModOp>
+    </Group>
+
+    <!-- Specialist NR-ConInc-GoodsMinerva-C -->
+    <Group>
+        <ModOp Add="/TextExport/Texts">
+            <!-- Title -->
+            <Text>
+                <Text>Opfergabensammler der Minerva</Text>
+                <LineId>1600000572</LineId> <!-- <GUID>1600000572</GUID> -->
+            </Text>
+            <!-- Description -->
+            <Text>
+                <Text>Sammelt Waren für ein Opfer im Namen von Minerva.&#xD;(Consumption-Pack)</Text>
+                <LineId>1600000573</LineId> 
+            </Text>
+        </ModOp>
+    </Group>
+
+    <!-- Specialist NR-ConInc-GoodsNeptune-C -->
+    <Group>
+        <ModOp Add="/TextExport/Texts">
+            <!-- Title -->
+            <Text>
+                <Text>Opfergabensammler des Neptuns</Text>
+                <LineId>1600000574</LineId> <!-- <GUID>1600000574</GUID> -->
+            </Text>
+            <!-- Description -->
+            <Text>
+                <Text>Sammelt Waren für ein Opfer im Namen von Neptun.&#xD;(Consumption-Pack)</Text>
+                <LineId>1600000575</LineId> 
+            </Text>
+        </ModOp>
+    </Group>
 
 
 </ModOps>

@@ -1,22 +1,22 @@
 <ModOps>
-<!-- Item Definition GUID:1600000562 - 1600000563 | LineID:1600000562 - 1600000563 -->
+<!-- Item Definition GUID:1600000568 - 1600000569 | LineID:1600000568 - 1600000569 -->
     <Group>
         <ModOp Type="addNextSibling" GUID="106410">
         <Asset>
             <Template>Item</Template>
             <Values>
             <Standard>
-                <GUID>1600000562</GUID>
-                <Name>Specialist NR-ConInc-GoodsCeres-C</Name>
-                <IconFilename>data/base/graphics/icons/NeedRewardCeres.png</IconFilename>
-                <InfoDescription>1600000563</InfoDescription>
+                <GUID>1600000568</GUID>
+                <Name>Specialist NR-ConInc-GoodsMars-C</Name>
+                <IconFilename>data/base/graphics/icons/NeedRewardMars.png</IconFilename>
+                <InfoDescription>1600000569</InfoDescription>
             </Standard>
             <Effect>
                 <EffectScope>Radius</EffectScope>  
                 <SourceCategory>Item</SourceCategory>
                 <Buffs>
                 <Item>
-                    <GUID>1600000563</GUID>
+                    <GUID>1600000569</GUID>
                 </Item>
                 </Buffs>
                 <Targets> <!-- Targets of Buff -->
@@ -36,7 +36,7 @@
                 <DefaultLockedState>0</DefaultLockedState>
             </Locked>
             <Text>
-                <OasisId>1600000562</OasisId>
+                <OasisId>1600000568</OasisId>
             </Text>
             </Values>
         </Asset>
@@ -51,12 +51,12 @@
             <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000563</GUID>
-                    <Name>Specialist NR-ConInc-GoodsCeres-C BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/NeedRewardCeres.png</IconFilename>
+                    <GUID>1600000569</GUID>
+                    <Name>Specialist NR-ConInc-GoodsMars-C BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/NeedRewardMars.png</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600000562</OasisId>
+                    <OasisId>1600000568</OasisId>
                 </Text>
                 <HealthUpgrade/>
                 <BuildingUpgrade/>
@@ -67,28 +67,28 @@
                 <ResidenceUpgrade>
                     <GoodConsumptionUpgrade>
                         <Item>
-                            <ProvidedNeed>2154</ProvidedNeed>
+                            <ProvidedNeed>2144</ProvidedNeed>
                             <AmountInPercent>5</AmountInPercent>
                         </Item>
                         <Item>
-                            <ProvidedNeed>2137</ProvidedNeed>
+                            <ProvidedNeed>31706</ProvidedNeed>
                             <AmountInPercent>5</AmountInPercent>
                         </Item>
                         <Item>
-                            <ProvidedNeed>2149</ProvidedNeed>
+                            <ProvidedNeed>2163</ProvidedNeed>
                             <AmountInPercent>5</AmountInPercent>
                         </Item>
                     </GoodConsumptionUpgrade>
                     <NeedProvidedNeedAttributes>
                         <ChangeNeedAttributesOf>
                             <Item>
-                                <ProvidedProduct>2154</ProvidedProduct> <!-- <GUID>2154</GUID> -->
+                                <ProvidedProduct>2144</ProvidedProduct> <!-- <GUID>2144</GUID> -->
                             </Item>
                             <Item>
-                                <ProvidedProduct>2137</ProvidedProduct> <!-- <GUID>2137</GUID> -->
+                                <ProvidedProduct>31706</ProvidedProduct> <!-- <GUID>31706</GUID> -->
                             </Item>
                             <Item>
-                                <ProvidedProduct>2149</ProvidedProduct> <!-- <GUID>2149</GUID> -->
+                                <ProvidedProduct>2163</ProvidedProduct> <!-- <GUID>2163</GUID> -->
                             </Item>
                         </ChangeNeedAttributesOf>
                         <AdditionalNeedAttributes>
