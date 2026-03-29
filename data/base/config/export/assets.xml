@@ -20,12 +20,19 @@
 <!-- Common Specialists -->
 <Group>
     <Include File="items-common/NR-ConInc-GoodsCeres-C.xml" />
+    <Include File="items-common/NR-ConInc-GoodsCernunnos-C.xml" />
+    <Include File="items-common/NR-ConInc-GoodsEpona-C.xml" />
+    <Include File="items-common/NR-ConInc-GoodsMars-C.xml" />
+    <Include File="items-common/NR-ConInc-GoodsMinerva-C.xml" />
+    <Include File="items-common/NR-ConInc-GoodsNeptune-C.xml" />
 </Group>
 
 <!-- Rare Specialists -->
 <Group>
     <Include File="items-rare/AE-NR-CTHall-Inc-Roast-R.xml" />
     <Include File="items-rare/AE-NR-Theater-Inc-Toga-R.xml" />
+
+    <Include File="items-common/NR-ConInc-GoodsMercury-R.xml" />
 </Group>
 
 <!-- Epic Specialists -->

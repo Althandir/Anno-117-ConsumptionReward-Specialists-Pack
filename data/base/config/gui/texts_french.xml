@@ -79,7 +79,7 @@
         </Text>
         </ModOp>
     </Group>
-    
+
     <!-- Specialist AE-NR-Theater-Inc-Toga-R -->
     <Group>
         <ModOp Add="/TextExport/Texts">
@@ -126,7 +126,117 @@
             <LineId>1600000314</LineId> 
         </Text>
         </ModOp>
-    </Group>  
+    </Group>
 
-    
+    <!-- Specialist NR-ConInc-GoodsCeres-C -->
+    <Group>
+        <ModOp Add="/TextExport/Texts">
+            <!-- Title -->
+            <Text>
+                <Text>Sacrifice Collector of Ceres</Text>
+                <LineId>1600000562</LineId> <!-- <GUID>1600000562</GUID> -->
+            </Text>
+            <!-- Description -->
+            <Text>
+                <Text>Collects goods for a sacrifice in the name of Ceres.&#xD;(Consumption-Pack)</Text>
+                <LineId>1600000563</LineId> 
+            </Text>
+        </ModOp>
+    </Group>
+
+    <!-- Specialist NR-ConInc-GoodsCernunnos-C -->
+    <Group>
+        <ModOp Add="/TextExport/Texts">
+            <!-- Title -->
+            <Text>
+                <Text>Sacrifice Collector of Cernunnos</Text>
+                <LineId>1600000564</LineId> <!-- <GUID>1600000564</GUID> -->
+            </Text>
+            <!-- Description -->
+            <Text>
+                <Text>Collects goods for a sacrifice in the name of Cernunnos.&#xD;(Consumption-Pack)</Text>
+                <LineId>1600000565</LineId> 
+            </Text>
+        </ModOp>
+    </Group>
+
+    <!-- Specialist NR-ConInc-GoodsEpona-C -->
+    <Group>
+        <ModOp Add="/TextExport/Texts">
+            <!-- Title -->
+            <Text>
+                <Text>Sacrifice Collector of Epona</Text>
+                <LineId>1600000566</LineId> <!-- <GUID>1600000566</GUID> -->
+            </Text>
+            <!-- Description -->
+            <Text>
+                <Text>Collects goods for a sacrifice in the name of Epona.&#xD;(Consumption-Pack)</Text>
+                <LineId>1600000567</LineId> 
+            </Text>
+        </ModOp>
+    </Group>
+
+    <!-- Specialist NR-ConInc-GoodsMars-C -->
+    <Group>
+        <ModOp Add="/TextExport/Texts">
+            <!-- Title -->
+            <Text>
+                <Text>Sacrifice Collector of Mars</Text>
+                <LineId>1600000568</LineId> <!-- <GUID>1600000568</GUID> -->
+            </Text>
+            <!-- Description -->
+            <Text>
+                <Text>Collects goods for a sacrifice in the name of Mars.&#xD;(Consumption-Pack)</Text>
+                <LineId>1600000569</LineId> 
+            </Text>
+        </ModOp>
+    </Group>
+
+    <!-- Specialist NR-ConInc-GoodsMercury-R -->
+    <Group>
+        <ModOp Add="/TextExport/Texts">
+            <!-- Title -->
+            <Text>
+                <Text>Sacrifice Collector of Merkur-Lugus</Text>
+                <LineId>1600000570</LineId> <!-- <GUID>1600000570</GUID> -->
+            </Text>
+            <!-- Description -->
+            <Text>
+                <Text>Collects goods for a sacrifice in the name of Merkur-Lugus.&#xD;(Consumption-Pack)</Text>
+                <LineId>1600000571</LineId> 
+            </Text>
+        </ModOp>
+    </Group>
+
+    <!-- Specialist NR-ConInc-GoodsMinerva-C -->
+    <Group>
+        <ModOp Add="/TextExport/Texts">
+            <!-- Title -->
+            <Text>
+                <Text>Sacrifice Collector of Minerva</Text>
+                <LineId>1600000572</LineId> <!-- <GUID>1600000572</GUID> -->
+            </Text>
+            <!-- Description -->
+            <Text>
+                <Text>Collects goods for a sacrifice in the name of Minerva.&#xD;(Consumption-Pack)</Text>
+                <LineId>1600000573</LineId> 
+            </Text>
+        </ModOp>
+    </Group>
+
+    <!-- Specialist NR-ConInc-GoodsNeptune-C -->
+    <Group>
+        <ModOp Add="/TextExport/Texts">
+            <!-- Title -->
+            <Text>
+                <Text>Sacrifice Collector of Neptuns</Text>
+                <LineId>1600000574</LineId> <!-- <GUID>1600000574</GUID> -->
+            </Text>
+            <!-- Description -->
+            <Text>
+                <Text>Collects goods for a sacrifice in the name of Neptun.&#xD;(Consumption-Pack)</Text>
+                <LineId>1600000575</LineId> 
+            </Text>
+        </ModOp>
+    </Group>
 </ModOps>
