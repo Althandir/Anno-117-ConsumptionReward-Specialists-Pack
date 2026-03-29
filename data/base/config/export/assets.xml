@@ -32,7 +32,7 @@
     <Include File="items-rare/AE-NR-CTHall-Inc-Roast-R.xml" />
     <Include File="items-rare/AE-NR-Theater-Inc-Toga-R.xml" />
 
-    <Include File="items-common/NR-ConInc-GoodsMercury-R.xml" />
+    <Include File="items-rare/NR-ConInc-GoodsMercury-R.xml" />
 </Group>
 
 <!-- Epic Specialists -->
