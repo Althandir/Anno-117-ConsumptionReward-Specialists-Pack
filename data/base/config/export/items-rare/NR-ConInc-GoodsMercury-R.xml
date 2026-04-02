@@ -98,6 +98,7 @@
                                 </AmountOrPercent>
                             </Money>
                         </AdditionalNeedAttributes>
+                    </NeedProvidedNeedAttributes>
                 </ResidenceUpgrade>
                 <FactoryUpgrade/>
                 <ModuleOwnerUpgrade/>
