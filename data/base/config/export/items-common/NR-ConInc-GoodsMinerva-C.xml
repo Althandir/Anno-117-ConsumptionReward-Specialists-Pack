@@ -1,0 +1,118 @@
+<ModOps>
+<!-- Item Definition GUID:1600000572 - 1600000573 | LineID:1600000572 - 1600000573 -->
+    <Group>
+        <ModOp Type="addNextSibling" GUID="106410">
+        <Asset>
+            <Template>Item</Template>
+            <Values>
+            <Standard>
+                <GUID>1600000572</GUID>
+                <Name>Specialist NR-ConInc-GoodsMinerva-C</Name>
+                <IconFilename>data/base/graphics/icons/NeedRewardMinerva.png</IconFilename>
+                <InfoDescription>1600000573</InfoDescription>
+            </Standard>
+            <Effect>
+                <EffectScope>Radius</EffectScope>  
+                <SourceCategory>Item</SourceCategory>
+                <Buffs>
+                <Item>
+                    <GUID>1600000573</GUID>
+                </Item>
+                </Buffs>
+                <Targets> <!-- Targets of Buff -->
+                <Item>
+                    <GUID>31046</GUID>
+                </Item>
+                </Targets>
+                <HideInGovernorsBar>1</HideInGovernorsBar>
+            </Effect>
+            <Item>
+                <Niche>Religion</Niche>
+                <TradePrice>2500</TradePrice> 
+                <BarkPool>83298</BarkPool> <!-- <GUID>83298</GUID> -->
+                <Rarity>Common</Rarity> 
+            </Item>
+            <Locked>
+                <DefaultLockedState>0</DefaultLockedState>
+            </Locked>
+            <Text>
+                <OasisId>1600000572</OasisId>
+            </Text>
+            </Values>
+        </Asset>
+        </ModOp>
+    </Group>
+
+    <!-- Buff Definitions-->
+    <Group>
+    <!-- BuildingEffect Definition -->
+    <ModOp Type="addNextSibling" GUID="80193">
+        <Asset>
+            <Template>BuildingBuff</Template>
+            <Values>
+                <Standard>
+                    <GUID>1600000573</GUID>
+                    <Name>Specialist NR-ConInc-GoodsMinerva-C BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/NeedRewardMinerva.png</IconFilename>
+                </Standard>
+                <Text>
+                    <OasisId>1600000572</OasisId>
+                </Text>
+                <HealthUpgrade/>
+                <BuildingUpgrade/>
+                <DistributionUpgrade/>
+                <Buff>
+                    <SourceCategory>Item</SourceCategory>
+                </Buff>
+                <ResidenceUpgrade>
+                    <GoodConsumptionUpgrade>
+                        <Item>
+                            <ProvidedNeed>2141</ProvidedNeed>
+                            <AmountInPercent>5</AmountInPercent>
+                        </Item>
+                        <Item>
+                            <ProvidedNeed>2142</ProvidedNeed>
+                            <AmountInPercent>5</AmountInPercent>
+                        </Item>
+                        <Item>
+                            <ProvidedNeed>2161</ProvidedNeed>
+                            <AmountInPercent>5</AmountInPercent>
+                        </Item>
+                    </GoodConsumptionUpgrade>
+                    <NeedProvidedNeedAttributes>
+                        <ChangeNeedAttributesOf>
+                            <Item>
+                                <ProvidedProduct>2141</ProvidedProduct> <!-- <GUID>2141</GUID> -->
+                            </Item>
+                            <Item>
+                                <ProvidedProduct>2142</ProvidedProduct> <!-- <GUID>2142</GUID> -->
+                            </Item>
+                            <Item>
+                                <ProvidedProduct>2161</ProvidedProduct> <!-- <GUID>2161</GUID> -->
+                            </Item>
+                        </ChangeNeedAttributesOf>
+                        <AdditionalNeedAttributes>
+                            <Belief>
+                                <AmountOrPercent>
+                                    <Value>1</Value>
+                                    <Percental>0</Percental>
+                                </AmountOrPercent>
+                            </Belief>
+                        </AdditionalNeedAttributes>
+                    </NeedProvidedNeedAttributes>
+                </ResidenceUpgrade>
+                <FactoryUpgrade/>
+                <ModuleOwnerUpgrade/>
+                <MaintenanceUpgrade/>
+                <CityInstitutionUpgrade/>
+                <IncidentInfectableUpgrade/>
+                <RecruitmentUpgrade/>
+                <AqueductUpgrade/>
+                <WarehouseUpgrade/>
+                <IrrigationUpgrade/>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    </Group>
+</ModOps>

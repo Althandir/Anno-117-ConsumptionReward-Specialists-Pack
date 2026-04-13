@@ -19,20 +19,27 @@
 <ModOps>
 <!-- Common Specialists -->
 <Group>
-    
+    <Include File="items-common/NR-ConInc-GoodsCeres-C.xml" />
+    <Include File="items-common/NR-ConInc-GoodsCernunnos-C.xml" />
+    <Include File="items-common/NR-ConInc-GoodsEpona-C.xml" />
+    <Include File="items-common/NR-ConInc-GoodsMars-C.xml" />
+    <Include File="items-common/NR-ConInc-GoodsMinerva-C.xml" />
+    <Include File="items-common/NR-ConInc-GoodsNeptune-C.xml" />
 </Group>
 
 <!-- Rare Specialists -->
 <Group>
-    <Include File="items-rare/AE-NR-CTownHallCon-IncRoast-R.xml" />
-    <Include File="items-rare/AE-NR-TheaterCon-IncTogas-R.xml" />
+    <Include File="items-rare/AE-NR-CTHall-Inc-Roast-R.xml" />
+    <Include File="items-rare/AE-NR-Theater-Inc-Toga-R.xml" />
+
+    <Include File="items-rare/NR-ConInc-GoodsMercury-R.xml" />
 </Group>
 
 <!-- Epic Specialists -->
 <Group>
-    <Include File="items-epic/AE-NR-ForumMarket-ConInc-Cheese-E.xml" />
-    <Include File="items-epic/AE-NR-Baths-ConRed-Soap-E.xml" />
-    <Include File="items-epic/AE-NR-CSports-ConInc-TunicTrousers-E.xml" />
+    <Include File="items-epic/AE-NR-ForumMar-Inc-Cheese-E.xml" />
+    <Include File="items-epic/AE-NR-Bath-Red-Soap-E.xml" />
+    <Include File="items-epic/AE-NR-CSport-Inc-TunicTrouser-E.xml" />
     <Include File="items-epic/All-ConRed-E.xml" />
     <Include File="items-epic/NR-ConInc-Beer-E.xml" />
     <Include File="items-epic/NR-ConInc-Garum-E.xml" />
@@ -45,7 +52,7 @@
 
 <!-- Add to Pools -->
 <Include File="pools/AssetList/AssetListPool.xml" />
-<Include File="pools/RewardPool/RewardPool-AllItems&Specialists.xml" />
+<Include File="pools/RewardPool/AllItems&Specialists.xml" />
 
 <!-- Add to Traderpools --> 
 <Include File="pools/Traders/pools-common.xml" />

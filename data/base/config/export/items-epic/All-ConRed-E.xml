@@ -8,7 +8,7 @@
           <Standard>
             <GUID>1600000104</GUID>
             <Name>Specialist All-ConRed-E</Name>
-            <IconFilename>data/base/graphics/icons/celtic_female_AllConRed-E.png</IconFilename>
+            <IconFilename>data/base/graphics/icons/c_f_AllConRed-E.png</IconFilename>
             <InfoDescription>1600000105</InfoDescription>
           </Standard>
           <Effect>
@@ -53,7 +53,7 @@
                 <Standard>
                     <GUID>1600000105</GUID>
                     <Name>Specialist All-ConRed-E BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/celtic_female_AllConRed-E.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/c_f_AllConRed-E.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000104</OasisId>
@@ -65,7 +65,7 @@
                     <SourceCategory>Item</SourceCategory>
                 </Buff>
                 <ResidenceUpgrade>
-                  <ConsumptionModifierInPercent>-10</ConsumptionModifierInPercent>
+                  <ConsumptionModifierInPercent>-15</ConsumptionModifierInPercent>
                 </ResidenceUpgrade>
                 <FactoryUpgrade/>
                 <ModuleOwnerUpgrade/>
