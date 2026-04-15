@@ -1,0 +1,104 @@
+<ModOps>
+<!-- Item Definition GUID:1600000214 - 1600000215 | LineID:1600000214 - 1600000215 -->
+    <Group>
+        <ModOp Type="addNextSibling" GUID="106410">
+        <Asset>
+            <Template>Item</Template>
+            <Values>
+            <Standard>
+                <GUID>1600000214</GUID>
+                <Name>Specialist NR-Inc-OliveOil-R</Name>
+                <IconFilename>data/base/graphics/icons/m_NR-Inc-OliveOil-R.png</IconFilename>
+                <InfoDescription>1600000215</InfoDescription>
+            </Standard>
+            <Effect>
+                <EffectScope>Radius</EffectScope>
+                <SourceCategory>Item</SourceCategory>
+                <Buffs>
+                <Item>
+                    <GUID>1600000215</GUID>
+                </Item>
+                </Buffs>
+                <Targets> <!-- Targets of Buff -->
+                <Item>
+                    <GUID>31046</GUID>
+                </Item>
+                </Targets>
+            </Effect>
+            <Item>
+                <Niche>Agriculture</Niche> 
+                <TradePrice>15000</TradePrice>
+                <BarkPool>83305</BarkPool> <!-- <GUID>83305</GUID> -->
+                <Rarity>Rare</Rarity> 
+            </Item>
+            <Locked>
+                <DefaultLockedState>0</DefaultLockedState>
+            </Locked>
+            <Text>
+                <OasisId>1600000214</OasisId>
+            </Text>
+            </Values>
+        </Asset>
+        </ModOp>
+    </Group>
+
+    <!-- Buff Definitions-->
+    <Group>
+        <!-- BuildingEffect Definition -->
+        <ModOp Type="addNextSibling" GUID="80193">
+            <Asset>
+                <Template>BuildingBuff</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1600000215</GUID>
+                        <Name>WorkforceRomanCelticTowers-R BuildingBuff</Name>
+                        <IconFilename>data/base/graphics/icons/m_NR-Inc-OliveOil-R.png</IconFilename>
+                    </Standard>
+                    <Text>
+                        <OasisId>1600000214</OasisId>
+                    </Text>
+                    <HealthUpgrade/>
+                    <BuildingUpgrade/>
+                    <DistributionUpgrade/>
+                    <Buff>
+                    <SourceCategory>Item</SourceCategory>
+                    </Buff>
+                    <ResidenceUpgrade>
+                        <GoodConsumptionUpgrade>
+                            <Item>
+                                <ProvidedNeed>2149</ProvidedNeed>
+                                <AmountInPercent>50</AmountInPercent>
+                            </Item>
+                        </GoodConsumptionUpgrade>
+                        <NeedProvidedNeedAttributes>
+                            <ChangeNeedAttributesOf>
+                                <Item>
+                                    <ProvidedProduct>2149</ProvidedProduct> <!-- <GUID>2149</GUID> -->
+                                </Item>
+                            </ChangeNeedAttributesOf>
+                            <AdditionalNeedAttributes>
+                                <Health>
+                                    <AmountOrPercent>
+                                        <Value>2</Value>
+                                        <Percental>0</Percental>
+                                    </AmountOrPercent>
+                                </Health>
+                            </AdditionalNeedAttributes>
+                        </NeedProvidedNeedAttributes>
+                    </ResidenceUpgrade>
+                    <FactoryUpgrade/>
+                    <ModuleOwnerUpgrade/>
+                    <MaintenanceUpgrade/>
+                    <CityInstitutionUpgrade/>
+                    <IncidentInfectableUpgrade/>
+                    <RecruitmentUpgrade/>
+                    <AqueductUpgrade/>
+                    <WarehouseUpgrade/>
+                    <IrrigationUpgrade/>
+                </Values>
+            </Asset>
+        </ModOp>
+        
+    </Group>
+
+</ModOps>

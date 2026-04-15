@@ -1,22 +1,22 @@
 <ModOps>
-<!-- Item Definition GUID:1600000572 - 1600000573 | LineID:1600000572 - 1600000573 -->
+<!-- Item Definition GUID:1600000564 - 1600000565 | LineID:1600000564 - 1600000565 -->
     <Group>
         <ModOp Type="addNextSibling" GUID="106410">
         <Asset>
             <Template>Item</Template>
             <Values>
             <Standard>
-                <GUID>1600000572</GUID>
-                <Name>Specialist NR-ConInc-GoodsMinerva-C</Name>
-                <IconFilename>data/base/graphics/icons/NeedRewardMinerva.png</IconFilename>
-                <InfoDescription>1600000573</InfoDescription>
+                <GUID>1600000564</GUID>
+                <Name>Specialist NR-Inc-GoodsCernunnos-C</Name>
+                <IconFilename>data/base/graphics/icons/NR-Cernunnos.png</IconFilename>
+                <InfoDescription>1600000565</InfoDescription>
             </Standard>
             <Effect>
                 <EffectScope>Radius</EffectScope>  
                 <SourceCategory>Item</SourceCategory>
                 <Buffs>
                 <Item>
-                    <GUID>1600000573</GUID>
+                    <GUID>1600000565</GUID>
                 </Item>
                 </Buffs>
                 <Targets> <!-- Targets of Buff -->
@@ -24,7 +24,6 @@
                     <GUID>31046</GUID>
                 </Item>
                 </Targets>
-                <HideInGovernorsBar>1</HideInGovernorsBar>
             </Effect>
             <Item>
                 <Niche>Religion</Niche>
@@ -36,7 +35,7 @@
                 <DefaultLockedState>0</DefaultLockedState>
             </Locked>
             <Text>
-                <OasisId>1600000572</OasisId>
+                <OasisId>1600000564</OasisId>
             </Text>
             </Values>
         </Asset>
@@ -51,12 +50,12 @@
             <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000573</GUID>
-                    <Name>Specialist NR-ConInc-GoodsMinerva-C BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/NeedRewardMinerva.png</IconFilename>
+                    <GUID>1600000565</GUID>
+                    <Name>Specialist NR-Inc-GoodsCernunnos-C BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/NR-Cernunnos.png</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600000572</OasisId>
+                    <OasisId>1600000564</OasisId>
                 </Text>
                 <HealthUpgrade/>
                 <BuildingUpgrade/>
@@ -67,38 +66,38 @@
                 <ResidenceUpgrade>
                     <GoodConsumptionUpgrade>
                         <Item>
-                            <ProvidedNeed>2141</ProvidedNeed>
-                            <AmountInPercent>5</AmountInPercent>
+                            <ProvidedNeed>2108</ProvidedNeed>
+                            <AmountInPercent>25</AmountInPercent>
                         </Item>
                         <Item>
-                            <ProvidedNeed>2142</ProvidedNeed>
-                            <AmountInPercent>5</AmountInPercent>
+                            <ProvidedNeed>2159</ProvidedNeed>
+                            <AmountInPercent>25</AmountInPercent>
                         </Item>
                         <Item>
-                            <ProvidedNeed>2161</ProvidedNeed>
-                            <AmountInPercent>5</AmountInPercent>
+                            <ProvidedNeed>31700</ProvidedNeed>
+                            <AmountInPercent>25</AmountInPercent>
                         </Item>
                     </GoodConsumptionUpgrade>
                     <NeedProvidedNeedAttributes>
-                        <ChangeNeedAttributesOf>
-                            <Item>
-                                <ProvidedProduct>2141</ProvidedProduct> <!-- <GUID>2141</GUID> -->
-                            </Item>
-                            <Item>
-                                <ProvidedProduct>2142</ProvidedProduct> <!-- <GUID>2142</GUID> -->
-                            </Item>
-                            <Item>
-                                <ProvidedProduct>2161</ProvidedProduct> <!-- <GUID>2161</GUID> -->
-                            </Item>
-                        </ChangeNeedAttributesOf>
-                        <AdditionalNeedAttributes>
-                            <Belief>
-                                <AmountOrPercent>
-                                    <Value>1</Value>
-                                    <Percental>0</Percental>
-                                </AmountOrPercent>
-                            </Belief>
-                        </AdditionalNeedAttributes>
+                      <ChangeNeedAttributesOf>
+                          <Item>
+                              <ProvidedProduct>2108</ProvidedProduct> <!-- <GUID>2108</GUID> -->
+                          </Item>
+                          <Item>
+                              <ProvidedProduct>2159</ProvidedProduct> <!-- <GUID>2159</GUID> -->
+                          </Item>
+                          <Item>
+                              <ProvidedProduct>31700</ProvidedProduct> <!-- <GUID>31700</GUID> -->
+                          </Item>
+                      </ChangeNeedAttributesOf>
+                      <AdditionalNeedAttributes>
+                          <Belief>
+                              <AmountOrPercent>
+                                  <Value>1</Value>
+                                  <Percental>0</Percental>
+                              </AmountOrPercent>
+                          </Belief>
+                      </AdditionalNeedAttributes>
                     </NeedProvidedNeedAttributes>
                 </ResidenceUpgrade>
                 <FactoryUpgrade/>

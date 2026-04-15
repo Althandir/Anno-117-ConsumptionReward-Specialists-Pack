@@ -24,7 +24,6 @@
                 <GUID>70714</GUID>
               </Item>
             </Targets>
-            <HideInGovernorsBar>1</HideInGovernorsBar>
           </Effect>
           <Item>
             <Niche>Agriculture</Niche>
@@ -131,7 +130,7 @@
                         </Item>
                     </Targets>
                     <ExcludeEffectSourceGUID>0</ExcludeEffectSourceGUID>
-                    <HideInGovernorsBar>1</HideInGovernorsBar>
+                    
                 </Effect>
                 <Text>
                     <OasisId>1600000044</OasisId>

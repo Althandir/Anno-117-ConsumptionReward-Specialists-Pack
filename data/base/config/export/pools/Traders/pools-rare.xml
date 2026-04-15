@@ -8,16 +8,18 @@
 <!-- RewardPool Rare Traders -->
 <Group>
     <ModOp Type="add" GUID="83449,83461,83465,83469,83477,83473,83481" Path="/Values/RewardPool/ItemsPool">
-        <Item>
-            <ItemLink>1600000170</ItemLink>
-        </Item>
-        <Item>
-            <ItemLink>1600000182</ItemLink>
-        </Item>
-        
-        <Item>
-            <ItemLink>1600000570</ItemLink>
-        </Item>
+    <Item>
+        <ItemLink>1600000170</ItemLink>
+    </Item>
+    <Item>
+        <ItemLink>1600000182</ItemLink>
+    </Item>
+    <Item>
+        <ItemLink>1600000214</ItemLink>
+    </Item>
+    <Item>
+        <ItemLink>1600000570</ItemLink>
+    </Item>
     </ModOp>
 </Group>
 
