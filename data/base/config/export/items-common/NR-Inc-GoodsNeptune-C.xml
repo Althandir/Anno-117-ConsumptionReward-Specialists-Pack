@@ -7,8 +7,8 @@
             <Values>
             <Standard>
                 <GUID>1600000574</GUID>
-                <Name>Specialist NR-ConInc-GoodsNeptune-C</Name>
-                <IconFilename>data/base/graphics/icons/NeedRewardNeptune.png</IconFilename>
+                <Name>Specialist NR-Inc-GoodsNeptune-C</Name>
+                <IconFilename>data/base/graphics/icons/NR-Neptune.png</IconFilename>
                 <InfoDescription>1600000575</InfoDescription>
             </Standard>
             <Effect>
@@ -52,8 +52,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000575</GUID>
-                    <Name>Specialist NR-ConInc-GoodsNeptune-C BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/NeedRewardNeptune.png</IconFilename>
+                    <Name>Specialist NR-Inc-GoodsNeptune-C BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/NR-Neptune.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000574</OasisId>
@@ -68,15 +68,15 @@
                     <GoodConsumptionUpgrade>
                         <Item>
                             <ProvidedNeed>2088</ProvidedNeed>
-                            <AmountInPercent>5</AmountInPercent>
+                            <AmountInPercent>25</AmountInPercent>
                         </Item>
                         <Item>
                             <ProvidedNeed>2097</ProvidedNeed>
-                            <AmountInPercent>5</AmountInPercent>
+                            <AmountInPercent>25</AmountInPercent>
                         </Item>
                         <Item>
                             <ProvidedNeed>2139</ProvidedNeed>
-                            <AmountInPercent>5</AmountInPercent>
+                            <AmountInPercent>25</AmountInPercent>
                         </Item>
                     </GoodConsumptionUpgrade>
                     <NeedProvidedNeedAttributes>

@@ -7,7 +7,7 @@
         <Values>
           <Standard>
             <GUID>1600000104</GUID>
-            <Name>Specialist All-ConRed-E</Name>
+            <Name>Specialist AllGoods-Red-E</Name>
             <IconFilename>data/base/graphics/icons/c_f_AllConRed-E.png</IconFilename>
             <InfoDescription>1600000105</InfoDescription>
           </Standard>
@@ -52,7 +52,7 @@
             <Values>
                 <Standard>
                     <GUID>1600000105</GUID>
-                    <Name>Specialist All-ConRed-E BuildingBuff</Name>
+                    <Name>Specialist AllGoods-Red-E BuildingBuff</Name>
                     <IconFilename>data/base/graphics/icons/c_f_AllConRed-E.png</IconFilename>
                 </Standard>
                 <Text>

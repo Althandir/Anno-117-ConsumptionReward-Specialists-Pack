@@ -3,53 +3,62 @@
 <!-- RewardList All Items & Specialists Items-->
 <Group>
     <ModOp Type="add" GUID="43037,82598" Path="/Values/RewardPool/ItemsPool">
-        <Item>
-            <ItemLink>1600000044</ItemLink>
-        </Item>
-        <Item>
-            <ItemLink>1600000104</ItemLink>
-        </Item>
-        <Item>
-            <ItemLink>1600000114</ItemLink>
-        </Item>    
-        <Item>
-            <ItemLink>1600000116</ItemLink>
-        </Item>
-        <Item>
-            <ItemLink>1600000170</ItemLink>
-        </Item>
-        <Item>
-            <ItemLink>1600000182</ItemLink>
-        </Item>
-        <Item>
-            <ItemLink>1600000262</ItemLink>
-        </Item>
-        <Item>
-            <ItemLink>1600000313</ItemLink>
-        </Item>
+    <!-- Common -->
+    <Item>
+        <ItemLink>1600000562</ItemLink>
+    </Item>
+    <Item>
+        <ItemLink>1600000564</ItemLink>
+    </Item>
+    <Item>
+        <ItemLink>1600000566</ItemLink>
+    </Item>
+    <Item>
+        <ItemLink>1600000568</ItemLink>
+    </Item>
+    <Item>
+        <ItemLink>1600000572</ItemLink>
+    </Item>
+    <Item>
+        <ItemLink>1600000574</ItemLink>
+    </Item>
 
-        <Item>
-            <ItemLink>1600000562</ItemLink>
-        </Item>
-        <Item>
-            <ItemLink>1600000564</ItemLink>
-        </Item>
-        <Item>
-            <ItemLink>1600000566</ItemLink>
-        </Item>
-        <Item>
-            <ItemLink>1600000568</ItemLink>
-        </Item>
-        <Item>
-            <ItemLink>1600000570</ItemLink>
-        </Item>
-        <Item>
-            <ItemLink>1600000572</ItemLink>
-        </Item>
-        <Item>
-            <ItemLink>1600000574</ItemLink>
-        </Item>
-        
+    <!-- Epic -->
+    <Item>
+        <ItemLink>1600000044</ItemLink>
+    </Item>
+    <Item>
+        <ItemLink>1600000104</ItemLink>
+    </Item>
+    <Item>
+        <ItemLink>1600000114</ItemLink>
+    </Item>    
+    <Item>
+        <ItemLink>1600000116</ItemLink>
+    </Item>
+    <Item>
+        <ItemLink>1600000262</ItemLink>
+    </Item>
+    <Item>
+        <ItemLink>1600000313</ItemLink>
+    </Item>
+
+    <!-- Legendary -->
+
+    <!-- Rare -->
+    <Item>
+        <ItemLink>1600000170</ItemLink>
+    </Item>
+    <Item>
+        <ItemLink>1600000182</ItemLink>
+    </Item>
+    <Item>
+        <ItemLink>1600000214</ItemLink>
+    </Item>
+    <Item>
+        <ItemLink>1600000570</ItemLink>
+    </Item>
+
     </ModOp>
 </Group>
 

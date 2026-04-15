@@ -4,35 +4,43 @@
 # GUIDs might be all over the place (not outside of my Range but inside this mod) due to my experiments all the time
 # or my stupid brain getting new Ideas all the time and never finishing something >~<
 
-###  
-#   GUID-Ranges:  
-#   1600000044 - 1600000047 
+### GUID-Ranges:  
+#    
+#    1600000562 - 1600000563 (NR-Inc-GoodsCeres-C)
+#    1600000564 - 1600000565 (NR-Inc-GoodsCernunnos-C)
+#    1600000566 - 1600000567 (NR-Inc-GoodsEpona-C)
+#    1600000568 - 1600000569 (NR-Inc-GoodsMars-C)
+#    1600000570 - 1600000571 (NR-Inc-GoodsMercury-R)
+#    1600000572 - 1600000573 (NR-Inc-GoodsMinerva-C)
+#    1600000574 - 1600000575 (NR-Inc-GoodsNeptune-C)
 #
-#
-#
-#
-#
-#
-#
-###
+#    1600000104 - 1600000105 (AllGoods-Red-E)
+#    1600000114 - 1600000115 (NR-Inc-Beer-E)
+#    1600000116 - 1600000117 (NR-Inc-Garum-E)
+#    1600000170 - 1600000173 (AE-NR-CTHall-Inc-Roast-R)
+#    1600000182 - 1600000185 (AE-NR-Theater-Inc-Toga-R)
+#    1600000214 - 1600000215 (NR-Inc-OliveOil-R)
+#    1600000262 - 1600000265 (AE-NR-CSport-Inc-TunicTrouser-E)
+#    1600000313 - 1600000316 (AE-NR-ForumMar-Inc-Cheese-E)
+#    1600000044 - 1600000047 (AE-NR-Bath-Red-Soap-E)
 -->
 <ModOps>
 <!-- Common Specialists -->
 <Group>
-    <Include File="items-common/NR-ConInc-GoodsCeres-C.xml" />
-    <Include File="items-common/NR-ConInc-GoodsCernunnos-C.xml" />
-    <Include File="items-common/NR-ConInc-GoodsEpona-C.xml" />
-    <Include File="items-common/NR-ConInc-GoodsMars-C.xml" />
-    <Include File="items-common/NR-ConInc-GoodsMinerva-C.xml" />
-    <Include File="items-common/NR-ConInc-GoodsNeptune-C.xml" />
+    <Include File="items-common/NR-Inc-GoodsCeres-C.xml" />
+    <Include File="items-common/NR-Inc-GoodsCernunnos-C.xml" />
+    <Include File="items-common/NR-Inc-GoodsEpona-C.xml" />
+    <Include File="items-common/NR-Inc-GoodsMars-C.xml" />
+    <Include File="items-common/NR-Inc-GoodsMinerva-C.xml" />
+    <Include File="items-common/NR-Inc-GoodsNeptune-C.xml" />
 </Group>
 
 <!-- Rare Specialists -->
 <Group>
     <Include File="items-rare/AE-NR-CTHall-Inc-Roast-R.xml" />
     <Include File="items-rare/AE-NR-Theater-Inc-Toga-R.xml" />
-
-    <Include File="items-rare/NR-ConInc-GoodsMercury-R.xml" />
+    <Include File="items-rare/NR-Inc-OliveOil-R.xml" />
+    <Include File="items-rare/NR-Inc-GoodsMercury-R.xml" />
 </Group>
 
 <!-- Epic Specialists -->
@@ -40,9 +48,9 @@
     <Include File="items-epic/AE-NR-ForumMar-Inc-Cheese-E.xml" />
     <Include File="items-epic/AE-NR-Bath-Red-Soap-E.xml" />
     <Include File="items-epic/AE-NR-CSport-Inc-TunicTrouser-E.xml" />
-    <Include File="items-epic/All-ConRed-E.xml" />
-    <Include File="items-epic/NR-ConInc-Beer-E.xml" />
-    <Include File="items-epic/NR-ConInc-Garum-E.xml" />
+    <Include File="items-epic/AllGoods-Red-E.xml" />
+    <Include File="items-epic/NR-Inc-Beer-E.xml" />
+    <Include File="items-epic/NR-Inc-Garum-E.xml" />
 </Group>
 
 <!-- Legendary Specialists -->
