@@ -24,7 +24,6 @@
                 <GUID>81446</GUID>
               </Item>
             </Targets>
-            <HideInGovernorsBar>1</HideInGovernorsBar>
           </Effect>
           <Item>
             <Niche>Finance</Niche>
@@ -131,7 +130,7 @@
                         </Item>
                     </Targets>
                     <ExcludeEffectSourceGUID>0</ExcludeEffectSourceGUID>
-                    <HideInGovernorsBar>1</HideInGovernorsBar>
+                    
                 </Effect>
                 <Text>
                     <OasisId>1600000182</OasisId>

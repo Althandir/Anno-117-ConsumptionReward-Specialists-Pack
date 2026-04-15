@@ -240,5 +240,19 @@
         </ModOp>
     </Group>
 
-
+    <!-- Specialist NR-Inc-OliveOil-R -->
+    <Group>
+        <ModOp Add="/TextExport/Texts">
+        <!-- Title -->
+        <Text>
+            <Text>Öliger Händler</Text>
+            <LineId>1600000214</LineId> <!-- <GUID>1600000214</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>Rutscht häufig aus und landet in den Pfützen seiner Olivenölspur. &#xD;(Consumption-Pack)</Text>
+            <LineId>1600000215</LineId> 
+        </Text>
+        </ModOp>
+    </Group>
 </ModOps>
