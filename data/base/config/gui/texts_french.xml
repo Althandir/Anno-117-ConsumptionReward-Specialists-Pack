@@ -239,4 +239,20 @@
             </Text>
         </ModOp>
     </Group>
+
+    <!-- Specialist NR-Inc-OliveOil-R -->
+    <Group>
+        <ModOp Add="/TextExport/Texts">
+        <!-- Title -->
+        <Text>
+            <Text>Oily Salesman</Text>
+            <LineId>1600000214</LineId> <!-- <GUID>1600000214</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>Frequently slips and ends up in the puddles left by his trail of olive oil. &#xD;(Consumption-Pack)</Text>
+            <LineId>1600000215</LineId> 
+        </Text>
+        </ModOp>
+    </Group>
 </ModOps>
