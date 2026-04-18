@@ -10,7 +10,7 @@
         </Text>
         <!-- Description -->
         <Text>
-            <Text>By using soap in big pools of water we can clean so many people at once. &#xD;Hint: The Effects are applying to every building in Street Range.</Text>
+            <Text>By using soap in big pools of water we can clean so many people at once. &#xD;Hint: The Effects are applying to every building in Street Range.&#xD;(Consumption-Pack)</Text>
             <LineId>1600000045</LineId> 
         </Text>
         </ModOp>
@@ -26,7 +26,7 @@
         </Text>
         <!-- Description -->
         <Text>
-            <Text>Rejects decadence and instead demonstrates an ecological lifestyle in harmony with nature.</Text>
+            <Text>Rejects decadence and instead demonstrates an ecological lifestyle in harmony with nature.&#xD;(Consumption-Pack)</Text>
             <LineId>1600000105</LineId> 
         </Text>
         </ModOp>
@@ -42,7 +42,7 @@
         </Text>
         <!-- Description -->
         <Text>
-            <Text>"And the next round goes on me!"</Text>
+            <Text>"And the next round goes on me!"&#xD;(Consumption-Pack)</Text>
             <LineId>1600000115</LineId> 
         </Text>
         </ModOp>
