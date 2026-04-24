@@ -255,4 +255,232 @@
         </Text>
         </ModOp>
     </Group>
+
+    <!-- Specialist EffectRangeAllShrines-C -->
+    <Group>
+    <ModOp Add="/TextExport/Texts">
+        <!-- Title -->
+        <Text>
+            <Text>Shrine Visitor</Text>
+            <LineId>1600000327</LineId> <!-- <GUID>1600000327</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>Admires every type of shrine.&#xD;Hint: This effect is stackable.&#xD;(Shrine-Pack)</Text>
+            <LineId>1600000328</LineId> 
+        </Text>
+    </ModOp>
+    </Group>
+
+    <!-- Specialist EffectRangeAllShrines-L -->
+    <Group>
+    <ModOp Add="/TextExport/Texts">
+        <!-- Title -->
+        <Text>
+            <Text>Memorata Peregrina, The Unforgotten Disciple</Text>
+            <LineId>1600000385</LineId> <!-- <GUID>1600000385</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>She likes to wander among all the shrines on this island so that they will never be forgotten.&#xD;Hint: This effect is stackable.&#xD;(Shrine-Pack)</Text>
+            <LineId>1600000386</LineId> 
+        </Text>
+        <!-- Boosted Hint -->
+        <Text>
+            <Text>Have a sizeable, faithful population on this Island. (5000 Population & Belief)</Text>
+            <LineId>1600000387</LineId> 
+        </Text>
+    </ModOp>
+    </Group>
+
+    <!-- Specialist PService-Wonder-ERange-E -->
+    <Group>
+        <ModOp Add="/TextExport/Texts">
+        <!-- Title -->
+        <Text>
+            <Text>Aurelius Cautus, the Bureaucrat</Text>
+            <LineId>1600000037</LineId> <!-- <GUID>1600000037</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>"Now please take a number and wait until you hear from us." &#xD;Hint: This Effect can Stack.</Text>
+            <LineId>1600000038</LineId> 
+        </Text>
+        </ModOp>
+    </Group>
+
+    <!-- Specialist PService-ERange-R -->
+    <Group>
+        <ModOp Add="/TextExport/Texts">
+        <!-- Title -->
+        <Text>
+            <Text>Motivtated Bureaucrat</Text>
+            <LineId>1600000160</LineId> <!-- <GUID>1600000160</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>Tries his best to optimize processes. &#xD;Hint: This Effect can Stack.</Text>
+            <LineId>1600000161</LineId> 
+        </Text>
+        </ModOp>
+    </Group>
+
+    <!-- Specialist PService-Wonder-ERange-L -->
+    <Group>
+        <ModOp Add="/TextExport/Texts">
+        <!-- Title -->
+        <Text>
+            <Text>Buritus, Architectus Bureaucraticus</Text>
+            <LineId>1600000141</LineId> <!-- <GUID>1600000141</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>Architect of the bureaucratic system and is a master getting everything sorted out for anyone. It is said that he has Germanic roots. &#xD;Hint: This Effect can Stack.</Text>
+            <LineId>1600000142</LineId> 
+        </Text>
+        <!-- Boosted Hint -->
+        <Text>
+            <Text>The system requires a minimum number of requests to be truly effective. (36 public services on the island)</Text>
+            <LineId>1600000143</LineId> 
+        </Text>
+        </ModOp>
+    </Group>
+
+    <!-- Specialist AE-AddSlot-Villa-L -->
+    <Group>
+        <ModOp Add="/TextExport/Texts">
+        <!-- Title -->
+        <Text>
+            <Text>Quintus Merula, Master of Invitations</Text>
+            <LineId>1600000244</LineId> <!-- <GUID>1600000244</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>"My invitations reach every person of note throughout the Roman Empire."&#xD;&#xD;Important notes:&#xD;Place this specialist in an Officium. The Villa on this Island receives 3 specialist slots & +100% hit points.&#xD;&#xD;Ignore the regular effect description. The correct effect can be viewed as an area effect under “Active Effects.”&#xD;&#xD;The slots sometimes only update while the game is running and not always when the game is paused.&#xD;&#xD;(MoreSlots-Pack)</Text>
+            <LineId>1600000245</LineId> 
+        </Text>
+        </ModOp>
+    </Group>
+
+    <!-- Specialist AE-AddSlot-Offica-L -->
+    <Group>
+        <ModOp Add="/TextExport/Texts">
+        <!-- Title -->
+        <Text>
+            <Text>Lucia Illuminata, Enlightened Housekeeper</Text>
+            <LineId>1600000234</LineId> <!-- <GUID>1600000234</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>"My guests are floating in Jupiter's arms."&#xD;&#xD;Important notes:&#xD;Place this specialist in your Villa. All Officia on this Island receives 3 specialist slots & +100% hit points.&#xD;&#xD;Ignore the regular effect description. The correct effect can be viewed as an area effect under “Active Effects.”&#xD;&#xD;The slots sometimes only update while the game is running and not always when the game is paused.&#xD;&#xD;(MoreSlots-Pack)</Text>
+            <LineId>1600000235</LineId> 
+        </Text>
+        </ModOp>
+    </Group>    
+
+    <!-- Specialist Aque-Supply-C -->
+    <Group>
+        <ModOp Add="/TextExport/Texts">
+        <!-- Title -->
+        <Text>
+            <Text>Aqueduct Guard</Text>
+            <LineId>1600000031</LineId> <!-- <GUID>1600000031</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>Happy to take care of your Aqueduct.&#xD;(Aqueduct-Pack)</Text>
+            <LineId>1600000032</LineId> 
+        </Text>
+        </ModOp>
+    </Group>
+
+    <!-- Specialist Aque-Supply-E -->
+    <Group>
+        <ModOp Add="/TextExport/Texts">
+        <!-- Title -->
+        <Text>
+            <Text>Aqua-Aemilia, Aqueduct Pioneer</Text>
+            <LineId>1600000695</LineId> <!-- <GUID>1600000695</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>"Aqueducts are the lifelines of your people!"&#xD;(Aqueduct-Pack)</Text>
+            <LineId>1600000696</LineId> 
+        </Text>
+        </ModOp>
+    </Group>
+
+    <!-- Specialist All-Inst-EffectRange-R -->
+    <Group>
+        <ModOp Add="/TextExport/Texts">
+        <!-- Title -->
+        <Text>
+            <Text>Inspector</Text>
+            <LineId>1600000196</LineId> <!-- <GUID>1600000196</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>“Better safe than sorry”. &#xD;Note I: This effect is stackable. &#xD;Note II: Effect range is not the same as response range! &#xD;Effect range describes only the range of the area effect (e.g., +3 fire resistance), NOT how far city guard units can resolve incidents. &#xD;(CityWatch-Range-Pack)</Text>
+            <LineId>1600000197</LineId> 
+        </Text>
+        </ModOp>
+    </Group>  
+    
+    <!-- Specialist All-Inst-EffectRange-L -->
+    <Group>
+        <ModOp Add="/TextExport/Texts">
+        <!-- Title -->
+        <Text>
+            <Text>Strictus Maximus Vaporosus, Safety Paragraph Rider</Text>
+            <LineId>1600000500</LineId> <!-- <GUID>1600000500</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>"According to Paragraph 4, Section 11 A–C of the Roman Fire Safety Regulations, this entrance must be kept clear at all times! Let’s also not forget Section 12, G, which states...." &#xD;Note I: This effect is stackable. &#xD;Note II: Effect range is not the same as response range! &#xD;Effect range describes only the range of the area effect (e.g., +3 fire resistance), NOT how far city guard units can resolve incidents. &#xD;(CityWatch-Range-Pack)</Text>
+            <LineId>1600000501</LineId> 
+        </Text>
+        <!-- Boosted Hint -->
+        <Text>
+            <Text>"According to Section 11-b, every island must have sufficient defensive facilities to protect its citizens." (12x Militarytowers on Island)</Text>
+            <LineId>1600000502</LineId> 
+        </Text>
+        </ModOp>
+    </Group>
+    
+    <!-- Specialist All-Inst-ResolverRange-R -->
+    <Group>
+        <ModOp Add="/TextExport/Texts">
+        <!-- Title -->
+        <Text>
+            <Text>Vigilant City Guard</Text>
+            <LineId>1600000158</LineId> <!-- <GUID>1600000158</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>Has a good sense of his neighborhood. &#xD;(CityWatch-Range-Pack)</Text>
+            <LineId>1600000159</LineId> 
+        </Text>
+        </ModOp>
+    </Group>
+
+    <!-- Specialist All-Inst-ResolverRange-L -->
+    <Group>
+        <ModOp Add="/TextExport/Texts">
+        <!-- Title -->
+        <Text>
+            <Text>Aulus Pius, the Watchful Inspirator</Text>
+            <LineId>1600000035</LineId> <!-- <GUID>1600000035</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>Inspires local residents to join the city guard through heroic tales of individual citizens. &#xD;(CityWatch-Range-Pack)</Text>
+            <LineId>1600000036</LineId> 
+        </Text>
+        <!-- Boosted Hint -->
+        <Text>
+            <Text>Needs many intake centers to handle the influx of new recruits. (12x Citywatches on Island) </Text>
+            <LineId>1600000004</LineId> 
+        </Text>
+        </ModOp>
+    </Group>
 </ModOps>

@@ -1,0 +1,94 @@
+<ModOps>
+<!-- Item Definition GUID:1600000196 - 1600000197 | LineID:1600000196 - 1600000197 -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="106410">
+      <Asset>
+        <Template>Item</Template>
+        <Values>
+          <Standard>
+            <GUID>1600000196</GUID>
+            <Name>Specialist All-Inst-EffectRange-R</Name>
+            <IconFilename>data/base/graphics/icons/m_CityWatchEffectRangeR.png</IconFilename>
+            <InfoDescription>1600000197</InfoDescription>
+          </Standard>
+          <Effect>
+            <EffectScope>Area</EffectScope>  
+            <SourceCategory>Item</SourceCategory>
+            <Buffs>
+              <Item>
+                <GUID>1600000197</GUID>
+              </Item>
+            </Buffs>
+            <Targets> <!-- Targets of Buff -->
+              <Item>
+                <GUID>43102</GUID>
+              </Item>
+            </Targets>
+            <HideInGovernorsBar>1</HideInGovernorsBar>
+          </Effect>
+          <Item>
+            <Niche>Military</Niche>
+            <TradePrice>25000</TradePrice> 
+            <BarkPool>80246</BarkPool> <!-- <GUID>80246</GUID> -->
+            <Rarity>Rare</Rarity> 
+          </Item>
+          <Locked>
+            <DefaultLockedState>0</DefaultLockedState>
+          </Locked>
+          <Text>
+            <OasisId>1600000196</OasisId>
+          </Text>
+        </Values>
+      </Asset>
+    </ModOp>
+  </Group>
+
+  <!-- Buff Definitions-->
+  <Group>
+    <!-- BuildingEffect Definition -->
+    <ModOp Type="addNextSibling" GUID="81445">
+      <Asset>
+        <Template>AreaBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>1600000197</GUID>
+            <Name>Specialist All-Inst-EffectRange-R AreaBuff</Name>
+            <IconFilename>data/base/graphics/icons/m_CityWatchEffectRangeR.png</IconFilename>
+          </Standard>
+          <Text>
+            <OasisId>1600000196</OasisId>
+          </Text>
+          <AreaBuff>
+            <RadiusEffectRangeUpgrade>
+              <Value>10</Value>
+              <Percental>1</Percental>
+            </RadiusEffectRangeUpgrade>
+            <RadiusEffectRangeTarget>
+              <Item>
+                <Target>43102</Target> <!-- <GUID>43102</GUID> -->
+              </Item>
+            </RadiusEffectRangeTarget>
+          </AreaBuff>
+          <Buff>
+            <SourceCategory>Item</SourceCategory>
+            <IsStackable>0</IsStackable> <!-- Ignored as this is an AreaBuff -->
+          </Buff>
+          <AreaNeedAttributeBuff>
+            <BonusAttributes>
+              <Money>
+                <ValueOrPercent>
+                  <Value>0</Value>
+                  <Percental>1</Percental>
+                </ValueOrPercent>
+              </Money>
+            </BonusAttributes>
+          </AreaNeedAttributeBuff>
+          <AreaPassiveTradeUpgrade/>
+          <AreaMaintenanceUpgrade/>
+          <AreaFestivalAttributeUpgrade/>
+        </Values>
+      </Asset>
+    </ModOp>
+
+  </Group>
+</ModOps>

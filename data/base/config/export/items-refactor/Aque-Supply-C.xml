@@ -1,0 +1,83 @@
+<ModOps>
+<!-- Item Definition GUID:1600000031 - 1600000032 | LineID:1600000031 - 1600000032 -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="106410">
+      <Asset>
+        <Template>Item</Template>
+        <Values>
+          <Standard>
+            <GUID>1600000031</GUID>
+            <Name>Specialist Aque-Supply-C</Name>
+            <IconFilename>data/base/graphics/icons/r_m_Aque-Supply-C.png</IconFilename>
+            <InfoDescription>1600000032</InfoDescription>
+          </Standard>
+          <Effect>
+            <EffectScope>Radius</EffectScope> 
+            <SourceCategory>Item</SourceCategory>
+            <Buffs>
+              <Item>
+                <GUID>1600000032</GUID>
+              </Item>
+            </Buffs>
+            <Targets> <!-- Targets of Buff -->
+              <Item>
+                <GUID>42568</GUID>
+              </Item>
+            </Targets>
+            <HideInGovernorsBar>1</HideInGovernorsBar>
+          </Effect>
+          <Item>
+            <Niche>Economy</Niche> 
+            <TradePrice>5000</TradePrice>
+            <BarkPool>80244</BarkPool> <!-- <GUID>80244</GUID> -->
+            <Rarity>Common</Rarity> 
+          </Item>
+          <Locked>
+            <DefaultLockedState>0</DefaultLockedState>
+          </Locked>
+          <Text>
+            <OasisId>1600000031</OasisId>
+          </Text>
+        </Values>
+      </Asset>
+    </ModOp>
+  </Group>
+
+  <!-- Buff Definitions-->
+  <Group>
+    <!-- BuildingEffect Definition -->
+    <ModOp Type="addNextSibling" GUID="80193">
+        <Asset>
+            <Template>BuildingBuff</Template>
+            <Values>
+                <Standard>
+                    <GUID>1600000032</GUID>
+                    <Name>Specialist Aque-Supply-C BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/r_m_Aque-Supply-C.png</IconFilename>
+                </Standard>
+                <Text>
+                    <OasisId>1600000031</OasisId>
+                </Text>
+                <DistributionUpgrade/>
+                <Buff>
+                    <SourceCategory>Item</SourceCategory>
+                </Buff>
+                <MaintenanceUpgrade>
+                    <MaintenanceFactorUpgrade>
+                        <Value>50</Value>
+                        <Percental>1</Percental>
+                    </MaintenanceFactorUpgrade>
+                </MaintenanceUpgrade>
+                <AqueductUpgrade>
+                    <AqueductWaterSupplyUpgrade>
+                        <Value>50</Value>
+                        <Percental>1</Percental>
+                    </AqueductWaterSupplyUpgrade>
+                </AqueductUpgrade>
+            </Values>
+        </Asset>
+    </ModOp>
+    
+  </Group>
+
+</ModOps>

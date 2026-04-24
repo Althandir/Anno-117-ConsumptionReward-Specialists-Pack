@@ -1,0 +1,210 @@
+<ModOps>
+<!-- Item Definition GUID:1600000035 - 1600000036 + 1600000004 | LineID:1600000035 - 1600000036 + 1600000004 -->
+<Group>
+<ModOp Type="addNextSibling" GUID="106410">
+    <Asset>
+    <Template>ItemWithBoost</Template>
+    <Values>
+        <Standard>
+            <GUID>1600000035</GUID>
+            <Name>Specialist All-Inst-ResolverRange-L</Name>
+            <IconFilename>data/base/graphics/icons/roman_male_ResolverUpgradeL.png</IconFilename>
+            <InfoDescription>1600000036</InfoDescription>
+        </Standard>
+        <Effect>
+            <EffectScope>Radius</EffectScope>  
+            <SourceCategory>Item</SourceCategory>
+            <Buffs>
+                <Item>
+                <GUID>1600000036</GUID>
+                </Item>
+            </Buffs>
+            <Targets> <!-- Targets of Buff -->
+                <Item>
+                <GUID>43102</GUID>
+                </Item>
+            </Targets>
+            <HideInGovernorsBar>1</HideInGovernorsBar>
+        </Effect>
+        <Item>
+            <Niche>Military</Niche>
+            <TradePrice>750000</TradePrice> 
+            <BarkPool>83296</BarkPool> <!-- <GUID>83296</GUID> -->
+            <Rarity>Legendary</Rarity> 
+        </Item>
+        <Locked>
+            <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text>
+            <OasisId>1600000035</OasisId>
+        </Text>
+
+        <ItemWithBoost>
+            <BoostCondition>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+                <PreConditionList>
+                <!-- Condition 1 - min. 12x CityWatches on Area -->
+                    <Condition>
+                        <Template>ConditionObjectCount</Template>
+                        <Values>
+                            <Condition/>
+                            <ConditionObjectCount>
+                                <Amount>12</Amount>
+                            </ConditionObjectCount>
+                            <ObjectFilter>
+                                <ObjectGUID>43102</ObjectGUID>
+                                <ObjectLocations>
+                                    <Template>LocationFilter</Template>
+                                    <Values>
+                                        <LocationFilter>
+                                            <ObjectLocations>
+                                                <ObjectFilter>
+                                                    <Template>ObjectFilter</Template>
+                                                    <Values>
+                                                        <ObjectFilter>
+                                                            <UseContextObjects>1</UseContextObjects>
+                                                        </ObjectFilter>
+                                                    </Values>
+                                                </ObjectFilter>
+                                            </ObjectLocations>
+                                        </LocationFilter>
+                                    </Values>
+                                </ObjectLocations>
+                            </ObjectFilter>
+                        </Values>
+                    </Condition>
+                </PreConditionList>
+            </Values>
+            </BoostCondition>
+            <BoostBuffs>
+            <Item>
+                <GUID>1600000004</GUID>
+            </Item>
+            </BoostBuffs>
+            <BoostHint>1600000004</BoostHint>
+        </ItemWithBoost>
+
+        </Values>
+      </Asset>
+    </ModOp>
+  </Group>
+
+  <!-- Buff Definitions-->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="81445">
+        <Asset>
+          <Template>BuildingBuff</Template>
+            <Values>
+                <Standard>
+                    <GUID>1600000036</GUID>
+                    <Name>Specialist All-Inst-ResolverRange-L BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/roman_male_ResolverUpgradeL.png</IconFilename>
+                </Standard>
+                <Text>
+                    <OasisId>1600000035</OasisId>
+                </Text>
+                <HealthUpgrade/>
+                <BuildingUpgrade>
+                </BuildingUpgrade>
+                <DistributionUpgrade/>
+                <Buff>
+                    <SourceCategory>Item</SourceCategory>
+                    <IsStackable>0</IsStackable>
+                </Buff>
+                <ResidenceUpgrade/>
+                <FactoryUpgrade/>
+                <ModuleOwnerUpgrade/>
+                <MaintenanceUpgrade>
+                  <MaintenanceFactorUpgrade>
+                    <Value>100</Value>
+                    <Percental>1</Percental>
+                  </MaintenanceFactorUpgrade>
+                  <WorkforceMaintenanceFactorUpgrade>
+                    <Value>0</Value>
+                    <Percental>1</Percental>
+                  </WorkforceMaintenanceFactorUpgrade>
+                </MaintenanceUpgrade>
+                <CityInstitutionUpgrade>
+                    <ResolverRangeUpgrade>
+                        <Value>25</Value>
+                        <Percental>1</Percental>
+                    </ResolverRangeUpgrade>
+                    <ResolverUnitCountUpgrade>
+                        <Value>1</Value>
+                        <Percental>0</Percental>
+                    </ResolverUnitCountUpgrade>
+                    <ResolverResolveDurationUpgrade>
+                        <Value>0</Value>
+                        <Percental>1</Percental>
+                    </ResolverResolveDurationUpgrade>
+                </CityInstitutionUpgrade>
+                <IncidentInfectableUpgrade/>
+                <RecruitmentUpgrade/>
+                <AqueductUpgrade/>
+                <WarehouseUpgrade/>
+                <IrrigationUpgrade/>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="81445">
+        <Asset>
+          <Template>BuildingBuff</Template>
+            <Values>
+                <Standard>
+                    <GUID>1600000004</GUID>
+                    <Name>Specialist All-Inst-ResolverRange-L Boosted BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/roman_male_ResolverUpgradeL.png</IconFilename>
+                </Standard>
+                <Text>
+                    <OasisId>1600000035</OasisId>
+                </Text>
+                <HealthUpgrade/>
+                <BuildingUpgrade>
+                </BuildingUpgrade>
+                <DistributionUpgrade/>
+                <Buff>
+                    <SourceCategory>Item</SourceCategory>
+                    <IsStackable>0</IsStackable>
+                </Buff>
+                <ResidenceUpgrade/>
+                <FactoryUpgrade/>
+                <ModuleOwnerUpgrade/>
+                <MaintenanceUpgrade>
+                  <MaintenanceFactorUpgrade>
+                    <Value>0</Value>
+                    <Percental>1</Percental>
+                  </MaintenanceFactorUpgrade>
+                  <WorkforceMaintenanceFactorUpgrade>
+                    <Value>0</Value>
+                    <Percental>1</Percental>
+                  </WorkforceMaintenanceFactorUpgrade>
+                </MaintenanceUpgrade>
+                <CityInstitutionUpgrade>
+                    <ResolverRangeUpgrade>
+                        <Value>50</Value>
+                        <Percental>1</Percental>
+                    </ResolverRangeUpgrade>
+                    <ResolverUnitCountUpgrade>
+                        <Value>1</Value>
+                        <Percental>0</Percental>
+                    </ResolverUnitCountUpgrade>
+                    <ResolverResolveDurationUpgrade>
+                        <Value>0</Value>
+                        <Percental>1</Percental>
+                    </ResolverResolveDurationUpgrade>
+                </CityInstitutionUpgrade>
+                <IncidentInfectableUpgrade/>
+                <RecruitmentUpgrade/>
+                <AqueductUpgrade/>
+                <WarehouseUpgrade/>
+                <IrrigationUpgrade/>
+            </Values>
+        </Asset>
+    </ModOp>
+
+
+  </Group>
+
+</ModOps>
