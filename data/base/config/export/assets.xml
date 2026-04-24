@@ -59,7 +59,7 @@
     <Include File="items-legendary/All-Inst-ResolverRange-L.xml" />
     <Include File="items-legendary/EffectRangeAllShrines-L.xml" />
     <Include File="items-legendary/PService-Wonder-ERange-L.xml" />
-    <Include File="items-refactor/PService-Wonder-ERange-E.xml" />
+    <Include File="items-legendary/PService-Wonder-ERange-E.xml" />
 </Group>
 
 <!-- Refactor Specialists -->
