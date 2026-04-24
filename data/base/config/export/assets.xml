@@ -55,7 +55,21 @@
 
 <!-- Legendary Specialists -->
 <Group>
+    <Include File="items-legendary/All-Inst-EffectRange-L.xml" />
+    <Include File="items-legendary/All-Inst-ResolverRange-L.xml" />
+    <Include File="items-legendary/EffectRangeAllShrines-L.xml" />
+    <Include File="items-legendary/PService-Wonder-ERange-L.xml" />
+    <Include File="items-refactor/PService-Wonder-ERange-E.xml" />
+</Group>
 
+<!-- Refactor Specialists -->
+<Group>
+    <Include File="items-refactor/All-Inst-EffectRange-R.xml" />
+    <Include File="items-refactor/All-Inst-ResolverRange-R.xml" />
+    <Include File="items-refactor/Aque-Supply-C.xml" />
+    <Include File="items-refactor/Aque-Supply-E.xml" />
+    <Include File="items-refactor/EffectRangeAllShrines-C.xml" />
+    <Include File="items-refactor/PService-ERange-R.xml" />
 </Group>
 
 <!-- Add to Pools -->

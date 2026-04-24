@@ -12,14 +12,19 @@
                 <InfoDescription>1600000161</InfoDescription>
             </Standard>
             <Effect>
-                <EffectScope>Area</EffectScope>  
+                <EffectScope>Radius</EffectScope>  
                 <SourceCategory>Item</SourceCategory>
                 <Buffs>
-                <Item>
-                    <GUID>1600000161</GUID>
-                </Item>
+                    <Item>
+                        <GUID>1600000161</GUID>
+                    </Item>
                 </Buffs>
-                <HideInGovernorsBar>0</HideInGovernorsBar>
+                <Targets> <!-- Targets of Buff -->
+                    <Item>
+                        <GUID>31046</GUID>
+                    </Item>
+                </Targets>
+                <HideInGovernorsBar>1</HideInGovernorsBar>
             </Effect>
             <Item>
                 <Niche>Diplomacy</Niche>
@@ -40,52 +45,45 @@
 
     <!-- Buff Definitions-->
     <Group>
-        <!-- AreaEffect Definition -->
+        <!-- BuildingBuff Definition -->
         <ModOp Type="addNextSibling" GUID="81445">
             <Asset>
-            <Template>AreaBuff</Template>
+            <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
                 <GUID>1600000161</GUID>
-                <Name>Specialist PService-ERange-R AreaBuff</Name>
+                <Name>Specialist PService-ERange-R BuildingBuff</Name>
                 <IconFilename>data/base/graphics/icons/m_ERange-R.png</IconFilename>
                 </Standard>
                 <Text>
-                <OasisId>1600000160</OasisId>
+                    <OasisId>1600000160</OasisId>
                 </Text>
-                <AreaBuff>
-                <RadiusEffectRangeUpgrade>
-                    <Value>10</Value>
-                    <Percental>1</Percental>
-                </RadiusEffectRangeUpgrade>
-                <RadiusEffectRangeTarget>
-                    <Item>
-                    <Target>43099</Target>
-                    </Item>
-                </RadiusEffectRangeTarget>
-                </AreaBuff>
                 <Buff>
-                <SourceCategory>Item</SourceCategory>
-                <IsStackable>0</IsStackable> <!-- Ignored as this is an AreaBuff -->
+                    <SourceCategory>Item</SourceCategory>
                 </Buff>
-                <AreaNeedAttributeBuff>
-                <BonusAttributes>
-                    <Money>
-                    <ValueOrPercent>
-                        <Value>0</Value>
-                        <Percental>1</Percental>
-                    </ValueOrPercent>
-                    </Money>
-                </BonusAttributes>
-                </AreaNeedAttributeBuff>
-                <AreaPassiveTradeUpgrade/>
-                <AreaMaintenanceUpgrade>
-                <LandTax>
-                    <Value>0</Value>
-                    <Percental>1</Percental>
-                </LandTax>
-                </AreaMaintenanceUpgrade>
-                <AreaFestivalAttributeUpgrade/>
+                <ResidenceUpgrade>
+                    <GoodConsumptionUpgrade>
+                        <Item>
+                            <ProvidedNeed>2149</ProvidedNeed>
+                            <AmountInPercent>50</AmountInPercent>
+                        </Item>
+                    </GoodConsumptionUpgrade>
+                    <NeedProvidedNeedAttributes>
+                        <ChangeNeedAttributesOf>
+                            <Item>
+                                <ProvidedProduct>2149</ProvidedProduct> <!-- <GUID>2149</GUID> -->
+                            </Item>
+                        </ChangeNeedAttributesOf>
+                        <AdditionalNeedAttributes>
+                            <Health>
+                                <AmountOrPercent>
+                                    <Value>2</Value>
+                                    <Percental>0</Percental>
+                                </AmountOrPercent>
+                            </Health>
+                        </AdditionalNeedAttributes>
+                    </NeedProvidedNeedAttributes>
+                </ResidenceUpgrade>
             </Values>
             </Asset>
         </ModOp>

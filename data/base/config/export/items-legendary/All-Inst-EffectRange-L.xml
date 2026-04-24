@@ -1,0 +1,181 @@
+<ModOps>
+<!-- Item Definition GUID:1600000500 - 1600000502 | LineID:1600000500 - 1600000502 -->
+<Group>
+<ModOp Type="addNextSibling" GUID="106410">
+    <Asset>
+    <Template>ItemWithBoost</Template>
+    <Values>
+        <Standard>
+            <GUID>1600000500</GUID>
+            <Name>Specialist All-Inst-EffectRange-L</Name>
+            <IconFilename>data/base/graphics/icons/m_CityWatchEffectRangeL.png</IconFilename>
+            <InfoDescription>1600000501</InfoDescription>
+        </Standard>
+        <Effect>
+            <EffectScope>Radius</EffectScope>  
+            <SourceCategory>Item</SourceCategory>
+            <Buffs>
+                <Item>
+                    <GUID>1600000501</GUID>
+                </Item>
+            </Buffs>
+            <Targets> <!-- Targets of Buff -->
+                <Item>
+                    <GUID>31046</GUID>
+                </Item>
+            </Targets>
+        </Effect>
+        <Item>
+            <Niche>Military</Niche>
+            <TradePrice>600000</TradePrice> 
+            <BarkPool>80246</BarkPool> <!-- <GUID>80246</GUID> -->
+            <Rarity>Legendary</Rarity> 
+        </Item>
+        <Locked>
+            <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text>
+            <OasisId>1600000500</OasisId>
+        </Text>
+
+        <ItemWithBoost>
+            <BoostCondition>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+                <PreConditionList>
+                <!-- Condition 1 - min. 12x Towers on Area -->
+                    <Condition>
+                        <Template>ConditionObjectCount</Template>
+                        <Values>
+                            <Condition/>
+                            <ConditionObjectCount>
+                                <Amount>12</Amount>
+                            </ConditionObjectCount>
+                            <ObjectFilter>
+                                <ObjectGUID>29318</ObjectGUID>
+                                <ObjectLocations>
+                                    <Template>LocationFilter</Template>
+                                    <Values>
+                                        <LocationFilter>
+                                            <ObjectLocations>
+                                                <ObjectFilter>
+                                                    <Template>ObjectFilter</Template>
+                                                    <Values>
+                                                        <ObjectFilter>
+                                                            <UseContextObjects>1</UseContextObjects>
+                                                        </ObjectFilter>
+                                                    </Values>
+                                                </ObjectFilter>
+                                            </ObjectLocations>
+                                        </LocationFilter>
+                                    </Values>
+                                </ObjectLocations>
+                            </ObjectFilter>
+                        </Values>
+                    </Condition>
+                </PreConditionList>
+            </Values>
+            </BoostCondition>
+            <BoostBuffs>
+            <Item>
+                <GUID>1600000502</GUID>
+            </Item>
+            </BoostBuffs>
+            <BoostHint>1600000502</BoostHint>
+        </ItemWithBoost>
+
+        </Values>
+      </Asset>
+    </ModOp>
+  </Group>
+
+<!-- Buff Definitions-->
+  <Group>
+    <!-- BuildingBuff Definition -->
+    <ModOp Type="addNextSibling" GUID="81445">
+        <Asset>
+            <Template>BuildingBuff</Template>
+            <Values>
+                <Standard>
+                    <GUID>1600000501</GUID>
+                    <Name>Specialist All-Inst-EffectRange-L BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/m_CityWatchEffectRangeL.png</IconFilename>
+                </Standard>
+                <Text>
+                    <OasisId>1600000500</OasisId>
+                </Text>
+                <Buff>
+                    <SourceCategory>Item</SourceCategory>
+                </Buff>
+                <ResidenceUpgrade>
+                    <GoodConsumptionUpgrade>
+                        <Item>
+                            <ProvidedNeed>2149</ProvidedNeed>
+                            <AmountInPercent>50</AmountInPercent>
+                        </Item>
+                    </GoodConsumptionUpgrade>
+                    <NeedProvidedNeedAttributes>
+                        <ChangeNeedAttributesOf>
+                            <Item>
+                                <ProvidedProduct>2149</ProvidedProduct> <!-- <GUID>2149</GUID> -->
+                            </Item>
+                        </ChangeNeedAttributesOf>
+                        <AdditionalNeedAttributes>
+                            <Health>
+                                <AmountOrPercent>
+                                    <Value>2</Value>
+                                    <Percental>0</Percental>
+                                </AmountOrPercent>
+                            </Health>
+                        </AdditionalNeedAttributes>
+                    </NeedProvidedNeedAttributes>
+                </ResidenceUpgrade>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- Boosted Effect Definition -->
+    <ModOp Type="addNextSibling" GUID="81445">
+        <Asset>
+            <Template>BuildingBuff</Template>
+            <Values>
+            <Standard>
+                <GUID>1600000502</GUID>
+                <Name>Specialist All-Inst-EffectRange-L Boosted BuildingBuff</Name>
+                <IconFilename>data/base/graphics/icons/m_CityWatchEffectRangeL.png</IconFilename>
+            </Standard>
+            <Text>
+                <OasisId>1600000500</OasisId>
+            </Text>
+            <Buff>
+                <SourceCategory>Item</SourceCategory>
+            </Buff>
+            <ResidenceUpgrade>
+                <GoodConsumptionUpgrade>
+                    <Item>
+                        <ProvidedNeed>2149</ProvidedNeed>
+                        <AmountInPercent>50</AmountInPercent>
+                    </Item>
+                </GoodConsumptionUpgrade>
+                <NeedProvidedNeedAttributes>
+                    <ChangeNeedAttributesOf>
+                        <Item>
+                            <ProvidedProduct>2149</ProvidedProduct> <!-- <GUID>2149</GUID> -->
+                        </Item>
+                    </ChangeNeedAttributesOf>
+                    <AdditionalNeedAttributes>
+                        <Health>
+                            <AmountOrPercent>
+                                <Value>2</Value>
+                                <Percental>0</Percental>
+                            </AmountOrPercent>
+                        </Health>
+                    </AdditionalNeedAttributes>
+                </NeedProvidedNeedAttributes>
+            </ResidenceUpgrade>
+            </Values>
+        </Asset>
+    </ModOp>
+
+  </Group>
+
+</ModOps>

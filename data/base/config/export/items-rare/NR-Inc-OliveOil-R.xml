@@ -61,7 +61,7 @@
                     <BuildingUpgrade/>
                     <DistributionUpgrade/>
                     <Buff>
-                    <SourceCategory>Item</SourceCategory>
+                        <SourceCategory>Item</SourceCategory>
                     </Buff>
                     <ResidenceUpgrade>
                         <GoodConsumptionUpgrade>

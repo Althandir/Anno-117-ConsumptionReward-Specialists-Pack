@@ -12,19 +12,22 @@
                 <InfoDescription>1600000142</InfoDescription>
             </Standard>
             <Effect>
-                <EffectScope>Area</EffectScope>  
+                <EffectScope>Radius</EffectScope>  
                 <SourceCategory>Item</SourceCategory>
                 <Buffs>
-                <Item>
-                    <GUID>1600000142</GUID>
-                </Item>
+                    <Item>
+                        <GUID>1600000142</GUID>
+                    </Item>
                 </Buffs>
-                <Targets/>
-                <HideInGovernorsBar>0</HideInGovernorsBar>
+                <Targets> <!-- Targets of Buff -->
+                    <Item>
+                        <GUID>31046</GUID>
+                    </Item>
+                </Targets>
             </Effect>
             <Item>
                 <Niche>Diplomacy</Niche>
-                <TradePrice>650000</TradePrice> 
+                <TradePrice>600000</TradePrice> 
                 <BarkPool>80244</BarkPool> <!-- <GUID>80244</GUID> -->
                 <Rarity>Legendary</Rarity> 
             </Item>
@@ -87,58 +90,45 @@
 
     <!-- Buff Definitions-->
     <Group>
-        <!-- AreaEffect Definition -->
+        <!-- BuildingBuff Definition -->
         <ModOp Type="addNextSibling" GUID="81445">
         <Asset>
-            <Template>AreaBuff</Template>
+            <Template>BuildingBuff</Template>
             <Values>
-            <Standard>
-                <GUID>1600000142</GUID>
-                <Name>Specialist PService-Wonder-ERange-L AreaBuff</Name>
-                <IconFilename>data/base/graphics/icons/r_m_ERange-L.png</IconFilename>
-            </Standard>
-            <Text>
-                <OasisId>1600000141</OasisId>
-            </Text>
-            <AreaBuff>
-                <RadiusEffectRangeUpgrade>
-                <Value>20</Value>
-                <Percental>1</Percental>
-                </RadiusEffectRangeUpgrade>
-                <RadiusEffectRangeTarget>
-                <Item>
-                    <Target>43099</Target> <!-- <GUID>43099</GUID> -->
-                </Item>
-                <Item>
-                    <Target>50226</Target> <!-- <GUID>50226</GUID> -->
-                </Item>
-                <Item>
-                    <Target>3621</Target> <!-- <GUID>3621</GUID> -->
-                </Item>
-                </RadiusEffectRangeTarget>
-            </AreaBuff>
-            <Buff>
-                <SourceCategory>Item</SourceCategory>
-                <IsStackable>0</IsStackable> <!-- Ignored as this is an AreaBuff -->
-            </Buff>
-            <AreaNeedAttributeBuff>
-                <BonusAttributes>
-                <Money>
-                    <ValueOrPercent>
-                        <Value>0</Value>
-                        <Percental>1</Percental>
-                    </ValueOrPercent>
-                </Money>
-                </BonusAttributes>
-            </AreaNeedAttributeBuff>
-            <AreaPassiveTradeUpgrade/>
-            <AreaMaintenanceUpgrade>
-                <LandTax>
-                    <Value>0</Value>
-                    <Percental>1</Percental>
-                </LandTax>
-            </AreaMaintenanceUpgrade>
-            <AreaFestivalAttributeUpgrade/>
+                <Standard>
+                    <GUID>1600000142</GUID>
+                    <Name>Specialist PService-Wonder-ERange-L BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/r_m_ERange-L.png</IconFilename>
+                </Standard>
+                <Text>
+                    <OasisId>1600000141</OasisId>
+                </Text>
+                <Buff>
+                    <SourceCategory>Item</SourceCategory>
+                </Buff>
+                <ResidenceUpgrade>
+                    <GoodConsumptionUpgrade>
+                        <Item>
+                            <ProvidedNeed>2149</ProvidedNeed>
+                            <AmountInPercent>50</AmountInPercent>
+                        </Item>
+                    </GoodConsumptionUpgrade>
+                    <NeedProvidedNeedAttributes>
+                        <ChangeNeedAttributesOf>
+                            <Item>
+                                <ProvidedProduct>2149</ProvidedProduct> <!-- <GUID>2149</GUID> -->
+                            </Item>
+                        </ChangeNeedAttributesOf>
+                        <AdditionalNeedAttributes>
+                            <Health>
+                                <AmountOrPercent>
+                                    <Value>2</Value>
+                                    <Percental>0</Percental>
+                                </AmountOrPercent>
+                            </Health>
+                        </AdditionalNeedAttributes>
+                    </NeedProvidedNeedAttributes>
+                </ResidenceUpgrade>
             </Values>
         </Asset>
         </ModOp>
@@ -146,46 +136,43 @@
         <!-- Boosted Effect Definition -->
         <ModOp Type="addNextSibling" GUID="81445">
         <Asset>
-            <Template>AreaBuff</Template>
+            <Template>BuildingBuff</Template>
             <Values>
-            <Standard>
-                <GUID>1600000143</GUID>
-                <Name>Specialist PService-Wonder-ERange-L Boosted AreaBuff</Name>
-                <IconFilename>data/base/graphics/icons/r_m_ERange-L.png</IconFilename>
-            </Standard>
+                <Standard>
+                    <GUID>1600000143</GUID>
+                    <Name>Specialist PService-Wonder-ERange-L Boosted BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/r_m_ERange-L.png</IconFilename>
+                </Standard>
             <Text>
                 <OasisId>1600000141</OasisId>
             </Text>
-            <AreaBuff>
-                <RadiusEffectRangeUpgrade>
-                    <Value>30</Value>
-                    <Percental>1</Percental>
-                </RadiusEffectRangeUpgrade>
-                <RadiusEffectRangeTarget>
-                    <Item>
-                        <Target>43099</Target> <!-- <GUID>43099</GUID> -->
-                    </Item>
-                    <Item>
-                        <Target>50226</Target> <!-- <GUID>50226</GUID> -->
-                    </Item>
-                    <Item>
-                        <Target>3621</Target> <!-- <GUID>3621</GUID> -->
-                    </Item>
-                </RadiusEffectRangeTarget>
-            </AreaBuff>
             <Buff>
                 <SourceCategory>Item</SourceCategory>
                 <IsStackable>0</IsStackable>
             </Buff>
-            <AreaPassiveTradeUpgrade/>
-            <AreaMaintenanceUpgrade>
-                <LandTax>
-                    <Value>0</Value>
-                    <Percental>1</Percental>
-                </LandTax>
-            </AreaMaintenanceUpgrade>
-            <AreaNeedAttributeBuff/>
-            <AreaFestivalAttributeUpgrade/>
+            <ResidenceUpgrade>
+                <GoodConsumptionUpgrade>
+                    <Item>
+                        <ProvidedNeed>2149</ProvidedNeed>
+                        <AmountInPercent>50</AmountInPercent>
+                    </Item>
+                </GoodConsumptionUpgrade>
+                <NeedProvidedNeedAttributes>
+                    <ChangeNeedAttributesOf>
+                        <Item>
+                            <ProvidedProduct>2149</ProvidedProduct> <!-- <GUID>2149</GUID> -->
+                        </Item>
+                    </ChangeNeedAttributesOf>
+                    <AdditionalNeedAttributes>
+                        <Health>
+                            <AmountOrPercent>
+                                <Value>2</Value>
+                                <Percental>0</Percental>
+                            </AmountOrPercent>
+                        </Health>
+                    </AdditionalNeedAttributes>
+                </NeedProvidedNeedAttributes>
+            </ResidenceUpgrade>
             </Values>
         </Asset>
         </ModOp>

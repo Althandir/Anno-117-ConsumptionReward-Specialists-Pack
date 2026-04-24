@@ -16,19 +16,18 @@
             <SourceCategory>Item</SourceCategory>
             <Buffs>
                 <Item>
-                <GUID>1600000036</GUID>
+                    <GUID>1600000036</GUID>
                 </Item>
             </Buffs>
             <Targets> <!-- Targets of Buff -->
                 <Item>
-                <GUID>43102</GUID>
+                    <GUID>43102</GUID>
                 </Item>
             </Targets>
-            <HideInGovernorsBar>1</HideInGovernorsBar>
         </Effect>
         <Item>
             <Niche>Military</Niche>
-            <TradePrice>750000</TradePrice> 
+            <TradePrice>600000</TradePrice> 
             <BarkPool>83296</BarkPool> <!-- <GUID>83296</GUID> -->
             <Rarity>Legendary</Rarity> 
         </Item>
@@ -104,46 +103,33 @@
                 <Text>
                     <OasisId>1600000035</OasisId>
                 </Text>
-                <HealthUpgrade/>
-                <BuildingUpgrade>
-                </BuildingUpgrade>
                 <DistributionUpgrade/>
                 <Buff>
                     <SourceCategory>Item</SourceCategory>
-                    <IsStackable>0</IsStackable>
                 </Buff>
-                <ResidenceUpgrade/>
-                <FactoryUpgrade/>
-                <ModuleOwnerUpgrade/>
-                <MaintenanceUpgrade>
-                  <MaintenanceFactorUpgrade>
-                    <Value>100</Value>
-                    <Percental>1</Percental>
-                  </MaintenanceFactorUpgrade>
-                  <WorkforceMaintenanceFactorUpgrade>
-                    <Value>0</Value>
-                    <Percental>1</Percental>
-                  </WorkforceMaintenanceFactorUpgrade>
-                </MaintenanceUpgrade>
-                <CityInstitutionUpgrade>
-                    <ResolverRangeUpgrade>
-                        <Value>25</Value>
-                        <Percental>1</Percental>
-                    </ResolverRangeUpgrade>
-                    <ResolverUnitCountUpgrade>
-                        <Value>1</Value>
-                        <Percental>0</Percental>
-                    </ResolverUnitCountUpgrade>
-                    <ResolverResolveDurationUpgrade>
-                        <Value>0</Value>
-                        <Percental>1</Percental>
-                    </ResolverResolveDurationUpgrade>
-                </CityInstitutionUpgrade>
-                <IncidentInfectableUpgrade/>
-                <RecruitmentUpgrade/>
-                <AqueductUpgrade/>
-                <WarehouseUpgrade/>
-                <IrrigationUpgrade/>
+                <ResidenceUpgrade>
+                    <GoodConsumptionUpgrade>
+                        <Item>
+                            <ProvidedNeed>2149</ProvidedNeed>
+                            <AmountInPercent>50</AmountInPercent>
+                        </Item>
+                    </GoodConsumptionUpgrade>
+                    <NeedProvidedNeedAttributes>
+                        <ChangeNeedAttributesOf>
+                            <Item>
+                                <ProvidedProduct>2149</ProvidedProduct> <!-- <GUID>2149</GUID> -->
+                            </Item>
+                        </ChangeNeedAttributesOf>
+                        <AdditionalNeedAttributes>
+                            <Health>
+                                <AmountOrPercent>
+                                    <Value>2</Value>
+                                    <Percental>0</Percental>
+                                </AmountOrPercent>
+                            </Health>
+                        </AdditionalNeedAttributes>
+                    </NeedProvidedNeedAttributes>
+                </ResidenceUpgrade>
             </Values>
         </Asset>
     </ModOp>
@@ -160,46 +146,33 @@
                 <Text>
                     <OasisId>1600000035</OasisId>
                 </Text>
-                <HealthUpgrade/>
-                <BuildingUpgrade>
-                </BuildingUpgrade>
-                <DistributionUpgrade/>
                 <Buff>
                     <SourceCategory>Item</SourceCategory>
                     <IsStackable>0</IsStackable>
                 </Buff>
-                <ResidenceUpgrade/>
-                <FactoryUpgrade/>
-                <ModuleOwnerUpgrade/>
-                <MaintenanceUpgrade>
-                  <MaintenanceFactorUpgrade>
-                    <Value>0</Value>
-                    <Percental>1</Percental>
-                  </MaintenanceFactorUpgrade>
-                  <WorkforceMaintenanceFactorUpgrade>
-                    <Value>0</Value>
-                    <Percental>1</Percental>
-                  </WorkforceMaintenanceFactorUpgrade>
-                </MaintenanceUpgrade>
-                <CityInstitutionUpgrade>
-                    <ResolverRangeUpgrade>
-                        <Value>50</Value>
-                        <Percental>1</Percental>
-                    </ResolverRangeUpgrade>
-                    <ResolverUnitCountUpgrade>
-                        <Value>1</Value>
-                        <Percental>0</Percental>
-                    </ResolverUnitCountUpgrade>
-                    <ResolverResolveDurationUpgrade>
-                        <Value>0</Value>
-                        <Percental>1</Percental>
-                    </ResolverResolveDurationUpgrade>
-                </CityInstitutionUpgrade>
-                <IncidentInfectableUpgrade/>
-                <RecruitmentUpgrade/>
-                <AqueductUpgrade/>
-                <WarehouseUpgrade/>
-                <IrrigationUpgrade/>
+                <ResidenceUpgrade>
+                    <GoodConsumptionUpgrade>
+                        <Item>
+                            <ProvidedNeed>2149</ProvidedNeed>
+                            <AmountInPercent>50</AmountInPercent>
+                        </Item>
+                    </GoodConsumptionUpgrade>
+                    <NeedProvidedNeedAttributes>
+                        <ChangeNeedAttributesOf>
+                            <Item>
+                                <ProvidedProduct>2149</ProvidedProduct> <!-- <GUID>2149</GUID> -->
+                            </Item>
+                        </ChangeNeedAttributesOf>
+                        <AdditionalNeedAttributes>
+                            <Health>
+                                <AmountOrPercent>
+                                    <Value>2</Value>
+                                    <Percental>0</Percental>
+                                </AmountOrPercent>
+                            </Health>
+                        </AdditionalNeedAttributes>
+                    </NeedProvidedNeedAttributes>
+                </ResidenceUpgrade>
             </Values>
         </Asset>
     </ModOp>
