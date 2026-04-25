@@ -5,10 +5,10 @@ This mod adds Specialists with focus on Consuption and their additional Attribut
 General Balancing "Guideline":
 Rarity Total Attribute Consumption Inc
 Common +1 Attribute +15
-Rare +2-3 Attribute +30
-Epic +3-4 Attribute +40
-Legendary +4-5 Attribute +50
-Legendary Boosted +5-6 Attribute +50-60
+Rare +2 Attribute +30
+Epic +3 Attribute +40
+Legendary +4 Attribute +50
+Legendary Boosted >=5 Attribute >=50 
 
 ### Specialists Overview (AI Generated - might still contain Issues)
 ***

@@ -28,7 +28,7 @@
                 </Effect>
                 <Item>
                     <Niche>Diplomacy</Niche>
-                    <TradePrice><ModValue Insert="$althandir-altdolphin-specialists-consumptionreward-pack.TradePrice_Legendary"/></TradePrice> 
+                    <TradePrice><ModValue Insert="$TradePrice_Legendary"/></TradePrice> 
                     <BarkPool>80244</BarkPool> <!-- <GUID>80244</GUID> -->
                     <Rarity>Legendary</Rarity> 
                 </Item>
@@ -49,10 +49,10 @@
                         <Values>
                             <Condition/>
                             <ConditionObjectCount>
-                                <Amount>36</Amount>
+                                <Amount>2</Amount>
                             </ConditionObjectCount>
                             <ObjectFilter>
-                            <ObjectGUID>43099</ObjectGUID>
+                            <ObjectGUID>81911</ObjectGUID>
                             <ObjectLocations>
                                 <Template>LocationFilter</Template>
                                 <Values>

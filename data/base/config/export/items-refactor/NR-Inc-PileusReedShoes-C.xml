@@ -28,7 +28,7 @@
             </Effect>
             <Item>
                 <Niche>Economy</Niche> 
-                <TradePrice><ModValue Insert="$althandir-altdolphin-specialists-consumptionreward-pack.TradePrice_Common"/></TradePrice>
+                <TradePrice><ModValue Insert="$TradePrice_Common"/></TradePrice>
                 <BarkPool>80244</BarkPool> <!-- <GUID>80244</GUID> -->
                 <Rarity>Common</Rarity> 
             </Item>

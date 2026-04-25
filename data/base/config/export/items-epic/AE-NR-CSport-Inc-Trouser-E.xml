@@ -28,7 +28,7 @@
             </Effect>
             <Item>
                 <Niche>Finance</Niche>
-                <TradePrice><ModValue Insert="$althandir-altdolphin-specialists-consumptionreward-pack.TradePrice_Epic"/></TradePrice> 
+                <TradePrice><ModValue Insert="$TradePrice_Epic"/></TradePrice> 
                 <BarkPool>80249</BarkPool> <!-- <GUID>80249</GUID> -->
                 <Rarity>Epic</Rarity> 
             </Item>
@@ -145,7 +145,7 @@
                 <BuildingUpgrade/>
                 <DistributionUpgrade/>
                 <Buff>
-                    <SourceCategory>Item</SourceCategory>
+                    <SourceCategory>Adjacency</SourceCategory>
                 </Buff>
                 <ResidenceUpgrade>
                     <GoodConsumptionUpgrade>

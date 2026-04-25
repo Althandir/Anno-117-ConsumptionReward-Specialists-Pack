@@ -28,7 +28,7 @@
             </Effect>
             <Item>
                 <Niche>Agriculture</Niche>
-                <TradePrice><ModValue Insert="$althandir-altdolphin-specialists-consumptionreward-pack.TradePrice_Epic"/></TradePrice> 
+                <TradePrice><ModValue Insert="$TradePrice_Epic"/></TradePrice> 
                 <BarkPool>83352</BarkPool> <!-- <GUID>83352</GUID> -->
                 <Rarity>Epic</Rarity> 
             </Item>

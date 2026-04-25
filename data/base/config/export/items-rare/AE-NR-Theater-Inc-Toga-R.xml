@@ -27,7 +27,7 @@
           </Effect>
           <Item>
             <Niche>Finance</Niche>
-            <TradePrice><ModValue Insert="$althandir-altdolphin-specialists-consumptionreward-pack.TradePrice_Rare"/></TradePrice> 
+            <TradePrice><ModValue Insert="$TradePrice_Rare"/></TradePrice> 
             <BarkPool>83314</BarkPool> <!-- <GUID>83314</GUID> -->
             <Rarity>Rare</Rarity> 
           </Item>

@@ -28,7 +28,7 @@
         </Effect>
         <Item>
             <Niche>Religion</Niche> 
-            <TradePrice><ModValue Insert="$althandir-altdolphin-specialists-consumptionreward-pack.TradePrice_Legendary"/></TradePrice>
+            <TradePrice><ModValue Insert="$TradePrice_Legendary"/></TradePrice>
             <BarkPool>83342</BarkPool> <!-- <GUID>83342</GUID> -->
             <Rarity>Legendary</Rarity> 
         </Item>
@@ -161,7 +161,7 @@
                     <GoodConsumptionUpgrade>
                         <Item>
                             <ProvidedNeed>2146</ProvidedNeed>
-                            <AmountInPercent>75</AmountInPercent>
+                            <AmountInPercent>70</AmountInPercent>
                         </Item>
                     </GoodConsumptionUpgrade>
                     <NeedProvidedNeedAttributes>
@@ -179,7 +179,7 @@
                             </Money>
                             <Belief>
                                 <AmountOrPercent>
-                                    <Value>2</Value>
+                                    <Value>1</Value>
                                     <Percental>0</Percental>
                                 </AmountOrPercent>
                             </Belief>                            

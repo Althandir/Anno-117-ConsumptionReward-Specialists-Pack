@@ -28,7 +28,7 @@
             </Effect>
             <Item>
                 <Niche>Culture</Niche>
-                <TradePrice><ModValue Insert="$althandir-altdolphin-specialists-consumptionreward-pack.TradePrice_Epic"/></TradePrice> 
+                <TradePrice><ModValue Insert="$TradePrice_Epic"/></TradePrice> 
                 <BarkPool>80242</BarkPool> <!-- <GUID>80242</GUID> -->
                 <Rarity>Epic</Rarity> 
             </Item>
