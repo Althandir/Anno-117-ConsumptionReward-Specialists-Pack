@@ -20,7 +20,7 @@
 #    1600000170 - 1600000173 (AE-NR-CTHall-Inc-Roast-R)
 #    1600000182 - 1600000185 (AE-NR-Theater-Inc-Toga-R)
 #    1600000214 - 1600000215 (NR-Inc-OliveOil-R)
-#    1600000262 - 1600000265 (AE-NR-CSport-Inc-TunicTrouser-E)
+#    1600000262 - 1600000265 (AE-NR-CSport-Inc-Trouser-E)
 #    1600000313 - 1600000316 (AE-NR-ForumMar-Inc-Cheese-E)
 #    1600000044 - 1600000047 (AE-NR-Bath-Red-Soap-E)
 -->
@@ -47,7 +47,7 @@
 <Group>
     <Include File="items-epic/AE-NR-ForumMar-Inc-Cheese-E.xml" />
     <Include File="items-epic/AE-NR-Bath-Red-Soap-E.xml" />
-    <Include File="items-epic/AE-NR-CSport-Inc-TunicTrouser-E.xml" />
+    <Include File="items-epic/AE-NR-CSport-Inc-Trouser-E.xml" />
     <Include File="items-epic/AllGoods-Red-E.xml" />
     <Include File="items-epic/NR-Inc-Beer-E.xml" />
     <Include File="items-epic/NR-Inc-Garum-E.xml" />
@@ -55,21 +55,21 @@
 
 <!-- Legendary Specialists -->
 <Group>
-    <Include File="items-legendary/All-Inst-EffectRange-L.xml" />
-    <Include File="items-legendary/All-Inst-ResolverRange-L.xml" />
-    <Include File="items-legendary/EffectRangeAllShrines-L.xml" />
-    <Include File="items-legendary/PService-Wonder-ERange-L.xml" />
-    <Include File="items-legendary/PService-Wonder-ERange-E.xml" />
+    <Include File="items-legendary/NR-Inc-Tunics-L.xml" />
+    <Include File="items-legendary/NR-Inc-Sandals-L.xml" />
+    <Include File="items-legendary/NR-Inc-Necklaces-Gollum-L.xml" />
+    <Include File="items-legendary/NR-Inc-CShieldsSausage-L.xml" />
+    <Include File="items-legendary/NR-Inc-Chariots-Racer-L.xml" />
 </Group>
 
 <!-- Refactor Specialists -->
 <Group>
-    <Include File="items-refactor/All-Inst-EffectRange-R.xml" />
-    <Include File="items-refactor/All-Inst-ResolverRange-R.xml" />
-    <Include File="items-refactor/Aque-Supply-C.xml" />
-    <Include File="items-refactor/Aque-Supply-E.xml" />
-    <Include File="items-refactor/EffectRangeAllShrines-C.xml" />
-    <Include File="items-refactor/PService-ERange-R.xml" />
+    <Include File="items-refactor/NR-Soap-Inc-R.xml" />
+    <Include File="items-refactor/NR-Inc-Wigs-R.xml" />
+    <Include File="items-refactor/NR-Inc-PileusReedShoes-C.xml" />
+    <Include File="items-refactor/NR-Inc-Wine-E.xml" />
+    <Include File="items-refactor/NR-Inc-BirdTongue-R.xml" />
+    <Include File="items-refactor/NR-Inc-FineGlass-R.xml" />
 </Group>
 
 <!-- Add to Pools -->

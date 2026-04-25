@@ -1,41 +1,42 @@
 <ModOps>
-<!-- Item Definition GUID:1600000035 - 1600000036 + 1600000004 | LineID:1600000035 - 1600000036 + 1600000004 -->
+<!-- Item Definition GUID:1600000385 - 1600000387 | LineID:1600000385 - 1600000387 -->
 <Group>
 <ModOp Type="addNextSibling" GUID="106410">
     <Asset>
     <Template>ItemWithBoost</Template>
     <Values>
         <Standard>
-            <GUID>1600000035</GUID>
-            <Name>Specialist All-Inst-ResolverRange-L</Name>
-            <IconFilename>data/base/graphics/icons/roman_male_ResolverUpgradeL.png</IconFilename>
-            <InfoDescription>1600000036</InfoDescription>
+            <GUID>1600000385</GUID>
+            <Name>Specialist NR-Inc-Necklaces-Gollum-L</Name>
+            <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+            <InfoDescription>1600000386</InfoDescription>
         </Standard>
         <Effect>
-            <EffectScope>Radius</EffectScope>  
+            <EffectScope>Radius</EffectScope> 
             <SourceCategory>Item</SourceCategory>
             <Buffs>
                 <Item>
-                    <GUID>1600000036</GUID>
+                    <GUID>1600000386</GUID>
                 </Item>
             </Buffs>
             <Targets> <!-- Targets of Buff -->
                 <Item>
-                    <GUID>43102</GUID>
+                    <GUID>31046</GUID>
                 </Item>
             </Targets>
+            <HideInGovernorsBar>1</HideInGovernorsBar>
         </Effect>
         <Item>
-            <Niche>Military</Niche>
-            <TradePrice>600000</TradePrice> 
-            <BarkPool>83296</BarkPool> <!-- <GUID>83296</GUID> -->
+            <Niche>Religion</Niche> 
+            <TradePrice><ModValue Insert="$althandir-altdolphin-specialists-consumptionreward-pack.TradePrice_Legendary"/></TradePrice>
+            <BarkPool>83342</BarkPool> <!-- <GUID>83342</GUID> -->
             <Rarity>Legendary</Rarity> 
         </Item>
         <Locked>
             <DefaultLockedState>0</DefaultLockedState>
         </Locked>
         <Text>
-            <OasisId>1600000035</OasisId>
+            <OasisId>1600000385</OasisId>
         </Text>
 
         <ItemWithBoost>
@@ -43,16 +44,16 @@
             <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
             <Values>
                 <PreConditionList>
-                <!-- Condition 1 - min. 12x CityWatches on Area -->
+                <!-- Condition 1 - min. 8x Jewellers on Area -->
                     <Condition>
                         <Template>ConditionObjectCount</Template>
                         <Values>
                             <Condition/>
                             <ConditionObjectCount>
-                                <Amount>12</Amount>
+                                <Amount>8</Amount>
                             </ConditionObjectCount>
                             <ObjectFilter>
-                                <ObjectGUID>43102</ObjectGUID>
+                                <ObjectGUID>3192</ObjectGUID>
                                 <ObjectLocations>
                                     <Template>LocationFilter</Template>
                                     <Values>
@@ -78,55 +79,61 @@
             </BoostCondition>
             <BoostBuffs>
             <Item>
-                <GUID>1600000004</GUID>
+                <GUID>1600000387</GUID>
             </Item>
             </BoostBuffs>
-            <BoostHint>1600000004</BoostHint>
+            <BoostHint>1600000387</BoostHint>
         </ItemWithBoost>
 
-        </Values>
-      </Asset>
-    </ModOp>
-  </Group>
+    </Values>
+    </Asset>
+</ModOp>
+</Group>
 
-  <!-- Buff Definitions-->
-  <Group>
-    <ModOp Type="addNextSibling" GUID="81445">
+<!-- Buff Definitions-->
+<Group>
+    <!-- BuildingBuff Definition -->
+    <ModOp Type="addNextSibling" GUID="80193">
         <Asset>
-          <Template>BuildingBuff</Template>
+            <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000036</GUID>
-                    <Name>Specialist All-Inst-ResolverRange-L BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/roman_male_ResolverUpgradeL.png</IconFilename>
+                    <GUID>1600000386</GUID>
+                    <Name>Specialist NR-Inc-Necklaces-Gollum-L BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600000035</OasisId>
+                    <OasisId>1600000385</OasisId>
                 </Text>
-                <DistributionUpgrade/>
                 <Buff>
-                    <SourceCategory>Item</SourceCategory>
+                  <SourceCategory>Item</SourceCategory>
                 </Buff>
                 <ResidenceUpgrade>
                     <GoodConsumptionUpgrade>
                         <Item>
-                            <ProvidedNeed>2149</ProvidedNeed>
+                            <ProvidedNeed>2146</ProvidedNeed>
                             <AmountInPercent>50</AmountInPercent>
                         </Item>
                     </GoodConsumptionUpgrade>
                     <NeedProvidedNeedAttributes>
                         <ChangeNeedAttributesOf>
                             <Item>
-                                <ProvidedProduct>2149</ProvidedProduct> <!-- <GUID>2149</GUID> -->
+                                <ProvidedProduct>2146</ProvidedProduct> <!-- <GUID>2146</GUID> -->
                             </Item>
                         </ChangeNeedAttributesOf>
                         <AdditionalNeedAttributes>
-                            <Health>
+                            <Money>
                                 <AmountOrPercent>
-                                    <Value>2</Value>
+                                    <Value>4</Value>
                                     <Percental>0</Percental>
                                 </AmountOrPercent>
-                            </Health>
+                            </Money>
+                            <Belief>
+                                <AmountOrPercent>
+                                    <Value>1</Value>
+                                    <Percental>0</Percental>
+                                </AmountOrPercent>
+                            </Belief>
                         </AdditionalNeedAttributes>
                     </NeedProvidedNeedAttributes>
                 </ResidenceUpgrade>
@@ -134,49 +141,60 @@
         </Asset>
     </ModOp>
 
-    <ModOp Type="addNextSibling" GUID="81445">
+    <!-- Boosted BuildingBuff Definition -->
+    <ModOp Type="addNextSibling" GUID="80193">
         <Asset>
-          <Template>BuildingBuff</Template>
+            <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000004</GUID>
-                    <Name>Specialist All-Inst-ResolverRange-L Boosted BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/roman_male_ResolverUpgradeL.png</IconFilename>
+                    <GUID>1600000387</GUID>
+                    <Name>Specialist NR-Inc-Necklaces-Gollum-L BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600000035</OasisId>
+                    <OasisId>1600000385</OasisId>
                 </Text>
                 <Buff>
-                    <SourceCategory>Item</SourceCategory>
-                    <IsStackable>0</IsStackable>
+                  <SourceCategory>Item</SourceCategory>
                 </Buff>
                 <ResidenceUpgrade>
                     <GoodConsumptionUpgrade>
                         <Item>
-                            <ProvidedNeed>2149</ProvidedNeed>
-                            <AmountInPercent>50</AmountInPercent>
+                            <ProvidedNeed>2146</ProvidedNeed>
+                            <AmountInPercent>75</AmountInPercent>
                         </Item>
                     </GoodConsumptionUpgrade>
                     <NeedProvidedNeedAttributes>
                         <ChangeNeedAttributesOf>
                             <Item>
-                                <ProvidedProduct>2149</ProvidedProduct> <!-- <GUID>2149</GUID> -->
+                                <ProvidedProduct>2146</ProvidedProduct> <!-- <GUID>2146</GUID> -->
                             </Item>
                         </ChangeNeedAttributesOf>
                         <AdditionalNeedAttributes>
-                            <Health>
+                            <Money>
+                                <AmountOrPercent>
+                                    <Value>4</Value>
+                                    <Percental>0</Percental>
+                                </AmountOrPercent>
+                            </Money>
+                            <Belief>
                                 <AmountOrPercent>
                                     <Value>2</Value>
                                     <Percental>0</Percental>
                                 </AmountOrPercent>
-                            </Health>
+                            </Belief>                            
+                            <Prestige>
+                                <AmountOrPercent>
+                                    <Value>2</Value>
+                                    <Percental>0</Percental>
+                                </AmountOrPercent>
+                            </Prestige>
                         </AdditionalNeedAttributes>
                     </NeedProvidedNeedAttributes>
                 </ResidenceUpgrade>
             </Values>
         </Asset>
     </ModOp>
-
 
   </Group>
 

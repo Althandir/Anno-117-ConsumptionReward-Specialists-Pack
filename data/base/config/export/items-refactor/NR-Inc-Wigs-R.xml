@@ -7,8 +7,8 @@
             <Values>
             <Standard>
                 <GUID>1600000158</GUID>
-                <Name>Specialist All-Inst-ResolverRange-R</Name>
-                <IconFilename>data/base/graphics/icons/roman_male_ResolverRangeR.png</IconFilename>
+                <Name>Specialist NR-Inc-Wigs-R</Name>
+                <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
                 <InfoDescription>1600000159</InfoDescription>
             </Standard>
             <Effect>
@@ -28,7 +28,7 @@
             </Effect>
             <Item>
                 <Niche>Military</Niche>
-                <TradePrice>25000</TradePrice> 
+                <TradePrice><ModValue Insert="$althandir-altdolphin-specialists-consumptionreward-pack.TradePrice_Rare"/></TradePrice> 
                 <BarkPool>83301</BarkPool> <!-- <GUID>83301</GUID> -->
                 <Rarity>Rare</Rarity> 
             </Item>
@@ -51,8 +51,8 @@
                 <Values>
                     <Standard>
                         <GUID>1600000159</GUID>
-                        <Name>Specialist All-Inst-ResolverRange-R BuildingBuff</Name>
-                        <IconFilename>data/base/graphics/icons/roman_male_ResolverRangeR.png</IconFilename>
+                        <Name>Specialist NR-Inc-Wigs-R BuildingBuff</Name>
+                        <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
                     </Standard>
                     <Text>
                         <OasisId>1600000158</OasisId>
@@ -63,23 +63,29 @@
                     <ResidenceUpgrade>
                         <GoodConsumptionUpgrade>
                             <Item>
-                                <ProvidedNeed>2149</ProvidedNeed>
-                                <AmountInPercent>50</AmountInPercent>
+                                <ProvidedNeed>31708</ProvidedNeed>
+                                <AmountInPercent>30</AmountInPercent>
                             </Item>
                         </GoodConsumptionUpgrade>
                         <NeedProvidedNeedAttributes>
                             <ChangeNeedAttributesOf>
                                 <Item>
-                                    <ProvidedProduct>2149</ProvidedProduct> <!-- <GUID>2149</GUID> -->
+                                    <ProvidedProduct>31708</ProvidedProduct> <!-- <GUID>31708</GUID> -->
                                 </Item>
                             </ChangeNeedAttributesOf>
                             <AdditionalNeedAttributes>
                                 <Health>
                                     <AmountOrPercent>
-                                        <Value>2</Value>
+                                        <Value>-1</Value>
                                         <Percental>0</Percental>
                                     </AmountOrPercent>
                                 </Health>
+                                <FireSafety>
+                                    <AmountOrPercent>
+                                        <Value>3</Value>
+                                        <Percental>0</Percental>
+                                    </AmountOrPercent>
+                                </FireSafety>
                             </AdditionalNeedAttributes>
                         </NeedProvidedNeedAttributes>
                     </ResidenceUpgrade>

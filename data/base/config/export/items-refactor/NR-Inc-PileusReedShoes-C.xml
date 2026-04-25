@@ -1,22 +1,22 @@
 <ModOps>
-<!-- Item Definition GUID:1600000695 - 1600000696 | LineID:1600000695 - 1600000696 -->
+<!-- Item Definition GUID:1600000031 - 1600000032 | LineID:1600000031 - 1600000032 -->
     <Group>
         <ModOp Type="addNextSibling" GUID="106410">
         <Asset>
             <Template>Item</Template>
             <Values>
             <Standard>
-                <GUID>1600000695</GUID>
-                <Name>Specialist Aque-Supply-E</Name>
-                <IconFilename>data/base/graphics/icons/r_f_Aque-Supply-E.png</IconFilename>
-                <InfoDescription>1600000696</InfoDescription>
+                <GUID>1600000031</GUID>
+                <Name>Specialist NR-Inc-PileusReedShoes-C</Name>
+                <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+                <InfoDescription>1600000032</InfoDescription>
             </Standard>
             <Effect>
                 <EffectScope>Radius</EffectScope> 
                 <SourceCategory>Item</SourceCategory>
                 <Buffs>
                     <Item>
-                        <GUID>1600000696</GUID>
+                        <GUID>1600000032</GUID>
                     </Item>
                 </Buffs>
                 <Targets> <!-- Targets of Buff -->
@@ -28,15 +28,15 @@
             </Effect>
             <Item>
                 <Niche>Economy</Niche> 
-                <TradePrice>80000</TradePrice>
-                <BarkPool>83338</BarkPool> <!-- <GUID>83338</GUID> -->
-                <Rarity>Epic</Rarity> 
+                <TradePrice><ModValue Insert="$althandir-altdolphin-specialists-consumptionreward-pack.TradePrice_Common"/></TradePrice>
+                <BarkPool>80244</BarkPool> <!-- <GUID>80244</GUID> -->
+                <Rarity>Common</Rarity> 
             </Item>
             <Locked>
                 <DefaultLockedState>0</DefaultLockedState>
             </Locked>
             <Text>
-                <OasisId>1600000695</OasisId>
+                <OasisId>1600000031</OasisId>
             </Text>
             </Values>
         </Asset>
@@ -51,36 +51,50 @@
             <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000696</GUID>
-                    <Name>Specialist Aque-Supply-E BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/r_f_Aque-Supply-E.png</IconFilename>
+                    <GUID>1600000032</GUID>
+                    <Name>Specialist NR-Inc-PileusReedShoes-C BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600000695</OasisId>
+                    <OasisId>1600000031</OasisId>
                 </Text>
+                <DistributionUpgrade/>
                 <Buff>
                     <SourceCategory>Item</SourceCategory>
                 </Buff>
                 <ResidenceUpgrade>
                     <GoodConsumptionUpgrade>
                         <Item>
-                            <ProvidedNeed>2149</ProvidedNeed>
-                            <AmountInPercent>50</AmountInPercent>
+                            <ProvidedNeed>2159</ProvidedNeed>
+                            <AmountInPercent>15</AmountInPercent>
+                        </Item>
+                        <Item>
+                            <ProvidedNeed>2142</ProvidedNeed>
+                            <AmountInPercent>15</AmountInPercent>
                         </Item>
                     </GoodConsumptionUpgrade>
                     <NeedProvidedNeedAttributes>
                         <ChangeNeedAttributesOf>
                             <Item>
-                                <ProvidedProduct>2149</ProvidedProduct> <!-- <GUID>2149</GUID> -->
+                                <ProvidedProduct>2159</ProvidedProduct> <!-- <GUID>2159</GUID> -->
+                            </Item>
+                            <Item>
+                                <ProvidedProduct>2142</ProvidedProduct> <!-- <GUID>2142</GUID> -->
                             </Item>
                         </ChangeNeedAttributesOf>
                         <AdditionalNeedAttributes>
-                            <Health>
+                            <Population>
                                 <AmountOrPercent>
                                     <Value>2</Value>
                                     <Percental>0</Percental>
                                 </AmountOrPercent>
-                            </Health>
+                            </Population>
+                            <Money>
+                                <AmountOrPercent>
+                                    <Value>-1</Value>
+                                    <Percental>0</Percental>
+                                </AmountOrPercent>
+                            </Money>
                         </AdditionalNeedAttributes>
                     </NeedProvidedNeedAttributes>
                 </ResidenceUpgrade>

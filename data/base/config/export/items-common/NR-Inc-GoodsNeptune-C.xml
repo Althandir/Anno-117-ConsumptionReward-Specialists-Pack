@@ -15,19 +15,20 @@
                 <EffectScope>Radius</EffectScope>  
                 <SourceCategory>Item</SourceCategory>
                 <Buffs>
-                <Item>
-                    <GUID>1600000575</GUID>
-                </Item>
+                    <Item>
+                        <GUID>1600000575</GUID>
+                    </Item>
                 </Buffs>
                 <Targets> <!-- Targets of Buff -->
-                <Item>
-                    <GUID>31046</GUID>
-                </Item>
+                    <Item>
+                        <GUID>31046</GUID>
+                    </Item>
                 </Targets>
+                <HideInGovernorsBar>1</HideInGovernorsBar>
             </Effect>
             <Item>
                 <Niche>Religion</Niche>
-                <TradePrice>2500</TradePrice> 
+                <TradePrice><ModValue Insert="$althandir-altdolphin-specialists-consumptionreward-pack.TradePrice_Common"/></TradePrice> 
                 <BarkPool>83298</BarkPool> <!-- <GUID>83298</GUID> -->
                 <Rarity>Common</Rarity> 
             </Item>
@@ -67,15 +68,15 @@
                     <GoodConsumptionUpgrade>
                         <Item>
                             <ProvidedNeed>2088</ProvidedNeed>
-                            <AmountInPercent>25</AmountInPercent>
+                            <AmountInPercent>15</AmountInPercent>
                         </Item>
                         <Item>
                             <ProvidedNeed>2097</ProvidedNeed>
-                            <AmountInPercent>25</AmountInPercent>
+                            <AmountInPercent>15</AmountInPercent>
                         </Item>
                         <Item>
                             <ProvidedNeed>2139</ProvidedNeed>
-                            <AmountInPercent>25</AmountInPercent>
+                            <AmountInPercent>15</AmountInPercent>
                         </Item>
                     </GoodConsumptionUpgrade>
                     <NeedProvidedNeedAttributes>

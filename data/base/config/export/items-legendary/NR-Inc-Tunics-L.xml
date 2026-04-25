@@ -7,8 +7,8 @@
     <Values>
         <Standard>
             <GUID>1600000500</GUID>
-            <Name>Specialist All-Inst-EffectRange-L</Name>
-            <IconFilename>data/base/graphics/icons/m_CityWatchEffectRangeL.png</IconFilename>
+            <Name>Specialist NR-Inc-Tunics-L</Name>
+            <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
             <InfoDescription>1600000501</InfoDescription>
         </Standard>
         <Effect>
@@ -24,10 +24,11 @@
                     <GUID>31046</GUID>
                 </Item>
             </Targets>
+            <HideInGovernorsBar>1</HideInGovernorsBar>
         </Effect>
         <Item>
-            <Niche>Military</Niche>
-            <TradePrice>600000</TradePrice> 
+            <Niche>Economy</Niche>
+            <TradePrice><ModValue Insert="$althandir-altdolphin-specialists-consumptionreward-pack.TradePrice_Legendary"/></TradePrice> 
             <BarkPool>80246</BarkPool> <!-- <GUID>80246</GUID> -->
             <Rarity>Legendary</Rarity> 
         </Item>
@@ -43,16 +44,16 @@
             <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
             <Values>
                 <PreConditionList>
-                <!-- Condition 1 - min. 12x Towers on Area -->
+                <!-- Condition 1 - min. 3x Clothier on Area -->
                     <Condition>
                         <Template>ConditionObjectCount</Template>
                         <Values>
                             <Condition/>
                             <ConditionObjectCount>
-                                <Amount>12</Amount>
+                                <Amount>3</Amount>
                             </ConditionObjectCount>
                             <ObjectFilter>
-                                <ObjectGUID>29318</ObjectGUID>
+                                <ObjectGUID>50611</ObjectGUID>
                                 <ObjectLocations>
                                     <Template>LocationFilter</Template>
                                     <Values>
@@ -98,8 +99,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000501</GUID>
-                    <Name>Specialist All-Inst-EffectRange-L BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/m_CityWatchEffectRangeL.png</IconFilename>
+                    <Name>Specialist NR-Inc-Tunics-L BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000500</OasisId>
@@ -110,23 +111,35 @@
                 <ResidenceUpgrade>
                     <GoodConsumptionUpgrade>
                         <Item>
-                            <ProvidedNeed>2149</ProvidedNeed>
+                            <ProvidedNeed>2141</ProvidedNeed>
                             <AmountInPercent>50</AmountInPercent>
                         </Item>
                     </GoodConsumptionUpgrade>
                     <NeedProvidedNeedAttributes>
                         <ChangeNeedAttributesOf>
                             <Item>
-                                <ProvidedProduct>2149</ProvidedProduct> <!-- <GUID>2149</GUID> -->
+                                <ProvidedProduct>2141</ProvidedProduct> <!-- <GUID>2141</GUID> -->
                             </Item>
                         </ChangeNeedAttributesOf>
                         <AdditionalNeedAttributes>
-                            <Health>
+                            <Population>
                                 <AmountOrPercent>
                                     <Value>2</Value>
                                     <Percental>0</Percental>
                                 </AmountOrPercent>
+                            </Population>
+                            <Health>
+                                <AmountOrPercent>
+                                    <Value>1</Value>
+                                    <Percental>0</Percental>
+                                </AmountOrPercent>
                             </Health>
+                            <Knowledge>
+                                <AmountOrPercent>
+                                    <Value>1</Value>
+                                    <Percental>0</Percental>
+                                </AmountOrPercent>
+                            </Knowledge>
                         </AdditionalNeedAttributes>
                     </NeedProvidedNeedAttributes>
                 </ResidenceUpgrade>
@@ -140,8 +153,8 @@
             <Values>
             <Standard>
                 <GUID>1600000502</GUID>
-                <Name>Specialist All-Inst-EffectRange-L Boosted BuildingBuff</Name>
-                <IconFilename>data/base/graphics/icons/m_CityWatchEffectRangeL.png</IconFilename>
+                <Name>Specialist NR-Inc-Tunics-L Boosted BuildingBuff</Name>
+                <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
             </Standard>
             <Text>
                 <OasisId>1600000500</OasisId>
@@ -152,23 +165,35 @@
             <ResidenceUpgrade>
                 <GoodConsumptionUpgrade>
                     <Item>
-                        <ProvidedNeed>2149</ProvidedNeed>
+                        <ProvidedNeed>2141</ProvidedNeed>
                         <AmountInPercent>50</AmountInPercent>
                     </Item>
                 </GoodConsumptionUpgrade>
                 <NeedProvidedNeedAttributes>
                     <ChangeNeedAttributesOf>
                         <Item>
-                            <ProvidedProduct>2149</ProvidedProduct> <!-- <GUID>2149</GUID> -->
+                            <ProvidedProduct>2141</ProvidedProduct> <!-- <GUID>2141</GUID> -->
                         </Item>
                     </ChangeNeedAttributesOf>
                     <AdditionalNeedAttributes>
+                        <Population>
+                            <AmountOrPercent>
+                                <Value>3</Value>
+                                <Percental>0</Percental>
+                            </AmountOrPercent>
+                        </Population>
                         <Health>
                             <AmountOrPercent>
-                                <Value>2</Value>
+                                <Value>1</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
                         </Health>
+                        <Knowledge>
+                            <AmountOrPercent>
+                                <Value>1</Value>
+                                <Percental>0</Percental>
+                            </AmountOrPercent>
+                        </Knowledge>
                     </AdditionalNeedAttributes>
                 </NeedProvidedNeedAttributes>
             </ResidenceUpgrade>

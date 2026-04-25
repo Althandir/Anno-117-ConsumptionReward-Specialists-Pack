@@ -7,25 +7,30 @@
             <Values>
                 <Standard>
                     <GUID>1600000037</GUID>
-                    <Name>Specialist PService-Wonder-ERange-E</Name>
-                    <IconFilename>data/base/graphics/icons/r_nb_ERange-E.png</IconFilename>
+                    <Name>Specialist NR-Inc-Chariots-Racer-L</Name>
+                    <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
                     <InfoDescription>1600000038</InfoDescription>
                 </Standard>
                 <Effect>
-                    <EffectScope>Area</EffectScope>  
+                    <EffectScope>Radius</EffectScope>  
                     <SourceCategory>Item</SourceCategory>
                     <Buffs>
                         <Item>
                             <GUID>1600000038</GUID>
                         </Item>
                     </Buffs>
+                    <Targets> <!-- Targets of Buff -->
+                        <Item>
+                            <GUID>31046</GUID>
+                        </Item>
+                    </Targets>
                     <HideInGovernorsBar>1</HideInGovernorsBar>
                 </Effect>
                 <Item>
                     <Niche>Diplomacy</Niche>  
-                    <TradePrice>600000</TradePrice> 
+                    <TradePrice><ModValue Insert="$althandir-altdolphin-specialists-consumptionreward-pack.TradePrice_Legendary"/></TradePrice> 
                     <BarkPool>80239</BarkPool> <!-- <GUID>80239</GUID> -->
-                    <Rarity>Epic</Rarity> 
+                    <Rarity>Legendary</Rarity> 
                 </Item>
                 <Locked>
                     <DefaultLockedState>0</DefaultLockedState>
@@ -39,14 +44,14 @@
                     <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                     <Values>
                         <PreConditionList>
-                        <!-- Condition 1 - 5000 Belief -->
+                        <!-- Condition 1 - 7500 Income -->
                         <Condition>
                         <Template>ConditionNeedAttributeCounter</Template>
                         <Values>
                             <Condition/>
                             <ConditionNeedAttributeCounter>
-                            <NeedAttributeType>Belief</NeedAttributeType>
-                            <NeedAttributeAmount>5000</NeedAttributeAmount>
+                            <NeedAttributeType>Money</NeedAttributeType>
+                            <NeedAttributeAmount>7500</NeedAttributeAmount>
                             </ConditionNeedAttributeCounter>
                             <ConditionLocationFilter>
                             <LocationFilter>
@@ -69,13 +74,13 @@
                             </ConditionLocationFilter>
                         </Values>
                         </Condition>
-                        <!-- Condition 2 - 5000 Population -->
+                        <!-- Condition 2 - 5000 Knowledge -->
                         <Condition>
                         <Template>ConditionNeedAttributeCounter</Template>
                         <Values>
                             <Condition/>
                             <ConditionNeedAttributeCounter>
-                            <NeedAttributeType>Population</NeedAttributeType>
+                            <NeedAttributeType>Knowledge</NeedAttributeType>
                             <NeedAttributeAmount>5000</NeedAttributeAmount>
                             </ConditionNeedAttributeCounter>
                             <ConditionLocationFilter>
@@ -124,8 +129,8 @@
             <Values>
                 <Standard>
                 <GUID>1600000038</GUID>
-                <Name>Specialist PService-Wonder-ERange-E BuildingBuff</Name>
-                <IconFilename>data/base/graphics/icons/r_nb_ERange-E.png</IconFilename>
+                <Name>Specialist NR-Inc-Chariots-Racer-L BuildingBuff</Name>
+                <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000037</OasisId>
@@ -136,23 +141,41 @@
                 <ResidenceUpgrade>
                     <GoodConsumptionUpgrade>
                         <Item>
-                            <ProvidedNeed>2149</ProvidedNeed>
+                            <ProvidedNeed>2163</ProvidedNeed>
                             <AmountInPercent>50</AmountInPercent>
                         </Item>
                     </GoodConsumptionUpgrade>
                     <NeedProvidedNeedAttributes>
                         <ChangeNeedAttributesOf>
                             <Item>
-                                <ProvidedProduct>2149</ProvidedProduct> <!-- <GUID>2149</GUID> -->
+                                <ProvidedProduct>2163</ProvidedProduct> <!-- <GUID>2163</GUID> -->
                             </Item>
                         </ChangeNeedAttributesOf>
                         <AdditionalNeedAttributes>
-                            <Health>
+                            <Population>
+                                <AmountOrPercent>
+                                    <Value>-2</Value>
+                                    <Percental>0</Percental>
+                                </AmountOrPercent>
+                            </Population>
+                            <Happiness>
+                                <AmountOrPercent>
+                                    <Value>1</Value>
+                                    <Percental>0</Percental>
+                                </AmountOrPercent>
+                            </Happiness>
+                            <Prestige>
                                 <AmountOrPercent>
                                     <Value>2</Value>
                                     <Percental>0</Percental>
                                 </AmountOrPercent>
-                            </Health>
+                            </Prestige>
+                            <Knowledge>
+                                <AmountOrPercent>
+                                    <Value>3</Value>
+                                    <Percental>0</Percental>
+                                </AmountOrPercent>
+                            </Knowledge>
                         </AdditionalNeedAttributes>
                     </NeedProvidedNeedAttributes>
                 </ResidenceUpgrade>
@@ -166,8 +189,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000039</GUID>
-                    <Name>Specialist PService-Wonder-ERange-E Boosted BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/r_nb_ERange-E.png</IconFilename>
+                    <Name>Specialist NR-Inc-Chariots-Racer-L Boosted BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000037</OasisId>
@@ -178,23 +201,41 @@
                 <ResidenceUpgrade>
                     <GoodConsumptionUpgrade>
                         <Item>
-                            <ProvidedNeed>2149</ProvidedNeed>
+                            <ProvidedNeed>2163</ProvidedNeed>
                             <AmountInPercent>50</AmountInPercent>
                         </Item>
                     </GoodConsumptionUpgrade>
                     <NeedProvidedNeedAttributes>
                         <ChangeNeedAttributesOf>
                             <Item>
-                                <ProvidedProduct>2149</ProvidedProduct> <!-- <GUID>2149</GUID> -->
+                                <ProvidedProduct>2163</ProvidedProduct> <!-- <GUID>2163</GUID> -->
                             </Item>
                         </ChangeNeedAttributesOf>
                         <AdditionalNeedAttributes>
-                            <Health>
+                            <Population>
+                                <AmountOrPercent>
+                                    <Value>-2</Value>
+                                    <Percental>0</Percental>
+                                </AmountOrPercent>
+                            </Population>
+                            <Happiness>
                                 <AmountOrPercent>
                                     <Value>2</Value>
                                     <Percental>0</Percental>
                                 </AmountOrPercent>
-                            </Health>
+                            </Happiness>
+                            <Prestige>
+                                <AmountOrPercent>
+                                    <Value>2</Value>
+                                    <Percental>0</Percental>
+                                </AmountOrPercent>
+                            </Prestige>
+                            <Knowledge>
+                                <AmountOrPercent>
+                                    <Value>4</Value>
+                                    <Percental>0</Percental>
+                                </AmountOrPercent>
+                            </Knowledge>
                         </AdditionalNeedAttributes>
                     </NeedProvidedNeedAttributes>
                 </ResidenceUpgrade>

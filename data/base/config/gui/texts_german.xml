@@ -96,7 +96,7 @@
         </ModOp>
     </Group>
     
-    <!-- Specialist AE-NR-CSport-Inc-TunicTrouser-E -->
+    <!-- Specialist AE-NR-CSport-Inc-Trouser-E -->
     <Group>
         <ModOp Add="/TextExport/Texts">
         <!-- Title -->
@@ -106,7 +106,7 @@
         </Text>
         <!-- Description -->
         <Text>
-            <Text>Bringt die Leute so richtig ins Schwitzen. Jeder sollte extra Tuniken und Hosten parat haben. &#xD;Hinweis: Der Effekt wirkt auf alle Wohngebäude in Straßenreichweite der Wettkampfwiese.&#xD;(Consumption-Pack)</Text>
+            <Text>Bringt die Leute so richtig ins Schwitzen. Jeder sollte ein extra Set an Hosten parat haben. &#xD;Hinweis: Der Effekt wirkt auf alle Wohngebäude in Straßenreichweite der Wettkampfwiese.&#xD;(Consumption-Pack)</Text>
             <LineId>1600000263</LineId> 
         </Text>
         </ModOp>
@@ -256,7 +256,7 @@
         </ModOp>
     </Group>
 
-    <!-- Specialist EffectRangeAllShrines-C -->
+    <!-- Specialist NR-Inc-BirdTongue-R -->
     <Group>
     <ModOp Add="/TextExport/Texts">
         <!-- Title -->
@@ -272,7 +272,7 @@
     </ModOp>
     </Group>
 
-    <!-- Specialist EffectRangeAllShrines-L -->
+    <!-- Specialist NR-Inc-Necklaces-Gollum-L -->
     <Group>
     <ModOp Add="/TextExport/Texts">
         <!-- Title -->
@@ -293,7 +293,7 @@
     </ModOp>
     </Group>
 
-    <!-- Specialist PService-Wonder-ERange-E -->
+    <!-- Specialist NR-Inc-Chariots-Racer-L -->
     <Group>
         <ModOp Add="/TextExport/Texts">
         <!-- Title -->
@@ -309,7 +309,7 @@
         </ModOp>
     </Group>
 
-    <!-- Specialist PService-ERange-R -->
+    <!-- Specialist NR-Inc-FineGlass-R -->
     <Group>
         <ModOp Add="/TextExport/Texts">
         <!-- Title -->
@@ -325,7 +325,7 @@
         </ModOp>
     </Group>
 
-    <!-- Specialist PService-Wonder-ERange-L -->
+    <!-- Specialist NR-Inc-CShieldsSausage-L -->
     <Group>
         <ModOp Add="/TextExport/Texts">
         <!-- Title -->
@@ -346,7 +346,7 @@
         </ModOp>
     </Group>
 
-    <!-- Specialist Aque-Supply-C -->
+    <!-- Specialist NR-Inc-PileusReedShoes-C -->
     <Group>
         <ModOp Add="/TextExport/Texts">
         <!-- Title -->
@@ -362,7 +362,7 @@
         </ModOp>
     </Group>
 
-    <!-- Specialist Aque-Supply-E -->
+    <!-- Specialist NR-Inc-Wine-E -->
     <Group>
         <ModOp Add="/TextExport/Texts">
         <!-- Title -->
@@ -378,7 +378,7 @@
         </ModOp>
     </Group>
 
-    <!-- Specialist All-Inst-EffectRange-R -->
+    <!-- Specialist NR-Soap-Inc-R -->
     <Group>
         <ModOp Add="/TextExport/Texts">
         <!-- Title -->
@@ -394,7 +394,7 @@
         </ModOp>
     </Group>  
     
-    <!-- Specialist All-Inst-EffectRange-L -->
+    <!-- Specialist NR-Inc-Tunics-L -->
     <Group>
         <ModOp Add="/TextExport/Texts">
         <!-- Title -->
@@ -415,7 +415,7 @@
         </ModOp>
     </Group>
 
-    <!-- Specialist All-Inst-ResolverRange-R -->
+    <!-- Specialist NR-Inc-Wigs-R -->
     <Group>
         <ModOp Add="/TextExport/Texts">
         <!-- Title -->
@@ -431,7 +431,7 @@
         </ModOp>
     </Group>
 
-    <!-- Specialist All-Inst-ResolverRange-L -->
+    <!-- Specialist NR-Inc-Sandals-L -->
     <Group>
         <ModOp Add="/TextExport/Texts">
         <!-- Title -->

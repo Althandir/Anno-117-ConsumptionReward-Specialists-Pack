@@ -7,12 +7,12 @@
             <Values>
             <Standard>
                 <GUID>1600000196</GUID>
-                <Name>Specialist All-Inst-EffectRange-R</Name>
-                <IconFilename>data/base/graphics/icons/m_CityWatchEffectRangeR.png</IconFilename>
+                <Name>Specialist NR-Soap-Inc-R</Name>
+                <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
                 <InfoDescription>1600000197</InfoDescription>
             </Standard>
             <Effect>
-                <EffectScope>Area</EffectScope>  
+                <EffectScope>Radius</EffectScope>  
                 <SourceCategory>Item</SourceCategory>
                 <Buffs>
                     <Item>
@@ -27,8 +27,8 @@
                 <HideInGovernorsBar>1</HideInGovernorsBar>
             </Effect>
             <Item>
-                <Niche>Military</Niche>
-                <TradePrice>25000</TradePrice> 
+                <Niche>Diplomacy</Niche>
+                <TradePrice><ModValue Insert="$althandir-altdolphin-specialists-consumptionreward-pack.TradePrice_Rare"/></TradePrice> 
                 <BarkPool>80246</BarkPool> <!-- <GUID>80246</GUID> -->
                 <Rarity>Rare</Rarity> 
             </Item>
@@ -52,8 +52,8 @@
             <Values>
             <Standard>
                 <GUID>1600000197</GUID>
-                <Name>Specialist All-Inst-EffectRange-R BuildingBuff</Name>
-                <IconFilename>data/base/graphics/icons/m_CityWatchEffectRangeR.png</IconFilename>
+                <Name>Specialist NR-Soap-Inc-R BuildingBuff</Name>
+                <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
             </Standard>
             <Text>
                 <OasisId>1600000196</OasisId>
@@ -64,23 +64,29 @@
             <ResidenceUpgrade>
                 <GoodConsumptionUpgrade>
                     <Item>
-                        <ProvidedNeed>2149</ProvidedNeed>
-                        <AmountInPercent>50</AmountInPercent>
+                        <ProvidedNeed>2143</ProvidedNeed>
+                        <AmountInPercent>30</AmountInPercent>
                     </Item>
                 </GoodConsumptionUpgrade>
                 <NeedProvidedNeedAttributes>
                     <ChangeNeedAttributesOf>
                         <Item>
-                            <ProvidedProduct>2149</ProvidedProduct> <!-- <GUID>2149</GUID> -->
+                            <ProvidedProduct>2143</ProvidedProduct> <!-- <GUID>2143</GUID> -->
                         </Item>
                     </ChangeNeedAttributesOf>
                     <AdditionalNeedAttributes>
                         <Health>
                             <AmountOrPercent>
-                                <Value>2</Value>
+                                <Value>-1</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
                         </Health>
+                        <Prestige>
+                            <AmountOrPercent>
+                                <Value>4</Value>
+                                <Percental>0</Percental>
+                            </AmountOrPercent>
+                        </Prestige>
                     </AdditionalNeedAttributes>
                 </NeedProvidedNeedAttributes>
             </ResidenceUpgrade>

@@ -2,6 +2,14 @@
 This mod adds Specialists with focus on Consuption and their additional Attributes into Anno 117. This Mod is part as a submod of "Extended Specialists Mod".
 ***
 
+General Balancing "Guideline":
+Rarity Total Attribute Consumption Inc
+Common +1 Attribute +15
+Rare +2-3 Attribute +30
+Epic +3-4 Attribute +40
+Legendary +4-5 Attribute +50
+Legendary Boosted +5-6 Attribute +50-60
+
 ### Specialists Overview (AI Generated - might still contain Issues)
 ***
 ### Common Specialists
@@ -31,7 +39,7 @@ This mod adds Specialists with focus on Consuption and their additional Attribut
 | ![data/base/graphics/icons/m_AE-NR-Bath-Red-Soap-E.png](data/base/graphics/icons/m_AE-NR-Bath-Red-Soap-E.png) | 1600000044 | Specialist AE-NR-Bath-Red-Soap-E | Valerius Saponius, Master of the Soap | By using soap in big pools of water we can clean so many people at once. Hint: The Effects are applying to every building in Street Range. | Residences in Range of: Baths | • -15% Consumption of Soap<br>All mentioned Goods grant:<br>• Health: +1 |
 | ![data/base/graphics/icons/m_NR-Inc-Garum.png](data/base/graphics/icons/m_NR-Inc-Garum.png) | 1600000116 | Specialist NR-Inc-GoodsMercury-R | Sericus Garum, Far Eastern Spicer | Adds a particularly salty flavor to everything. Creates a taste of the desert on the tongue. (Consumption-Pack) | Residences | • +50% Consumption of Garum<br>All mentioned Goods grant:<br>• Money: +3<br>• Happiness: +2<br>• Health: -1 |
 | ![data/base/graphics/icons/c_m_AE-NR-ForumMar-Inc-Cheese-E.png](data/base/graphics/icons/c_m_AE-NR-ForumMar-Inc-Cheese-E.png) | 1600000313 | Specialist AE-NR-ForumMar-Inc-Cheese-E | Cassiocaseos, Culinarius Casei | Came up with the idea of melting cheese and combining it with sweet fruit. Some love this experimental cuisine, others hate it and give free rein to their anger. (Consumption-Pack) | Residences in Range of: Markets, Forum, Alder Council | • +50% Consumption of Cheese<br>All mentioned Goods grant:<br>• Money: +2<br>• Prestige: +1<br>• Happiness: -2<br>• Knowledge: +2 |
-| ![data/base/graphics/icons/c_m_AE-NR-CSport-Inc-TunicTrouser-E.png](data/base/graphics/icons/c_m_AE-NR-CSport-Inc-TunicTrouser-E.png) | 1600000262 | Specialist AE-NR-CSport-Inc-TunicTrouser-E | Vercatullos, Sweaty Trainer | He will really make people sweaty. Everyone should have extra tunics and robes ready. Hint: The effect applies to all residential buildings within Street Range of the Sportsground. (Consumption-Pack) | Residences in Range of: Training Grounds | • +50% Consumption of:<br>• Tunics<br>• Trousers<br>All mentioned Goods grant:<br>• Population: +1<br>• Money: +2 |
+| ![data/base/graphics/icons/c_m_AE-NR-CSport-Inc-Trouser-E.png](data/base/graphics/icons/c_m_AE-NR-CSport-Inc-Trouser-E.png) | 1600000262 | Specialist AE-NR-CSport-Inc-Trouser-E | Vercatullos, Sweaty Trainer | He will really make people sweaty. Everyone should have extra tunics and robes ready. Hint: The effect applies to all residential buildings within Street Range of the Sportsground. (Consumption-Pack) | Residences in Range of: Training Grounds | • +50% Consumption of:<br>• Tunics<br>• Trousers<br>All mentioned Goods grant:<br>• Population: +1<br>• Money: +2 |
 ***
 ### Legendary Specialists
 None
