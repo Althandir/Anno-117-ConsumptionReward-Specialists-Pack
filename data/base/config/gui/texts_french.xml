@@ -255,7 +255,7 @@
         </Text>
         </ModOp>
     </Group>
-    
+
     <!-- Specialist NR-Inc-BirdTongue-R -->
     <Group>
     <ModOp Add="/TextExport/Texts">
@@ -303,7 +303,7 @@
         </Text>
         <!-- Description -->
         <Text>
-            <Text>Chariots as everyday vehicles? Vipera makes it possible!&#xD;Hint: This Effect can Stack.</Text>
+            <Text>Chariots as everyday vehicles? Vipera makes it possible!&#xD;(Consumption-Pack)</Text>
             <LineId>1600000038</LineId> 
         </Text>
         <!-- Boosted Hint -->
@@ -324,7 +324,7 @@
         </Text>
         <!-- Description -->
         <Text>
-            <Text>"Ahhh... not again! Damn it! I broke the glass again!"&#xD;Hint: This Effect can Stack.</Text>
+            <Text>"Ahhh... not again! Damn it! I broke the glass again!"&#xD;(Consumption-Pack)</Text>
             <LineId>1600000161</LineId> 
         </Text>
         </ModOp>
