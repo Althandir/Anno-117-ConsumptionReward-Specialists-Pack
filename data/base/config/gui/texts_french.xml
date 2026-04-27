@@ -5,12 +5,12 @@
         <ModOp Add="/TextExport/Texts">
         <!-- Title -->
         <Text>
-            <Text>Valerius Saponius, maître du savon</Text>
+            <Text>Valerius Saponius, Master of the Soap</Text>
             <LineId>1600000044</LineId> <!-- <GUID>1600000044</GUID> -->
         </Text>
         <!-- Description -->
         <Text>
-            <Text>Nettoie de nombreuses personnes en utilisant de grands bassins. &#xD;Indice: les effets s'appliquent à tous les bâtiments situés dans la zone de la rue.&#xD;(Consumption-Pack)</Text>
+            <Text>By using soap in big pools of water we can clean so many people at once. &#xD;Hint: The Effects are applying to every building in Street Range.&#xD;(Consumption-Pack)</Text>
             <LineId>1600000045</LineId> 
         </Text>
         </ModOp>
@@ -21,12 +21,12 @@
         <ModOp Add="/TextExport/Texts">
         <!-- Title -->
         <Text>
-            <Text>Iana Rodericia, jeune environnementaliste</Text>
+            <Text>Iana Rodericia, Young Environmentalist</Text>
             <LineId>1600000104</LineId> <!-- <GUID>1600000104</GUID> -->
         </Text>
         <!-- Description -->
         <Text>
-            <Text>Rejette la décadence et prône plutôt un mode de vie écologique en harmonie avec la nature.&#xD;(Consumption-Pack)</Text>
+            <Text>Rejects decadence and instead demonstrates an ecological lifestyle in harmony with nature.&#xD;(Consumption-Pack)</Text>
             <LineId>1600000105</LineId> 
         </Text>
         </ModOp>
@@ -37,12 +37,12 @@
         <ModOp Add="/TextExport/Texts">
         <!-- Title -->
         <Text>
-            <Text>Ulpius, Bacchus le Bienheureux</Text>
+            <Text>Ulpius, Bacchus Blessed</Text>
             <LineId>1600000114</LineId> <!-- <GUID>1600000114</GUID> -->
         </Text>
         <!-- Description -->
         <Text>
-            <Text>"Et la prochaine tournée est pour moi!"&#xD;(Consumption-Pack)</Text>
+            <Text>"And the next round goes on me!"&#xD;(Consumption-Pack)</Text>
             <LineId>1600000115</LineId> 
         </Text>
         </ModOp>
@@ -53,12 +53,12 @@
         <ModOp Add="/TextExport/Texts">
         <!-- Title -->
         <Text>
-            <Text>Sericus Garum, épicier d'Extrême-Orient</Text>
+            <Text>Sericus Garum, Far Eastern Spicer</Text>
             <LineId>1600000116</LineId> <!-- <GUID>1600000116</GUID> -->
         </Text>
         <!-- Description -->
         <Text>
-            <Text>Ajoute une saveur particulièrement salée à tout. Crée un goût de désert sur la langue.&#xD;(Consumption-Pack)</Text>
+            <Text>Adds a particularly salty flavor to everything. Creates a taste of the desert on the tongue.&#xD;(Consumption-Pack)</Text>
             <LineId>1600000117</LineId> 
         </Text>
         </ModOp>
@@ -69,12 +69,12 @@
         <ModOp Add="/TextExport/Texts">
         <!-- Title -->
         <Text>
-            <Text>Torréfacteur rapide</Text>
+            <Text>Rushed Roaster</Text>
             <LineId>1600000170</LineId> <!-- <GUID>1600000170</GUID> -->
         </Text>
         <!-- Description -->
         <Text>
-            <Text>Cuisson très rapide du rôti... malheureusement pas assez longue. &#xD;Indice: l'effet s'applique à tous les bâtiments résidentiels situés dans la zone d'influence du conseil municipal d'Alder.&#xD;(Consumption-Pack)</Text>
+            <Text>Cooks the roast very quickly... unfortunately not long enough. &#xD;Hint: The effect applies to all residential buildings within Street Range of the Alder Council.&#xD;(Consumption-Pack)</Text>
             <LineId>1600000171</LineId> 
         </Text>
         </ModOp>
@@ -85,28 +85,28 @@
         <ModOp Add="/TextExport/Texts">
         <!-- Title -->
         <Text>
-            <Text>Aspirant créateur de toges</Text>
+            <Text>Aspiring Toga Designer</Text>
             <LineId>1600000182</LineId> <!-- <GUID>1600000182</GUID> -->
         </Text>
         <!-- Description -->
         <Text>
-            <Text>Utilise la scène du théâtre pour présenter sa première collection de toges. &#xD;Indice: l'effet s'applique à tous les bâtiments résidentiels situés dans le rayon d'action du théâtre.&#xD;(Consumption-Pack)</Text>
+            <Text>Uses the theater stage to present his first toga collection. &#xD;Hint: The effect applies to all residential buildings within Street Range of the theater.&#xD;(Consumption-Pack)</Text>
             <LineId>1600000183</LineId> 
         </Text>
         </ModOp>
-    </Group>
-
+    </Group>  
+    
     <!-- Specialist AE-NR-CSport-Inc-Trouser-E -->
     <Group>
         <ModOp Add="/TextExport/Texts">
         <!-- Title -->
         <Text>
-            <Text>Vercatullos, entraîneur en sueur</Text>
+            <Text>Vercatullos, Sweaty Trainer</Text>
             <LineId>1600000262</LineId> <!-- <GUID>1600000262</GUID> -->
         </Text>
         <!-- Description -->
         <Text>
-            <Text>Il va vraiment faire transpirer les gens. Tout le monde devrait prévoir des tuniques et des robes supplémentaires. &#xD;Indice: l'effet s'applique à tous les bâtiments résidentiels situés dans le périmètre de la rue du terrain de sport.&#xD;(Consumption-Pack)</Text>
+            <Text>His training units will make you really sweat. Everyone should bring a extra set of trousers. &#xD;Hint: The effect applies to all residential buildings within Street Range of the Sportsground.&#xD;(Consumption-Pack)</Text>
             <LineId>1600000263</LineId> 
         </Text>
         </ModOp>
@@ -122,7 +122,7 @@
         </Text>
         <!-- Description -->
         <Text>
-            <Text>A eu l'idée de faire fondre du fromage et de le mélanger à des fruits sucrés. Certains adorent cette cuisine expérimentale, d'autres la détestent et laissent libre cours à leur colère. &#xD;Indice: l'effet s'applique à tous les bâtiments résidentiels situés dans le rayon d'action du marché ou du forum.&#xD;(Consumption-Pack)</Text>
+            <Text>Came up with the idea of melting cheese and combining it with sweet fruit. Some love this experimental cuisine, others hate it and give free rein to their anger. &#xD;Hint: The effect applies to all residential buildings within Street Range of the Market or Forum.&#xD;(Consumption-Pack)</Text>
             <LineId>1600000314</LineId> 
         </Text>
         </ModOp>
@@ -255,4 +255,206 @@
         </Text>
         </ModOp>
     </Group>
+    
+    <!-- Specialist NR-Inc-BirdTongue-R -->
+    <Group>
+    <ModOp Add="/TextExport/Texts">
+        <!-- Title -->
+        <Text>
+            <Text>Aspic Seasoner</Text>
+            <LineId>1600000327</LineId> <!-- <GUID>1600000327</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>Tries different spices to make the aspic at least tolerable.&#xD;(Consumption-Pack)</Text>
+            <LineId>1600000328</LineId> 
+        </Text>
+    </ModOp>
+    </Group>
+
+    <!-- Specialist NR-Inc-Necklaces-L -->
+    <Group>
+    <ModOp Add="/TextExport/Texts">
+        <!-- Title -->
+        <Text>
+            <Text>Smeagolus Gollumus, Schmucksüchtiger Patrizier</Text>
+            <LineId>1600000385</LineId> <!-- <GUID>1600000385</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>"My Precious!" &#xD;(Consumption-Pack)</Text>
+            <LineId>1600000386</LineId> 
+        </Text>
+        <!-- Boosted Hint -->
+        <Text>
+            <Text>On the search for an specific Ring. (8x Jeweller on Island)</Text>
+            <LineId>1600000387</LineId> 
+        </Text>
+    </ModOp>
+    </Group>
+
+    <!-- Specialist NR-Inc-Chariots-L -->
+    <Group>
+        <ModOp Add="/TextExport/Texts">
+        <!-- Title -->
+        <Text>
+            <Text>Vipera Severus, Chariot Researcher</Text>
+            <LineId>1600000037</LineId> <!-- <GUID>1600000037</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>Chariots as everyday vehicles? Vipera makes it possible!&#xD;Hint: This Effect can Stack.</Text>
+            <LineId>1600000038</LineId> 
+        </Text>
+        <!-- Boosted Hint -->
+        <Text>
+            <Text>A high income and skilled craftsmen keeps him happy. (5000 Income & 7500 Knowledge on Island)</Text>
+            <LineId>1600000038</LineId> 
+        </Text>
+        </ModOp>
+    </Group>
+
+    <!-- Specialist NR-Inc-FineGlass-R -->
+    <Group>
+        <ModOp Add="/TextExport/Texts">
+        <!-- Title -->
+        <Text>
+            <Text>Elephas Vitreus</Text>
+            <LineId>1600000160</LineId> <!-- <GUID>1600000160</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>"Ahhh... not again! Damn it! I broke the glass again!"&#xD;Hint: This Effect can Stack.</Text>
+            <LineId>1600000161</LineId> 
+        </Text>
+        </ModOp>
+    </Group>
+
+    <!-- Specialist NR-Inc-CShieldsSausage-L -->
+    <Group>
+        <ModOp Add="/TextExport/Texts">
+        <!-- Title -->
+        <Text>
+            <Text>Romano-Germanic Mercenary</Text>
+            <LineId>1600000141</LineId> <!-- <GUID>1600000141</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>This mercenary is ready to guard a neighborhood. And all he wants in payment is gear and sausages.&#xD;(Consumption-Pack)</Text>
+            <LineId>1600000142</LineId> 
+        </Text>
+        <!-- Boosted Hint -->
+        <Text>
+            <Text>Has a weak spot when it comes to gambling. (2x Gambling Houses on Island)</Text>
+            <LineId>1600000143</LineId> 
+        </Text>
+        </ModOp>
+    </Group>
+
+    <!-- Specialist NR-Inc-PileusReedShoes-C -->
+    <Group>
+        <ModOp Add="/TextExport/Texts">
+        <!-- Title -->
+        <Text>
+            <Text>Young Tailor</Text>
+            <LineId>1600000031</LineId> <!-- <GUID>1600000031</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>Repairs some clothes to gain experience.&#xD;(Consumption-Pack)</Text>
+            <LineId>1600000032</LineId> 
+        </Text>
+        </ModOp>
+    </Group>
+
+    <!-- Specialist NR-Inc-Wine-E -->
+    <Group>
+        <ModOp Add="/TextExport/Texts">
+        <!-- Title -->
+        <Text>
+            <Text>Aemilia, the always packed Wine Merchant</Text>
+            <LineId>1600000695</LineId> <!-- <GUID>1600000695</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>“My wine is more important to me than my children!”&#xD;(Consumption-Pack)</Text>
+            <LineId>1600000696</LineId> 
+        </Text>
+        </ModOp>
+    </Group>
+
+    <!-- Specialist NR-Soap-Inc-R -->
+    <Group>
+        <ModOp Add="/TextExport/Texts">
+        <!-- Title -->
+        <Text>
+            <Text>Soap Hoarder</Text>
+            <LineId>1600000196</LineId> <!-- <GUID>1600000196</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>"Soap is far too precious to use! This lovely scent must never fade!"&#xD;(Consumption-Pack)</Text>
+            <LineId>1600000197</LineId> 
+        </Text>
+        </ModOp>
+    </Group>  
+    
+    <!-- Specialist NR-Inc-Tunics-L -->
+    <Group>
+        <ModOp Add="/TextExport/Texts">
+        <!-- Title -->
+        <Text>
+            <Text>Servius Rusticus, Pragmatic Craftsman</Text>
+            <LineId>1600000500</LineId> <!-- <GUID>1600000500</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>"People who dress in togas are weaklings and legalistic nitpickers! You can only fulfill your duties in a simple tunic!" &#xD;(Consumption-Pack)</Text>
+            <LineId>1600000501</LineId> 
+        </Text>
+        <!-- Boosted Hint -->
+        <Text>
+            <Text>He has his tunics mended by the local tailor. (3x Clothiers on Island)</Text>
+            <LineId>1600000502</LineId> 
+        </Text>
+        </ModOp>
+    </Group>
+
+    <!-- Specialist NR-Inc-Wigs-R -->
+    <Group>
+        <ModOp Add="/TextExport/Texts">
+        <!-- Title -->
+        <Text>
+            <Text>Wig Fixing Specialist</Text>
+            <LineId>1600000158</LineId> <!-- <GUID>1600000158</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>"If it doesn't fit, we'll make it fit! This might hurt a little..." &#xD;(Consumption-Pack)</Text>
+            <LineId>1600000159</LineId> 
+        </Text>
+        </ModOp>
+    </Group>
+
+    <!-- Specialist NR-Inc-SandalsShoes-L -->
+    <Group>
+        <ModOp Add="/TextExport/Texts">
+        <!-- Title -->
+        <Text>
+            <Text>Iterius Lassus, Pilgrimage Organizer</Text>
+            <LineId>1600000035</LineId> <!-- <GUID>1600000035</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>His pilgrimages are always so long that your sandals practically fall off your feet. &#xD;(Consumption-Pack)</Text>
+            <LineId>1600000036</LineId> 
+        </Text>
+        <!-- Boosted Hint -->
+        <Text>
+            <Text>A small religious community is needed. (1500 Belief on Island) </Text>
+            <LineId>1600000004</LineId> 
+        </Text>
+        </ModOp>
+    </Group>
+
 </ModOps>
