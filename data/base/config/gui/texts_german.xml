@@ -272,7 +272,7 @@
     </ModOp>
     </Group>
 
-    <!-- Specialist NR-Inc-Necklaces-Gollum-L -->
+    <!-- Specialist NR-Inc-Necklaces-L -->
     <Group>
     <ModOp Add="/TextExport/Texts">
         <!-- Title -->
@@ -293,22 +293,22 @@
     </ModOp>
     </Group>
 
-    <!-- Specialist NR-Inc-Chariots-Racer-L -->
+    <!-- Specialist NR-Inc-Chariots-L -->
     <Group>
         <ModOp Add="/TextExport/Texts">
         <!-- Title -->
         <Text>
-            <Text>Vipera Severus, Der Gassen-Hengst</Text>
+            <Text>Vipera Severus, Streitwagenforscher</Text>
             <LineId>1600000037</LineId> <!-- <GUID>1600000037</GUID> -->
         </Text>
         <!-- Description -->
         <Text>
-            <Text>Seine illegalen Rennen machen die Gassen in seinem Bezirk unsicher und lockt angehende Streitwagenfahrer sowie verschiedenste talentierte Handwerker in seine Umgebung.&#xD;(Consumption-Pack)</Text>
+            <Text>Streitwägen als Alltagsfahrzeug? Vipera macht es möglich!.&#xD;(Consumption-Pack)</Text>
             <LineId>1600000038</LineId> 
         </Text>
         <!-- Boosted Hint -->
         <Text>
-            <Text>Hohe Wetteinsätze und talentierte Handwerker halten ihn bei Laune (7500 Wissen & 5000 Einkommen auf Insel)</Text>
+            <Text>Hohe Einkommen und talentierte Handwerker halten ihn bei Laune. (5000 Einkommen & 7500 Wissen auf Insel)</Text>
             <LineId>1600000038</LineId> 
         </Text>
         </ModOp>
@@ -335,7 +335,7 @@
         <ModOp Add="/TextExport/Texts">
         <!-- Title -->
         <Text>
-            <Text>Germanischer Söldner</Text>
+            <Text>Romano-Germanischer Söldner</Text>
             <LineId>1600000141</LineId> <!-- <GUID>1600000141</GUID> -->
         </Text>
         <!-- Description -->
@@ -345,7 +345,7 @@
         </Text>
         <!-- Boosted Hint -->
         <Text>
-            <Text>Hat eine Schwäche für Glückspiel. (2x Gambling House on Island)</Text>
+            <Text>Hat eine Schwäche für Glückspiel. (2x Aleatorium auf Insel)</Text>
             <LineId>1600000143</LineId> 
         </Text>
         </ModOp>
@@ -356,7 +356,7 @@
         <ModOp Add="/TextExport/Texts">
         <!-- Title -->
         <Text>
-            <Text>Auszubildene Schneiderin</Text>
+            <Text>Junger Schneider</Text>
             <LineId>1600000031</LineId> <!-- <GUID>1600000031</GUID> -->
         </Text>
         <!-- Description -->
@@ -404,7 +404,7 @@
         <ModOp Add="/TextExport/Texts">
         <!-- Title -->
         <Text>
-            <Text>, Pragmatischer Handwerker</Text>
+            <Text>Servius Rusticus, Pragmatischer Handwerker</Text>
             <LineId>1600000500</LineId> <!-- <GUID>1600000500</GUID> -->
         </Text>
         <!-- Description -->
@@ -425,7 +425,7 @@
         <ModOp Add="/TextExport/Texts">
         <!-- Title -->
         <Text>
-            <Text>Perückenfixierer</Text>
+            <Text>Perückenfixiererin</Text>
             <LineId>1600000158</LineId> <!-- <GUID>1600000158</GUID> -->
         </Text>
         <!-- Description -->
@@ -436,12 +436,12 @@
         </ModOp>
     </Group>
 
-    <!-- Specialist NR-Inc-Sandals-L -->
+    <!-- Specialist NR-Inc-SandalsShoes-L -->
     <Group>
         <ModOp Add="/TextExport/Texts">
         <!-- Title -->
         <Text>
-            <Text>Aulus Pius, Pilger-Organisator</Text>
+            <Text>Iterius Lassus, Pilger-Organisator</Text>
             <LineId>1600000035</LineId> <!-- <GUID>1600000035</GUID> -->
         </Text>
         <!-- Description -->
@@ -451,7 +451,7 @@
         </Text>
         <!-- Boosted Hint -->
         <Text>
-            <Text>Braucht eine kleine Glaubensgemeinschaft. (1500 Belief on Island) </Text>
+            <Text>Braucht eine kleine Glaubensgemeinschaft. (1500 Glauben auf Insel) </Text>
             <LineId>1600000004</LineId> 
         </Text>
         </ModOp>

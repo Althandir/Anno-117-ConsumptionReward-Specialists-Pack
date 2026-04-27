@@ -255,24 +255,24 @@
         </Text>
         </ModOp>
     </Group>
-    <!-- START REFACTOR HERE - Placeholder! -->
+    
     <!-- Specialist NR-Inc-BirdTongue-R -->
     <Group>
     <ModOp Add="/TextExport/Texts">
         <!-- Title -->
         <Text>
-            <Text>Shrine Visitor</Text>
+            <Text>Aspic Seasoner</Text>
             <LineId>1600000327</LineId> <!-- <GUID>1600000327</GUID> -->
         </Text>
         <!-- Description -->
         <Text>
-            <Text>Admires every type of shrine.&#xD;Hint: This effect is stackable.&#xD;(Consumption-Pack)</Text>
+            <Text>Tries different spices to make the aspic at least tolerable.&#xD;(Consumption-Pack)</Text>
             <LineId>1600000328</LineId> 
         </Text>
     </ModOp>
     </Group>
 
-    <!-- Specialist NR-Inc-Necklaces-Gollum-L -->
+    <!-- Specialist NR-Inc-Necklaces-L -->
     <Group>
     <ModOp Add="/TextExport/Texts">
         <!-- Title -->
@@ -293,22 +293,22 @@
     </ModOp>
     </Group>
 
-    <!-- Specialist NR-Inc-Chariots-Racer-L -->
+    <!-- Specialist NR-Inc-Chariots-L -->
     <Group>
         <ModOp Add="/TextExport/Texts">
         <!-- Title -->
         <Text>
-            <Text>Aurelius Cautus, the Bureaucrat</Text>
+            <Text>Vipera Severus, Chariot Researcher</Text>
             <LineId>1600000037</LineId> <!-- <GUID>1600000037</GUID> -->
         </Text>
         <!-- Description -->
         <Text>
-            <Text>"Now please take a number and wait until you hear from us." &#xD;Hint: This Effect can Stack.</Text>
+            <Text>Chariots as everyday vehicles? Vipera makes it possible!&#xD;Hint: This Effect can Stack.</Text>
             <LineId>1600000038</LineId> 
         </Text>
         <!-- Boosted Hint -->
         <Text>
-            <Text>PlaceholderText</Text>
+            <Text>A high income and skilled craftsmen keeps him happy. (5000 Income & 7500 Knowledge on Island)</Text>
             <LineId>1600000038</LineId> 
         </Text>
         </ModOp>
@@ -319,12 +319,12 @@
         <ModOp Add="/TextExport/Texts">
         <!-- Title -->
         <Text>
-            <Text>Motivtated Bureaucrat</Text>
+            <Text>Elephas Vitreus</Text>
             <LineId>1600000160</LineId> <!-- <GUID>1600000160</GUID> -->
         </Text>
         <!-- Description -->
         <Text>
-            <Text>Tries his best to optimize processes. &#xD;Hint: This Effect can Stack.</Text>
+            <Text>"Ahhh... not again! Damn it! I broke the glass again!"&#xD;Hint: This Effect can Stack.</Text>
             <LineId>1600000161</LineId> 
         </Text>
         </ModOp>
@@ -335,17 +335,17 @@
         <ModOp Add="/TextExport/Texts">
         <!-- Title -->
         <Text>
-            <Text>Buritus, Architectus Bureaucraticus</Text>
+            <Text>Romano-Germanic Mercenary</Text>
             <LineId>1600000141</LineId> <!-- <GUID>1600000141</GUID> -->
         </Text>
         <!-- Description -->
         <Text>
-            <Text>Architect of the bureaucratic system and is a master getting everything sorted out for anyone. It is said that he has Germanic roots. &#xD;Hint: This Effect can Stack.</Text>
+            <Text>This mercenary is ready to guard a neighborhood. And all he wants in payment is gear and sausages.&#xD;(Consumption-Pack)</Text>
             <LineId>1600000142</LineId> 
         </Text>
         <!-- Boosted Hint -->
         <Text>
-            <Text>The system requires a minimum number of requests to be truly effective. (36 public services on the island)</Text>
+            <Text>Has a weak spot when it comes to gambling. (2x Gambling Houses on Island)</Text>
             <LineId>1600000143</LineId> 
         </Text>
         </ModOp>
@@ -356,12 +356,12 @@
         <ModOp Add="/TextExport/Texts">
         <!-- Title -->
         <Text>
-            <Text>Aqueduct Guard</Text>
+            <Text>Young Tailor</Text>
             <LineId>1600000031</LineId> <!-- <GUID>1600000031</GUID> -->
         </Text>
         <!-- Description -->
         <Text>
-            <Text>Happy to take care of your Aqueduct.&#xD;(Aqueduct-Pack)</Text>
+            <Text>Repairs some clothes to gain experience.&#xD;(Consumption-Pack)</Text>
             <LineId>1600000032</LineId> 
         </Text>
         </ModOp>
@@ -372,12 +372,12 @@
         <ModOp Add="/TextExport/Texts">
         <!-- Title -->
         <Text>
-            <Text>Aqua-Aemilia, Aqueduct Pioneer</Text>
+            <Text>Aemilia, the always packed Wine Merchant</Text>
             <LineId>1600000695</LineId> <!-- <GUID>1600000695</GUID> -->
         </Text>
         <!-- Description -->
         <Text>
-            <Text>"Aqueducts are the lifelines of your people!"&#xD;(Aqueduct-Pack)</Text>
+            <Text>“My wine is more important to me than my children!”&#xD;(Consumption-Pack)</Text>
             <LineId>1600000696</LineId> 
         </Text>
         </ModOp>
@@ -388,12 +388,12 @@
         <ModOp Add="/TextExport/Texts">
         <!-- Title -->
         <Text>
-            <Text>Inspector</Text>
+            <Text>Soap Hoarder</Text>
             <LineId>1600000196</LineId> <!-- <GUID>1600000196</GUID> -->
         </Text>
         <!-- Description -->
         <Text>
-            <Text>“Better safe than sorry”. &#xD;Note I: This effect is stackable. &#xD;Note II: Effect range is not the same as response range! &#xD;Effect range describes only the range of the area effect (e.g., +3 fire resistance), NOT how far city guard units can resolve incidents. &#xD;(CityWatch-Range-Pack)</Text>
+            <Text>"Soap is far too precious to use! This lovely scent must never fade!"&#xD;(Consumption-Pack)</Text>
             <LineId>1600000197</LineId> 
         </Text>
         </ModOp>
@@ -404,17 +404,17 @@
         <ModOp Add="/TextExport/Texts">
         <!-- Title -->
         <Text>
-            <Text>Strictus Maximus Vaporosus, Safety Paragraph Rider</Text>
+            <Text>Servius Rusticus, Pragmatic Craftsman</Text>
             <LineId>1600000500</LineId> <!-- <GUID>1600000500</GUID> -->
         </Text>
         <!-- Description -->
         <Text>
-            <Text>"According to Paragraph 4, Section 11 A–C of the Roman Fire Safety Regulations, this entrance must be kept clear at all times! Let’s also not forget Section 12, G, which states...." &#xD;Note I: This effect is stackable. &#xD;Note II: Effect range is not the same as response range! &#xD;Effect range describes only the range of the area effect (e.g., +3 fire resistance), NOT how far city guard units can resolve incidents. &#xD;(CityWatch-Range-Pack)</Text>
+            <Text>"People who dress in togas are weaklings and legalistic nitpickers! You can only fulfill your duties in a simple tunic!" &#xD;(Consumption-Pack)</Text>
             <LineId>1600000501</LineId> 
         </Text>
         <!-- Boosted Hint -->
         <Text>
-            <Text>"According to Section 11-b, every island must have sufficient defensive facilities to protect its citizens." (12x Militarytowers on Island)</Text>
+            <Text>He has his tunics mended by the local tailor. (3x Clothiers on Island)</Text>
             <LineId>1600000502</LineId> 
         </Text>
         </ModOp>
@@ -425,33 +425,33 @@
         <ModOp Add="/TextExport/Texts">
         <!-- Title -->
         <Text>
-            <Text>Vigilant City Guard</Text>
+            <Text>Wig Fixing Specialist</Text>
             <LineId>1600000158</LineId> <!-- <GUID>1600000158</GUID> -->
         </Text>
         <!-- Description -->
         <Text>
-            <Text>Has a good sense of his neighborhood. &#xD;(CityWatch-Range-Pack)</Text>
+            <Text>"If it doesn't fit, we'll make it fit! This might hurt a little..." &#xD;(Consumption-Pack)</Text>
             <LineId>1600000159</LineId> 
         </Text>
         </ModOp>
     </Group>
 
-    <!-- Specialist NR-Inc-Sandals-L -->
+    <!-- Specialist NR-Inc-SandalsShoes-L -->
     <Group>
         <ModOp Add="/TextExport/Texts">
         <!-- Title -->
         <Text>
-            <Text>Aulus Pius, the Watchful Inspirator</Text>
+            <Text>Iterius Lassus, Pilgrimage Organizer</Text>
             <LineId>1600000035</LineId> <!-- <GUID>1600000035</GUID> -->
         </Text>
         <!-- Description -->
         <Text>
-            <Text>Inspires local residents to join the city guard through heroic tales of individual citizens. &#xD;(CityWatch-Range-Pack)</Text>
+            <Text>His pilgrimages are always so long that your sandals practically fall off your feet. &#xD;(Consumption-Pack)</Text>
             <LineId>1600000036</LineId> 
         </Text>
         <!-- Boosted Hint -->
         <Text>
-            <Text>Needs many intake centers to handle the influx of new recruits. (12x Citywatches on Island) </Text>
+            <Text>A small religious community is needed. (1500 Belief on Island) </Text>
             <LineId>1600000004</LineId> 
         </Text>
         </ModOp>

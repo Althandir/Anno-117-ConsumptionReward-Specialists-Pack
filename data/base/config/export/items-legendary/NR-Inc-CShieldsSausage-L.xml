@@ -8,7 +8,7 @@
                 <Standard>
                     <GUID>1600000141</GUID>
                     <Name>Specialist NR-Inc-CShieldsSausage-L</Name>
-                    <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/NR-Inc-CShieldsSausage-L.png</IconFilename>
                     <InfoDescription>1600000142</InfoDescription>
                 </Standard>
                 <Effect>
@@ -27,9 +27,9 @@
                     <HideInGovernorsBar>1</HideInGovernorsBar>
                 </Effect>
                 <Item>
-                    <Niche>Diplomacy</Niche>
+                    <Niche>Culture</Niche>
                     <TradePrice><ModValue Insert="$TradePrice_Legendary"/></TradePrice> 
-                    <BarkPool>80244</BarkPool> <!-- <GUID>80244</GUID> -->
+                    <BarkPool>83296</BarkPool> <!-- <GUID>83296</GUID> -->
                     <Rarity>Legendary</Rarity> 
                 </Item>
                 <Locked>
@@ -99,7 +99,7 @@
                 <Standard>
                     <GUID>1600000142</GUID>
                     <Name>Specialist NR-Inc-CShieldsSausage-L BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/NR-Inc-CShieldsSausage-L.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000141</OasisId>
@@ -161,7 +161,7 @@
                 <Standard>
                     <GUID>1600000143</GUID>
                     <Name>Specialist NR-Inc-CShieldsSausage-L Boosted BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/NR-Inc-CShieldsSausage-L.png</IconFilename>
                 </Standard>
             <Text>
                 <OasisId>1600000141</OasisId>

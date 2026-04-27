@@ -8,7 +8,7 @@
             <Standard>
                 <GUID>1600000196</GUID>
                 <Name>Specialist NR-Soap-Inc-R</Name>
-                <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+                <IconFilename>data/base/graphics/icons/NR-Soap-Inc-R.png</IconFilename>
                 <InfoDescription>1600000197</InfoDescription>
             </Standard>
             <Effect>
@@ -53,7 +53,7 @@
             <Standard>
                 <GUID>1600000197</GUID>
                 <Name>Specialist NR-Soap-Inc-R BuildingBuff</Name>
-                <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+                <IconFilename>data/base/graphics/icons/NR-Soap-Inc-R.png</IconFilename>
             </Standard>
             <Text>
                 <OasisId>1600000196</OasisId>

@@ -7,8 +7,8 @@
     <Values>
         <Standard>
             <GUID>1600000035</GUID>
-            <Name>Specialist NR-Inc-Sandals-L</Name>
-            <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+            <Name>Specialist NR-Inc-SandalsShoes-L</Name>
+            <IconFilename>data/base/graphics/icons/NR-Inc-SandalsShoes-L.png</IconFilename>
             <InfoDescription>1600000036</InfoDescription>
         </Standard>
         <Effect>
@@ -27,7 +27,7 @@
             <HideInGovernorsBar>1</HideInGovernorsBar>
         </Effect>
         <Item>
-            <Niche>Military</Niche>
+            <Niche>Religion</Niche>
             <TradePrice><ModValue Insert="$TradePrice_Legendary"/></TradePrice> 
             <BarkPool>83296</BarkPool> <!-- <GUID>83296</GUID> -->
             <Rarity>Legendary</Rarity> 
@@ -98,8 +98,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000036</GUID>
-                    <Name>Specialist NR-Inc-Sandals-L BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+                    <Name>Specialist NR-Inc-SandalsShoes-L BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/NR-Inc-SandalsShoes-L.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000035</OasisId>
@@ -160,8 +160,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000004</GUID>
-                    <Name>Specialist NR-Inc-Sandals-L Boosted BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+                    <Name>Specialist NR-Inc-SandalsShoes-L Boosted BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/NR-Inc-SandalsShoes-L.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000035</OasisId>

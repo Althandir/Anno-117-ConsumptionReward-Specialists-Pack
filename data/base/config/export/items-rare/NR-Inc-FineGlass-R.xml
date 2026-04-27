@@ -1,22 +1,22 @@
 <ModOps>
-<!-- Item Definition GUID:1600000031 - 1600000032 | LineID:1600000031 - 1600000032 -->
+<!-- Item Definition GUID: 1600000160 - 1600000161 | LineID:1600000160 - 1600000161 -->
     <Group>
         <ModOp Type="addNextSibling" GUID="106410">
         <Asset>
             <Template>Item</Template>
             <Values>
             <Standard>
-                <GUID>1600000031</GUID>
-                <Name>Specialist NR-Inc-PileusReedShoes-C</Name>
-                <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
-                <InfoDescription>1600000032</InfoDescription>
+                <GUID>1600000160</GUID>
+                <Name>Specialist NR-Inc-FineGlass-R</Name>
+                <IconFilename>data/base/graphics/icons/NR-Inc-FineGlass-R.png</IconFilename>
+                <InfoDescription>1600000161</InfoDescription>
             </Standard>
             <Effect>
-                <EffectScope>Radius</EffectScope> 
+                <EffectScope>Radius</EffectScope>  
                 <SourceCategory>Item</SourceCategory>
                 <Buffs>
                     <Item>
-                        <GUID>1600000032</GUID>
+                        <GUID>1600000161</GUID>
                     </Item>
                 </Buffs>
                 <Targets> <!-- Targets of Buff -->
@@ -27,16 +27,16 @@
                 <HideInGovernorsBar>1</HideInGovernorsBar>
             </Effect>
             <Item>
-                <Niche>Economy</Niche> 
-                <TradePrice><ModValue Insert="$TradePrice_Common"/></TradePrice>
-                <BarkPool>80244</BarkPool> <!-- <GUID>80244</GUID> -->
-                <Rarity>Common</Rarity> 
+                <Niche>Diplomacy</Niche>
+                <TradePrice><ModValue Insert="$TradePrice_Rare"/></TradePrice> 
+                <BarkPool>80242</BarkPool> <!-- <GUID>80242</GUID> -->
+                <Rarity>Rare</Rarity> 
             </Item>
             <Locked>
                 <DefaultLockedState>0</DefaultLockedState>
             </Locked>
             <Text>
-                <OasisId>1600000031</OasisId>
+                <OasisId>1600000160</OasisId>
             </Text>
             </Values>
         </Asset>
@@ -45,63 +45,61 @@
 
     <!-- Buff Definitions-->
     <Group>
-    <!-- BuildingBuff Definition -->
-    <ModOp Type="addNextSibling" GUID="80193">
-        <Asset>
+        <!-- BuildingBuff Definition -->
+        <ModOp Type="addNextSibling" GUID="81445">
+            <Asset>
             <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000032</GUID>
-                    <Name>Specialist NR-Inc-PileusReedShoes-C BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+                <GUID>1600000161</GUID>
+                <Name>Specialist NR-Inc-FineGlass-R BuildingBuff</Name>
+                <IconFilename>data/base/graphics/icons/NR-Inc-FineGlass-R.png</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600000031</OasisId>
+                    <OasisId>1600000160</OasisId>
                 </Text>
-                <DistributionUpgrade/>
                 <Buff>
                     <SourceCategory>Item</SourceCategory>
                 </Buff>
                 <ResidenceUpgrade>
                     <GoodConsumptionUpgrade>
                         <Item>
-                            <ProvidedNeed>2159</ProvidedNeed>
-                            <AmountInPercent>15</AmountInPercent>
-                        </Item>
-                        <Item>
-                            <ProvidedNeed>2142</ProvidedNeed>
-                            <AmountInPercent>15</AmountInPercent>
+                            <ProvidedNeed>2151</ProvidedNeed>
+                            <AmountInPercent>30</AmountInPercent>
                         </Item>
                     </GoodConsumptionUpgrade>
                     <NeedProvidedNeedAttributes>
                         <ChangeNeedAttributesOf>
                             <Item>
-                                <ProvidedProduct>2159</ProvidedProduct> <!-- <GUID>2159</GUID> -->
-                            </Item>
-                            <Item>
-                                <ProvidedProduct>2142</ProvidedProduct> <!-- <GUID>2142</GUID> -->
+                                <ProvidedProduct>2151</ProvidedProduct> <!-- <GUID>2151</GUID> -->
                             </Item>
                         </ChangeNeedAttributesOf>
                         <AdditionalNeedAttributes>
-                            <Population>
+                            <Money>
                                 <AmountOrPercent>
                                     <Value>2</Value>
                                     <Percental>0</Percental>
                                 </AmountOrPercent>
-                            </Population>
-                            <Money>
+                            </Money>
+                            <Prestige>
                                 <AmountOrPercent>
-                                    <Value>-1</Value>
+                                    <Value>2</Value>
                                     <Percental>0</Percental>
                                 </AmountOrPercent>
-                            </Money>
+                            </Prestige>
+                            <Health>
+                                <AmountOrPercent>
+                                    <Value>-2</Value>
+                                    <Percental>0</Percental>
+                                </AmountOrPercent>
+                            </Health>
                         </AdditionalNeedAttributes>
                     </NeedProvidedNeedAttributes>
                 </ResidenceUpgrade>
             </Values>
-        </Asset>
-    </ModOp>
-    
+            </Asset>
+        </ModOp>
+        
     </Group>
 
 </ModOps>

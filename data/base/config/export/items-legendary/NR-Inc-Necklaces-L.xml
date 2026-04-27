@@ -7,8 +7,8 @@
     <Values>
         <Standard>
             <GUID>1600000385</GUID>
-            <Name>Specialist NR-Inc-Necklaces-Gollum-L</Name>
-            <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+            <Name>Specialist NR-Inc-Necklaces-L</Name>
+            <IconFilename>data/base/graphics/icons/NR-Inc-Necklaces-L.png</IconFilename>
             <InfoDescription>1600000386</InfoDescription>
         </Standard>
         <Effect>
@@ -27,9 +27,9 @@
             <HideInGovernorsBar>1</HideInGovernorsBar>
         </Effect>
         <Item>
-            <Niche>Religion</Niche> 
+            <Niche>Finance</Niche> 
             <TradePrice><ModValue Insert="$TradePrice_Legendary"/></TradePrice>
-            <BarkPool>83342</BarkPool> <!-- <GUID>83342</GUID> -->
+            <BarkPool>83296</BarkPool> <!-- <GUID>83296</GUID> -->
             <Rarity>Legendary</Rarity> 
         </Item>
         <Locked>
@@ -99,8 +99,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000386</GUID>
-                    <Name>Specialist NR-Inc-Necklaces-Gollum-L BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+                    <Name>Specialist NR-Inc-Necklaces-L BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/NR-Inc-Necklaces-L.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000385</OasisId>
@@ -148,8 +148,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000387</GUID>
-                    <Name>Specialist NR-Inc-Necklaces-Gollum-L BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+                    <Name>Specialist NR-Inc-Necklaces-L BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/NR-Inc-Necklaces-L.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000385</OasisId>
