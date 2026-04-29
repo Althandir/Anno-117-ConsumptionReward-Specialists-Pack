@@ -277,7 +277,7 @@
     <ModOp Add="/TextExport/Texts">
         <!-- Title -->
         <Text>
-            <Text>Smeagolus Gollumus, Schmucksüchtiger Patrizier</Text>
+            <Text>Smeagolus Gollumus, Jewelry Addicted Patrician</Text>
             <LineId>1600000385</LineId> <!-- <GUID>1600000385</GUID> -->
         </Text>
         <!-- Description -->
