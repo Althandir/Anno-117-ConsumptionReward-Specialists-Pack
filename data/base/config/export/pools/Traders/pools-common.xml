@@ -8,6 +8,7 @@
 <!-- RewardPool Common Traders -->
 <Group>
     <ModOp Type="add" GUID="83448,83460,83464,83468,83476,83472,83480" Path="/Values/RewardPool/ItemsPool">
+    <!-- Common -->
     <Item>
         <ItemLink>1600000562</ItemLink>
     </Item>
@@ -25,6 +26,9 @@
     </Item>
     <Item>
         <ItemLink>1600000574</ItemLink>
+    </Item>
+    <Item>
+        <ItemLink>1600000031</ItemLink>
     </Item>
     </ModOp>
 </Group>

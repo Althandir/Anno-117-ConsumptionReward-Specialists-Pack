@@ -8,7 +8,22 @@
 <!-- RewardPool Legendary Traders -->
 <Group>
     <ModOp Type="add" GUID="83451,83463,83467,83471,83479,83475,83483" Path="/Values/RewardPool/ItemsPool">
-
+    <!-- Legendary -->
+    <Item>
+        <ItemLink>1600000037</ItemLink>
+    </Item>
+    <Item>
+        <ItemLink>1600000141</ItemLink>
+    </Item>
+    <Item>
+        <ItemLink>1600000385</ItemLink>
+    </Item>
+    <Item>
+        <ItemLink>1600000035</ItemLink>
+    </Item>
+    <Item>
+        <ItemLink>1600000500</ItemLink>
+    </Item>
     </ModOp>
 </Group>
 </ModOps>

@@ -8,6 +8,7 @@
 <!-- RewardPool Epic Traders -->
 <Group>
     <ModOp Type="add" GUID="83450,83462,83466,83470,83478,83474,83482" Path="/Values/RewardPool/ItemsPool">
+    <!-- Epic -->
     <Item>
         <ItemLink>1600000044</ItemLink>
     </Item>
@@ -25,6 +26,9 @@
     </Item>
     <Item>
         <ItemLink>1600000313</ItemLink>
+    </Item>
+    <Item>
+        <ItemLink>1600000695</ItemLink>
     </Item>
     </ModOp>
 </Group>
