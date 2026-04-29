@@ -383,7 +383,7 @@
         </ModOp>
     </Group>
 
-    <!-- Specialist NR-Soap-Inc-R -->
+    <!-- Specialist NR-Inc-Soap-R -->
     <Group>
         <ModOp Add="/TextExport/Texts">
         <!-- Title -->

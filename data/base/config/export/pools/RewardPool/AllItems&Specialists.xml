@@ -22,7 +22,9 @@
     <Item>
         <ItemLink>1600000574</ItemLink>
     </Item>
-
+    <Item>
+        <ItemLink>1600000031</ItemLink>
+    </Item>
     <!-- Epic -->
     <Item>
         <ItemLink>1600000044</ItemLink>
@@ -42,8 +44,26 @@
     <Item>
         <ItemLink>1600000313</ItemLink>
     </Item>
+    <Item>
+        <ItemLink>1600000695</ItemLink>
+    </Item>
 
     <!-- Legendary -->
+    <Item>
+        <ItemLink>1600000037</ItemLink>
+    </Item>
+    <Item>
+        <ItemLink>1600000141</ItemLink>
+    </Item>
+    <Item>
+        <ItemLink>1600000385</ItemLink>
+    </Item>
+    <Item>
+        <ItemLink>1600000035</ItemLink>
+    </Item>
+    <Item>
+        <ItemLink>1600000500</ItemLink>
+    </Item>
 
     <!-- Rare -->
     <Item>
@@ -57,6 +77,18 @@
     </Item>
     <Item>
         <ItemLink>1600000570</ItemLink>
+    </Item>
+    <Item>
+        <ItemLink>1600000327</ItemLink>
+    </Item>
+    <Item>
+        <ItemLink>1600000160</ItemLink>
+    </Item>
+    <Item>
+        <ItemLink>1600000158</ItemLink>
+    </Item>
+    <Item>
+        <ItemLink>1600000196</ItemLink>
     </Item>
 
     </ModOp>
