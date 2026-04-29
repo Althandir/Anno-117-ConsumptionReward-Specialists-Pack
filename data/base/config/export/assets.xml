@@ -42,7 +42,7 @@
     <Include File="items-rare/AE-NR-Theater-Inc-Toga-R.xml" />
     <Include File="items-rare/NR-Inc-OliveOil-R.xml" />
     <Include File="items-rare/NR-Inc-GoodsMercury-R.xml" />
-    <Include File="items-rare/NR-Soap-Inc-R.xml" />
+    <Include File="items-rare/NR-Inc-Soap-R.xml" />
     <Include File="items-rare/NR-Inc-Wigs-R.xml" />
     <Include File="items-rare/NR-Inc-BirdTongue-R.xml" />
     <Include File="items-rare/NR-Inc-FineGlass-R.xml" />
@@ -71,6 +71,30 @@
 <!-- Add to Pools -->
 <Include File="pools/AssetList/AssetListPool.xml" />
 <Include File="pools/RewardPool/AllItems&Specialists.xml" />
+
+<Include File="pools/RewardPool/Culture-E.xml" />
+<Include File="pools/RewardPool/Culture-L.xml" />
+<Include File="pools/RewardPool/Culture-R.xml" />
+
+<Include File="pools/RewardPool/Diplomacy-R.xml" />
+
+<Include File="pools/RewardPool/Economy-C.xml" />
+<Include File="pools/RewardPool/Economy-L.xml" />
+
+<Include File="pools/RewardPool/Finance-E.xml" />
+<Include File="pools/RewardPool/Finance-L.xml" />
+<Include File="pools/RewardPool/Finance-R.xml" />
+
+<Include File="pools/RewardPool/Military-R.xml" />
+
+<Include File="pools/RewardPool/Nature-E.xml" />
+<Include File="pools/RewardPool/Nature-R.xml" />
+
+<Include File="pools/RewardPool/Religion-C.xml" />
+<Include File="pools/RewardPool/Religion-L.xml" />
+<Include File="pools/RewardPool/Religion-R.xml" />
+
+<Include File="pools/RewardPool/Research-L.xml" />
 
 <!-- Add to Traderpools --> 
 <Include File="pools/Traders/pools-common.xml" />
