@@ -4,7 +4,7 @@
 # GUIDs might be all over the place (not outside of my Range but inside this mod) due to my experiments all the time
 # or my stupid brain getting new Ideas all the time and never finishing something >~<
 
-### GUID-Ranges:  
+### GUID-Ranges (Incomplete):  
 #    
 #    1600000562 - 1600000563 (NR-Inc-GoodsCeres-C)
 #    1600000564 - 1600000565 (NR-Inc-GoodsCernunnos-C)
@@ -20,7 +20,7 @@
 #    1600000170 - 1600000173 (AE-NR-CTHall-Inc-Roast-R)
 #    1600000182 - 1600000185 (AE-NR-Theater-Inc-Toga-R)
 #    1600000214 - 1600000215 (NR-Inc-OliveOil-R)
-#    1600000262 - 1600000265 (AE-NR-CSport-Inc-TunicTrouser-E)
+#    1600000262 - 1600000265 (AE-NR-CSport-Inc-Trouser-E)
 #    1600000313 - 1600000316 (AE-NR-ForumMar-Inc-Cheese-E)
 #    1600000044 - 1600000047 (AE-NR-Bath-Red-Soap-E)
 -->
@@ -33,6 +33,7 @@
     <Include File="items-common/NR-Inc-GoodsMars-C.xml" />
     <Include File="items-common/NR-Inc-GoodsMinerva-C.xml" />
     <Include File="items-common/NR-Inc-GoodsNeptune-C.xml" />
+    <Include File="items-common/NR-Inc-PileusReedShoes-C.xml" />
 </Group>
 
 <!-- Rare Specialists -->
@@ -41,21 +42,30 @@
     <Include File="items-rare/AE-NR-Theater-Inc-Toga-R.xml" />
     <Include File="items-rare/NR-Inc-OliveOil-R.xml" />
     <Include File="items-rare/NR-Inc-GoodsMercury-R.xml" />
+    <Include File="items-rare/NR-Soap-Inc-R.xml" />
+    <Include File="items-rare/NR-Inc-Wigs-R.xml" />
+    <Include File="items-rare/NR-Inc-BirdTongue-R.xml" />
+    <Include File="items-rare/NR-Inc-FineGlass-R.xml" />
 </Group>
 
 <!-- Epic Specialists -->
 <Group>
     <Include File="items-epic/AE-NR-ForumMar-Inc-Cheese-E.xml" />
     <Include File="items-epic/AE-NR-Bath-Red-Soap-E.xml" />
-    <Include File="items-epic/AE-NR-CSport-Inc-TunicTrouser-E.xml" />
+    <Include File="items-epic/AE-NR-CSport-Inc-Trouser-E.xml" />
     <Include File="items-epic/AllGoods-Red-E.xml" />
     <Include File="items-epic/NR-Inc-Beer-E.xml" />
     <Include File="items-epic/NR-Inc-Garum-E.xml" />
+    <Include File="items-epic/NR-Inc-Wine-E.xml" />
 </Group>
 
 <!-- Legendary Specialists -->
 <Group>
-
+    <Include File="items-legendary/NR-Inc-Tunics-L.xml" />
+    <Include File="items-legendary/NR-Inc-SandalsShoes-L.xml" />
+    <Include File="items-legendary/NR-Inc-Necklaces-L.xml" />
+    <Include File="items-legendary/NR-Inc-CShieldsSausage-L.xml" />
+    <Include File="items-legendary/NR-Inc-Chariots-L.xml" />
 </Group>
 
 <!-- Add to Pools -->

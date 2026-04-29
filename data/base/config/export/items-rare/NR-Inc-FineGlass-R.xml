@@ -1,41 +1,42 @@
 <ModOps>
-<!-- Item Definition GUID:1600000570 - 1600000571 | LineID:1600000570 - 1600000571 -->
+<!-- Item Definition GUID: 1600000160 - 1600000161 | LineID:1600000160 - 1600000161 -->
     <Group>
         <ModOp Type="addNextSibling" GUID="106410">
         <Asset>
             <Template>Item</Template>
             <Values>
             <Standard>
-                <GUID>1600000570</GUID>
-                <Name>Specialist NR-Inc-GoodsMercury-R</Name>
-                <IconFilename>data/base/graphics/icons/NR-Mercury.png</IconFilename>
-                <InfoDescription>1600000571</InfoDescription>
+                <GUID>1600000160</GUID>
+                <Name>Specialist NR-Inc-FineGlass-R</Name>
+                <IconFilename>data/base/graphics/icons/NR-Inc-FineGlass-R.png</IconFilename>
+                <InfoDescription>1600000161</InfoDescription>
             </Standard>
             <Effect>
                 <EffectScope>Radius</EffectScope>  
                 <SourceCategory>Item</SourceCategory>
                 <Buffs>
-                <Item>
-                    <GUID>1600000571</GUID>
-                </Item>
+                    <Item>
+                        <GUID>1600000161</GUID>
+                    </Item>
                 </Buffs>
                 <Targets> <!-- Targets of Buff -->
-                <Item>
-                    <GUID>31046</GUID>
-                </Item>
+                    <Item>
+                        <GUID>31046</GUID>
+                    </Item>
                 </Targets>
+                <HideInGovernorsBar>1</HideInGovernorsBar>
             </Effect>
             <Item>
-                <Niche>Religion</Niche>
+                <Niche>Diplomacy</Niche>
                 <TradePrice><ModValue Insert="$TradePrice_Rare"/></TradePrice> 
-                <BarkPool>83298</BarkPool> <!-- <GUID>83298</GUID> -->
+                <BarkPool>80242</BarkPool> <!-- <GUID>80242</GUID> -->
                 <Rarity>Rare</Rarity> 
             </Item>
             <Locked>
                 <DefaultLockedState>0</DefaultLockedState>
             </Locked>
             <Text>
-                <OasisId>1600000570</OasisId>
+                <OasisId>1600000160</OasisId>
             </Text>
             </Values>
         </Asset>
@@ -44,73 +45,61 @@
 
     <!-- Buff Definitions-->
     <Group>
-    <!-- BuildingEffect Definition -->
-    <ModOp Type="addNextSibling" GUID="80193">
-        <Asset>
+        <!-- BuildingBuff Definition -->
+        <ModOp Type="addNextSibling" GUID="81445">
+            <Asset>
             <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000571</GUID>
-                    <Name>Specialist NR-Inc-GoodsMercury-R BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/NR-Mercury.png</IconFilename>
+                <GUID>1600000161</GUID>
+                <Name>Specialist NR-Inc-FineGlass-R BuildingBuff</Name>
+                <IconFilename>data/base/graphics/icons/NR-Inc-FineGlass-R.png</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600000570</OasisId>
+                    <OasisId>1600000160</OasisId>
                 </Text>
-                <HealthUpgrade/>
-                <BuildingUpgrade/>
-                <DistributionUpgrade/>
                 <Buff>
                     <SourceCategory>Item</SourceCategory>
                 </Buff>
                 <ResidenceUpgrade>
                     <GoodConsumptionUpgrade>
                         <Item>
-                            <ProvidedNeed>2146</ProvidedNeed>
-                            <AmountInPercent>30</AmountInPercent>
-                        </Item>
-                        <Item>
-                            <ProvidedNeed>2156</ProvidedNeed>
+                            <ProvidedNeed>2151</ProvidedNeed>
                             <AmountInPercent>30</AmountInPercent>
                         </Item>
                     </GoodConsumptionUpgrade>
                     <NeedProvidedNeedAttributes>
                         <ChangeNeedAttributesOf>
                             <Item>
-                                <ProvidedProduct>2146</ProvidedProduct> <!-- <GUID>2146</GUID> -->
-                            </Item>
-                            <Item>
-                                <ProvidedProduct>2156</ProvidedProduct> <!-- <GUID>2156</GUID> -->
+                                <ProvidedProduct>2151</ProvidedProduct> <!-- <GUID>2151</GUID> -->
                             </Item>
                         </ChangeNeedAttributesOf>
                         <AdditionalNeedAttributes>
-                            <Belief>
+                            <Money>
                                 <AmountOrPercent>
                                     <Value>2</Value>
                                     <Percental>0</Percental>
                                 </AmountOrPercent>
-                            </Belief>
-                            <Money>
+                            </Money>
+                            <Prestige>
                                 <AmountOrPercent>
-                                    <Value>1</Value>
+                                    <Value>2</Value>
                                     <Percental>0</Percental>
                                 </AmountOrPercent>
-                            </Money>
+                            </Prestige>
+                            <Health>
+                                <AmountOrPercent>
+                                    <Value>-2</Value>
+                                    <Percental>0</Percental>
+                                </AmountOrPercent>
+                            </Health>
                         </AdditionalNeedAttributes>
                     </NeedProvidedNeedAttributes>
                 </ResidenceUpgrade>
-                <FactoryUpgrade/>
-                <ModuleOwnerUpgrade/>
-                <MaintenanceUpgrade/>
-                <CityInstitutionUpgrade/>
-                <IncidentInfectableUpgrade/>
-                <RecruitmentUpgrade/>
-                <AqueductUpgrade/>
-                <WarehouseUpgrade/>
-                <IrrigationUpgrade/>
             </Values>
-        </Asset>
-    </ModOp>
-
+            </Asset>
+        </ModOp>
+        
     </Group>
+
 </ModOps>

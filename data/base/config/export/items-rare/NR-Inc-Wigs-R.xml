@@ -1,0 +1,98 @@
+<ModOps>
+<!-- Item Definition GUID:1600000158 - 1600000159 | LineID:1600000158 - 1600000159 -->
+    <Group>
+        <ModOp Type="addNextSibling" GUID="106410">
+        <Asset>
+            <Template>Item</Template>
+            <Values>
+            <Standard>
+                <GUID>1600000158</GUID>
+                <Name>Specialist NR-Inc-Wigs-R</Name>
+                <IconFilename>data/base/graphics/icons/NR-Inc-Wigs-R.png</IconFilename>
+                <InfoDescription>1600000159</InfoDescription>
+            </Standard>
+            <Effect>
+                <EffectScope>Radius</EffectScope>  
+                <SourceCategory>Item</SourceCategory>
+                <Buffs>
+                    <Item>
+                        <GUID>1600000159</GUID>
+                    </Item>
+                </Buffs>
+                <Targets> <!-- Targets of Buff -->
+                    <Item>
+                        <GUID>31046</GUID>
+                    </Item>
+                </Targets>
+                <HideInGovernorsBar>1</HideInGovernorsBar>
+            </Effect>
+            <Item>
+                <Niche>Military</Niche>
+                <TradePrice><ModValue Insert="$TradePrice_Rare"/></TradePrice> 
+                <BarkPool>83301</BarkPool> <!-- <GUID>83301</GUID> -->
+                <Rarity>Rare</Rarity> 
+            </Item>
+            <Locked>
+                <DefaultLockedState>0</DefaultLockedState>
+            </Locked>
+            <Text>
+                <OasisId>1600000158</OasisId>
+            </Text>
+            </Values>
+        </Asset>
+        </ModOp>
+    </Group>
+
+    <!-- Buff Definitions-->
+    <Group>
+        <ModOp Type="addNextSibling" GUID="81445">
+            <Asset>
+            <Template>BuildingBuff</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1600000159</GUID>
+                        <Name>Specialist NR-Inc-Wigs-R BuildingBuff</Name>
+                        <IconFilename>data/base/graphics/icons/NR-Inc-Wigs-R.png</IconFilename>
+                    </Standard>
+                    <Text>
+                        <OasisId>1600000158</OasisId>
+                    </Text>
+                    <Buff>
+                        <SourceCategory>Item</SourceCategory>
+                    </Buff>
+                    <ResidenceUpgrade>
+                        <GoodConsumptionUpgrade>
+                            <Item>
+                                <ProvidedNeed>31708</ProvidedNeed>
+                                <AmountInPercent>30</AmountInPercent>
+                            </Item>
+                        </GoodConsumptionUpgrade>
+                        <NeedProvidedNeedAttributes>
+                            <ChangeNeedAttributesOf>
+                                <Item>
+                                    <ProvidedProduct>31708</ProvidedProduct> <!-- <GUID>31708</GUID> -->
+                                </Item>
+                            </ChangeNeedAttributesOf>
+                            <AdditionalNeedAttributes>
+                                <Health>
+                                    <AmountOrPercent>
+                                        <Value>-1</Value>
+                                        <Percental>0</Percental>
+                                    </AmountOrPercent>
+                                </Health>
+                                <FireSafety>
+                                    <AmountOrPercent>
+                                        <Value>3</Value>
+                                        <Percental>0</Percental>
+                                    </AmountOrPercent>
+                                </FireSafety>
+                            </AdditionalNeedAttributes>
+                        </NeedProvidedNeedAttributes>
+                    </ResidenceUpgrade>
+                </Values>
+            </Asset>
+        </ModOp>
+    
+    </Group>
+
+</ModOps>

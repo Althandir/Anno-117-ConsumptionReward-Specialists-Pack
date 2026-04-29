@@ -96,7 +96,7 @@
         </ModOp>
     </Group>
     
-    <!-- Specialist AE-NR-CSport-Inc-TunicTrouser-E -->
+    <!-- Specialist AE-NR-CSport-Inc-Trouser-E -->
     <Group>
         <ModOp Add="/TextExport/Texts">
         <!-- Title -->
@@ -106,7 +106,7 @@
         </Text>
         <!-- Description -->
         <Text>
-            <Text>Bringt die Leute so richtig ins Schwitzen. Jeder sollte extra Tuniken und Hosten parat haben. &#xD;Hinweis: Der Effekt wirkt auf alle Wohngebäude in Straßenreichweite der Wettkampfwiese.&#xD;(Consumption-Pack)</Text>
+            <Text>Bringt die Leute so richtig ins Schwitzen. Jeder sollte ein extra Set an Hosten parat haben. &#xD;Hinweis: Der Effekt wirkt auf alle Wohngebäude in Straßenreichweite der Wettkampfwiese.&#xD;(Consumption-Pack)</Text>
             <LineId>1600000263</LineId> 
         </Text>
         </ModOp>
@@ -255,4 +255,206 @@
         </Text>
         </ModOp>
     </Group>
+    
+    <!-- Specialist NR-Inc-BirdTongue-R -->
+    <Group>
+    <ModOp Add="/TextExport/Texts">
+        <!-- Title -->
+        <Text>
+            <Text>Aspik Würzer</Text>
+            <LineId>1600000327</LineId> <!-- <GUID>1600000327</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>Testet verschiedene Gewürze um das Aspik wenigstens erträglich zu machen.&#xD;(Consumption-Pack)</Text>
+            <LineId>1600000328</LineId> 
+        </Text>
+    </ModOp>
+    </Group>
+
+    <!-- Specialist NR-Inc-Necklaces-L -->
+    <Group>
+    <ModOp Add="/TextExport/Texts">
+        <!-- Title -->
+        <Text>
+            <Text>Smeagolus Gollumus, Schmucksüchtiger Patrizier</Text>
+            <LineId>1600000385</LineId> <!-- <GUID>1600000385</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>"Mein Schatz! Mein Eigen, mein Schatz!" &#xD;(Consumption-Pack)</Text>
+            <LineId>1600000386</LineId> 
+        </Text>
+        <!-- Boosted Hint -->
+        <Text>
+            <Text>Sucht einen ganz besonderen Ring. (8x Juwelier auf der Insel)</Text>
+            <LineId>1600000387</LineId> 
+        </Text>
+    </ModOp>
+    </Group>
+
+    <!-- Specialist NR-Inc-Chariots-L -->
+    <Group>
+        <ModOp Add="/TextExport/Texts">
+        <!-- Title -->
+        <Text>
+            <Text>Vipera Severus, Streitwagenforscher</Text>
+            <LineId>1600000037</LineId> <!-- <GUID>1600000037</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>Streitwägen als Alltagsfahrzeug? Vipera macht es möglich!.&#xD;(Consumption-Pack)</Text>
+            <LineId>1600000038</LineId> 
+        </Text>
+        <!-- Boosted Hint -->
+        <Text>
+            <Text>Hohe Einkommen und talentierte Handwerker halten ihn bei Laune. (5000 Einkommen & 7500 Wissen auf Insel)</Text>
+            <LineId>1600000038</LineId> 
+        </Text>
+        </ModOp>
+    </Group>
+
+    <!-- Specialist NR-Inc-FineGlass-R -->
+    <Group>
+        <ModOp Add="/TextExport/Texts">
+        <!-- Title -->
+        <Text>
+            <Text>Elephas Vitreus</Text>
+            <LineId>1600000160</LineId> <!-- <GUID>1600000160</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>"Ahhh... nicht schon wieder! Verdammt! Schon wieder das Glas zerbrochen!"&#xD;(Consumption-Pack)</Text>
+            <LineId>1600000161</LineId> 
+        </Text>
+        </ModOp>
+    </Group>
+
+    <!-- Specialist NR-Inc-CShieldsSausage-L -->
+    <Group>
+        <ModOp Add="/TextExport/Texts">
+        <!-- Title -->
+        <Text>
+            <Text>Romano-Germanischer Söldner</Text>
+            <LineId>1600000141</LineId> <!-- <GUID>1600000141</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>Dieser Söldner ist bereit ein Stadtviertel zu bewachen. Und als Bezahlung will er nur Ausrüstung und Würste.&#xD;(Consumption-Pack)</Text>
+            <LineId>1600000142</LineId> 
+        </Text>
+        <!-- Boosted Hint -->
+        <Text>
+            <Text>Hat eine Schwäche für Glückspiel. (2x Aleatorium auf Insel)</Text>
+            <LineId>1600000143</LineId> 
+        </Text>
+        </ModOp>
+    </Group>
+
+    <!-- Specialist NR-Inc-PileusReedShoes-C -->
+    <Group>
+        <ModOp Add="/TextExport/Texts">
+        <!-- Title -->
+        <Text>
+            <Text>Junger Schneider</Text>
+            <LineId>1600000031</LineId> <!-- <GUID>1600000031</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>Repariert einige Kleidungsstücke um Erfahrung zu sammeln.&#xD;(Consumption-Pack)</Text>
+            <LineId>1600000032</LineId> 
+        </Text>
+        </ModOp>
+    </Group>
+
+    <!-- Specialist NR-Inc-Wine-E -->
+    <Group>
+        <ModOp Add="/TextExport/Texts">
+        <!-- Title -->
+        <Text>
+            <Text>Aemilia, die immer volle Weinhändlerin</Text>
+            <LineId>1600000695</LineId> <!-- <GUID>1600000695</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>"Mein Wein ist mir wichtiger als meine Kinder!"&#xD;(Consumption-Pack)</Text>
+            <LineId>1600000696</LineId> 
+        </Text>
+        </ModOp>
+    </Group>
+
+    <!-- Specialist NR-Soap-Inc-R -->
+    <Group>
+        <ModOp Add="/TextExport/Texts">
+        <!-- Title -->
+        <Text>
+            <Text>Seifenhorter</Text>
+            <LineId>1600000196</LineId> <!-- <GUID>1600000196</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>"Seife ist viel zu wertvoll als dass man die benutzt! Dieser liebliche Geruch darf niemals aufhören!" &#xD;(Consumption-Pack)</Text>
+            <LineId>1600000197</LineId> 
+        </Text>
+        </ModOp>
+    </Group>  
+    
+    <!-- Specialist NR-Inc-Tunics-L -->
+    <Group>
+        <ModOp Add="/TextExport/Texts">
+        <!-- Title -->
+        <Text>
+            <Text>Servius Rusticus, Pragmatischer Handwerker</Text>
+            <LineId>1600000500</LineId> <!-- <GUID>1600000500</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>"Toga-Träger sind Schwächlinge und Paragraphenreiter! Nur mit einer einfachen Tunika kann man seine Verpflichtungen erfüllen!" &#xD;(Consumption-Pack)</Text>
+            <LineId>1600000501</LineId> 
+        </Text>
+        <!-- Boosted Hint -->
+        <Text>
+            <Text>Lässt sich seine Tuniken beim lokalen Schneider flicken. (3x Schneidereien on Island)</Text>
+            <LineId>1600000502</LineId> 
+        </Text>
+        </ModOp>
+    </Group>
+
+    <!-- Specialist NR-Inc-Wigs-R -->
+    <Group>
+        <ModOp Add="/TextExport/Texts">
+        <!-- Title -->
+        <Text>
+            <Text>Perückenfixiererin</Text>
+            <LineId>1600000158</LineId> <!-- <GUID>1600000158</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>"Was nicht passt wird passend gemacht! Das könnte jetzt ein bisschen wehtun..." &#xD;(Consumption-Pack)</Text>
+            <LineId>1600000159</LineId> 
+        </Text>
+        </ModOp>
+    </Group>
+
+    <!-- Specialist NR-Inc-SandalsShoes-L -->
+    <Group>
+        <ModOp Add="/TextExport/Texts">
+        <!-- Title -->
+        <Text>
+            <Text>Iterius Lassus, Pilger-Organisator</Text>
+            <LineId>1600000035</LineId> <!-- <GUID>1600000035</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>Seine Pilgerwege sind immer so langwierig, dass einem die Sandalen vom Fuß abfallen. &#xD;(Consumption-Pack)</Text>
+            <LineId>1600000036</LineId> 
+        </Text>
+        <!-- Boosted Hint -->
+        <Text>
+            <Text>Braucht eine kleine Glaubensgemeinschaft. (1500 Glauben auf Insel) </Text>
+            <LineId>1600000004</LineId> 
+        </Text>
+        </ModOp>
+    </Group>
+
 </ModOps>

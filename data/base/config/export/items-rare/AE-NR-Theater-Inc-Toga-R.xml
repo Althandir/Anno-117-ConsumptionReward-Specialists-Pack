@@ -27,7 +27,7 @@
           </Effect>
           <Item>
             <Niche>Finance</Niche>
-            <TradePrice>27000</TradePrice> 
+            <TradePrice><ModValue Insert="$TradePrice_Rare"/></TradePrice> 
             <BarkPool>83314</BarkPool> <!-- <GUID>83314</GUID> -->
             <Rarity>Rare</Rarity> 
           </Item>
@@ -69,7 +69,7 @@
                     <GoodConsumptionUpgrade>
                         <Item>
                         <ProvidedNeed>2145</ProvidedNeed>
-                        <AmountInPercent>33</AmountInPercent>
+                        <AmountInPercent>30</AmountInPercent>
                         </Item>
                     </GoodConsumptionUpgrade>
                     <NeedProvidedNeedAttributes>
@@ -162,7 +162,7 @@
                     <GoodConsumptionUpgrade>
                         <Item>
                         <ProvidedNeed>2145</ProvidedNeed>
-                        <AmountInPercent>33</AmountInPercent>
+                        <AmountInPercent>30</AmountInPercent>
                         </Item>
                     </GoodConsumptionUpgrade>
                     <NeedProvidedNeedAttributes>

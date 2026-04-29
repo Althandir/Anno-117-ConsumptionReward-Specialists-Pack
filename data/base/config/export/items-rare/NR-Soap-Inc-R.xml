@@ -1,0 +1,98 @@
+<ModOps>
+<!-- Item Definition GUID:1600000196 - 1600000197 | LineID:1600000196 - 1600000197 -->
+    <Group>
+        <ModOp Type="addNextSibling" GUID="106410">
+        <Asset>
+            <Template>Item</Template>
+            <Values>
+            <Standard>
+                <GUID>1600000196</GUID>
+                <Name>Specialist NR-Soap-Inc-R</Name>
+                <IconFilename>data/base/graphics/icons/NR-Soap-Inc-R.png</IconFilename>
+                <InfoDescription>1600000197</InfoDescription>
+            </Standard>
+            <Effect>
+                <EffectScope>Radius</EffectScope>  
+                <SourceCategory>Item</SourceCategory>
+                <Buffs>
+                    <Item>
+                        <GUID>1600000197</GUID>
+                    </Item>
+                </Buffs>
+                <Targets> <!-- Targets of Buff -->
+                    <Item>
+                        <GUID>31046</GUID>
+                    </Item>
+                </Targets>
+                <HideInGovernorsBar>1</HideInGovernorsBar>
+            </Effect>
+            <Item>
+                <Niche>Diplomacy</Niche>
+                <TradePrice><ModValue Insert="$TradePrice_Rare"/></TradePrice> 
+                <BarkPool>80246</BarkPool> <!-- <GUID>80246</GUID> -->
+                <Rarity>Rare</Rarity> 
+            </Item>
+            <Locked>
+                <DefaultLockedState>0</DefaultLockedState>
+            </Locked>
+            <Text>
+                <OasisId>1600000196</OasisId>
+            </Text>
+            </Values>
+        </Asset>
+        </ModOp>
+    </Group>
+
+    <!-- Buff Definitions-->
+    <Group>
+        <!-- BuildingBuff Definition -->
+        <ModOp Type="addNextSibling" GUID="81445">
+        <Asset>
+            <Template>BuildingBuff</Template>
+            <Values>
+            <Standard>
+                <GUID>1600000197</GUID>
+                <Name>Specialist NR-Soap-Inc-R BuildingBuff</Name>
+                <IconFilename>data/base/graphics/icons/NR-Soap-Inc-R.png</IconFilename>
+            </Standard>
+            <Text>
+                <OasisId>1600000196</OasisId>
+            </Text>
+            <Buff>
+                <SourceCategory>Item</SourceCategory>
+            </Buff>
+            <ResidenceUpgrade>
+                <GoodConsumptionUpgrade>
+                    <Item>
+                        <ProvidedNeed>2143</ProvidedNeed>
+                        <AmountInPercent>30</AmountInPercent>
+                    </Item>
+                </GoodConsumptionUpgrade>
+                <NeedProvidedNeedAttributes>
+                    <ChangeNeedAttributesOf>
+                        <Item>
+                            <ProvidedProduct>2143</ProvidedProduct> <!-- <GUID>2143</GUID> -->
+                        </Item>
+                    </ChangeNeedAttributesOf>
+                    <AdditionalNeedAttributes>
+                        <Health>
+                            <AmountOrPercent>
+                                <Value>-1</Value>
+                                <Percental>0</Percental>
+                            </AmountOrPercent>
+                        </Health>
+                        <Prestige>
+                            <AmountOrPercent>
+                                <Value>4</Value>
+                                <Percental>0</Percental>
+                            </AmountOrPercent>
+                        </Prestige>
+                    </AdditionalNeedAttributes>
+                </NeedProvidedNeedAttributes>
+            </ResidenceUpgrade>
+            </Values>
+        </Asset>
+        </ModOp>
+
+    </Group>
+</ModOps>
