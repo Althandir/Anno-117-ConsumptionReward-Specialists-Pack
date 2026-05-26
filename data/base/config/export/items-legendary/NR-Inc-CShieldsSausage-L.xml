@@ -111,11 +111,11 @@
                     <GoodConsumptionUpgrade>
                         <Item>
                             <ProvidedNeed>8405</ProvidedNeed>
-                            <AmountInPercent>50</AmountInPercent>
+                            <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary"/></AmountInPercent>
                         </Item>31706
                         <Item>
                             <ProvidedNeed>31706</ProvidedNeed>
-                            <AmountInPercent>50</AmountInPercent>
+                            <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary"/></AmountInPercent>
                         </Item>
                     </GoodConsumptionUpgrade>
                     <NeedProvidedNeedAttributes>
@@ -174,11 +174,11 @@
                 <GoodConsumptionUpgrade>
                         <Item>
                             <ProvidedNeed>8405</ProvidedNeed>
-                            <AmountInPercent>50</AmountInPercent>
+                            <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary"/></AmountInPercent>
                         </Item>31706
                         <Item>
                             <ProvidedNeed>31706</ProvidedNeed>
-                            <AmountInPercent>50</AmountInPercent>
+                            <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary"/></AmountInPercent>
                         </Item>
                 </GoodConsumptionUpgrade>
                 <NeedProvidedNeedAttributes>
