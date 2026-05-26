@@ -64,11 +64,9 @@
                 <Text>
                     <OasisId>1600000313</OasisId>
                 </Text>
-                <HealthUpgrade/>
                 <BuildingUpgrade>
                     <AdditionalFunctionalEffect>1600000315</AdditionalFunctionalEffect>
                 </BuildingUpgrade>
-                <DistributionUpgrade/>
                 <Buff>
                     <SourceCategory>Item</SourceCategory>
                 </Buff>
@@ -76,7 +74,7 @@
                   <GoodConsumptionUpgrade>
                     <Item>
                       <ProvidedNeed>2153</ProvidedNeed>
-                      <AmountInPercent>40</AmountInPercent>
+                      <AmountInPercent><ModValue Insert="$ConsumptionModifier_Epic"/></AmountInPercent>
                     </Item>
                   </GoodConsumptionUpgrade>
                   <NeedProvidedNeedAttributes>
@@ -106,7 +104,7 @@
                       </Prestige>
                       <Happiness>
                         <AmountOrPercent>
-                          <Value>-2</Value>
+                          <Value>-1</Value>
                           <Percental>0</Percental>
                         </AmountOrPercent>
                       </Happiness>
@@ -119,15 +117,6 @@
                     </AdditionalNeedAttributes>
                   </NeedProvidedNeedAttributes>
                 </ResidenceUpgrade>
-                <FactoryUpgrade/>
-                <ModuleOwnerUpgrade/>
-                <MaintenanceUpgrade/>
-                <CityInstitutionUpgrade/>
-                <IncidentInfectableUpgrade/>
-                <RecruitmentUpgrade/>
-                <AqueductUpgrade/>
-                <WarehouseUpgrade/>
-                <IrrigationUpgrade/>
             </Values>
         </Asset>
     </ModOp>
@@ -176,9 +165,6 @@
                 <Text>
                     <OasisId>1600000313</OasisId>
                 </Text>
-                <HealthUpgrade/>
-                <BuildingUpgrade/>
-                <DistributionUpgrade/>
                 <Buff>
                     <SourceCategory>Adjacency</SourceCategory>
                 </Buff>
@@ -186,7 +172,7 @@
                   <GoodConsumptionUpgrade>
                     <Item>
                       <ProvidedNeed>2153</ProvidedNeed>
-                      <AmountInPercent>40</AmountInPercent>
+                      <AmountInPercent><ModValue Insert="$ConsumptionModifier_Epic"/></AmountInPercent>
                     </Item>
                   </GoodConsumptionUpgrade>
                   <NeedProvidedNeedAttributes>
@@ -229,15 +215,6 @@
                     </AdditionalNeedAttributes>
                   </NeedProvidedNeedAttributes>
                 </ResidenceUpgrade>
-                <FactoryUpgrade/>
-                <ModuleOwnerUpgrade/>
-                <MaintenanceUpgrade/>
-                <CityInstitutionUpgrade/>
-                <IncidentInfectableUpgrade/>
-                <RecruitmentUpgrade/>
-                <AqueductUpgrade/>
-                <WarehouseUpgrade/>
-                <IrrigationUpgrade/>
             </Values>
         </Asset>
     </ModOp>

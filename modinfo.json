@@ -1,6 +1,6 @@
 {
   "ModID": "althandir-altdolphin-specialists-consumptionreward-pack",
-  "Version": "1.0.0",
+  "Version": "1.0.1",
   "Anno": 8,
   "IncompatibleIds": null,
   "ModDependencies": null,
@@ -82,6 +82,22 @@
     "TradePrice_Legendary":
     {
       "default": "500000"
+    },
+    "ConsumptionModifier_Common":
+    {
+      "default": "15"
+    },
+    "ConsumptionModifier_Rare":
+    {
+      "default": "25"
+    },
+    "ConsumptionModifier_Epic":
+    {
+      "default": "35"
+    },
+    "ConsumptionModifier_Legendary":
+    {
+      "default": "50"
     }
   }
 

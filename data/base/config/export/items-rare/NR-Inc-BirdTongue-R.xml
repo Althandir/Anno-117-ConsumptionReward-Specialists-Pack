@@ -66,7 +66,7 @@
                     <GoodConsumptionUpgrade>
                         <Item>
                             <ProvidedNeed>2155</ProvidedNeed>
-                            <AmountInPercent>30</AmountInPercent>
+                            <AmountInPercent><ModValue Insert="$ConsumptionModifier_Rare"/></AmountInPercent>
                         </Item>
                     </GoodConsumptionUpgrade>
                     <NeedProvidedNeedAttributes>

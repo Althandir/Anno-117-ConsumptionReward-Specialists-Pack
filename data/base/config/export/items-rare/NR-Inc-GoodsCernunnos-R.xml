@@ -7,7 +7,7 @@
             <Values>
             <Standard>
                 <GUID>1600000564</GUID>
-                <Name>Specialist NR-Inc-GoodsCernunnos-C</Name>
+                <Name>Specialist NR-Inc-GoodsCernunnos-R</Name>
                 <IconFilename>data/base/graphics/icons/NR-Cernunnos.png</IconFilename>
                 <InfoDescription>1600000565</InfoDescription>
             </Standard>
@@ -28,9 +28,9 @@
             </Effect>
             <Item>
                 <Niche>Religion</Niche>
-                <TradePrice><ModValue Insert="$TradePrice_Common"/></TradePrice> 
+                <TradePrice><ModValue Insert="$TradePrice_Rare"/></TradePrice> 
                 <BarkPool>83298</BarkPool> <!-- <GUID>83298</GUID> -->
-                <Rarity>Common</Rarity> 
+                <Rarity>Rare</Rarity> 
             </Item>
             <Locked>
                 <DefaultLockedState>0</DefaultLockedState>
@@ -52,15 +52,12 @@
             <Values>
                 <Standard>
                     <GUID>1600000565</GUID>
-                    <Name>Specialist NR-Inc-GoodsCernunnos-C BuildingBuff</Name>
+                    <Name>Specialist NR-Inc-GoodsCernunnos-R BuildingBuff</Name>
                     <IconFilename>data/base/graphics/icons/NR-Cernunnos.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000564</OasisId>
                 </Text>
-                <HealthUpgrade/>
-                <BuildingUpgrade/>
-                <DistributionUpgrade/>
                 <Buff>
                     <SourceCategory>Item</SourceCategory>
                 </Buff>
@@ -68,48 +65,39 @@
                     <GoodConsumptionUpgrade>
                         <Item>
                             <ProvidedNeed>2108</ProvidedNeed>
-                            <AmountInPercent>15</AmountInPercent>
+                            <AmountInPercent><ModValue Insert="$ConsumptionModifier_Rare"/></AmountInPercent>
                         </Item>
                         <Item>
                             <ProvidedNeed>2159</ProvidedNeed>
-                            <AmountInPercent>15</AmountInPercent>
+                            <AmountInPercent><ModValue Insert="$ConsumptionModifier_Rare"/></AmountInPercent>
                         </Item>
                         <Item>
                             <ProvidedNeed>31700</ProvidedNeed>
-                            <AmountInPercent>15</AmountInPercent>
+                            <AmountInPercent><ModValue Insert="$ConsumptionModifier_Rare"/></AmountInPercent>
                         </Item>
                     </GoodConsumptionUpgrade>
                     <NeedProvidedNeedAttributes>
-                      <ChangeNeedAttributesOf>
-                          <Item>
-                              <ProvidedProduct>2108</ProvidedProduct> <!-- <GUID>2108</GUID> -->
-                          </Item>
-                          <Item>
-                              <ProvidedProduct>2159</ProvidedProduct> <!-- <GUID>2159</GUID> -->
-                          </Item>
-                          <Item>
-                              <ProvidedProduct>31700</ProvidedProduct> <!-- <GUID>31700</GUID> -->
-                          </Item>
-                      </ChangeNeedAttributesOf>
-                      <AdditionalNeedAttributes>
-                          <Belief>
-                              <AmountOrPercent>
-                                  <Value>1</Value>
-                                  <Percental>0</Percental>
-                              </AmountOrPercent>
-                          </Belief>
-                      </AdditionalNeedAttributes>
+                        <ChangeNeedAttributesOf>
+                            <Item>
+                                <ProvidedProduct>2108</ProvidedProduct> <!-- <GUID>2108</GUID> -->
+                            </Item>
+                            <Item>
+                                <ProvidedProduct>2159</ProvidedProduct> <!-- <GUID>2159</GUID> -->
+                            </Item>
+                            <Item>
+                                <ProvidedProduct>31700</ProvidedProduct> <!-- <GUID>31700</GUID> -->
+                            </Item>
+                        </ChangeNeedAttributesOf>
+                        <AdditionalNeedAttributes>
+                            <Belief>
+                                <AmountOrPercent>
+                                    <Value>2</Value>
+                                    <Percental>0</Percental>
+                                </AmountOrPercent>
+                            </Belief>
+                        </AdditionalNeedAttributes>
                     </NeedProvidedNeedAttributes>
                 </ResidenceUpgrade>
-                <FactoryUpgrade/>
-                <ModuleOwnerUpgrade/>
-                <MaintenanceUpgrade/>
-                <CityInstitutionUpgrade/>
-                <IncidentInfectableUpgrade/>
-                <RecruitmentUpgrade/>
-                <AqueductUpgrade/>
-                <WarehouseUpgrade/>
-                <IrrigationUpgrade/>
             </Values>
         </Asset>
     </ModOp>

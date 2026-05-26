@@ -58,9 +58,6 @@
                 <Text>
                     <OasisId>1600000114</OasisId>
                 </Text>
-                <HealthUpgrade/>
-                <BuildingUpgrade/>
-                <DistributionUpgrade/>
                 <Buff>
                     <SourceCategory>Item</SourceCategory>
                 </Buff>
@@ -68,7 +65,7 @@
                     <GoodConsumptionUpgrade>
                         <Item>
                             <ProvidedNeed>2154</ProvidedNeed>
-                            <AmountInPercent>40</AmountInPercent>
+                            <AmountInPercent><ModValue Insert="$ConsumptionModifier_Epic"/></AmountInPercent>
                         </Item>
                     </GoodConsumptionUpgrade>
                     <NeedProvidedNeedAttributes>
