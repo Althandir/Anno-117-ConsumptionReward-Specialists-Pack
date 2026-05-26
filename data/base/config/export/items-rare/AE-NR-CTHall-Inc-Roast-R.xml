@@ -57,11 +57,9 @@
                 <Text>
                     <OasisId>1600000170</OasisId>
                 </Text>
-                <HealthUpgrade/>
                 <BuildingUpgrade>
                     <AdditionalFunctionalEffect>1600000172</AdditionalFunctionalEffect>
                 </BuildingUpgrade>
-                <DistributionUpgrade/>
                 <Buff>
                     <SourceCategory>Item</SourceCategory>
                 </Buff>
@@ -69,7 +67,7 @@
                   <GoodConsumptionUpgrade>
                     <Item>
                       <ProvidedNeed>31768</ProvidedNeed>
-                      <AmountInPercent>30</AmountInPercent>
+                      <AmountInPercent><ModValue Insert="$ConsumptionModifier_Rare"/></AmountInPercent>
                     </Item>
                   </GoodConsumptionUpgrade>
                   <NeedProvidedNeedAttributes>
@@ -118,15 +116,6 @@
                     </AdditionalNeedAttributes>
                   </NeedProvidedNeedAttributes>
                 </ResidenceUpgrade>
-                <FactoryUpgrade/>
-                <ModuleOwnerUpgrade/>
-                <MaintenanceUpgrade/>
-                <CityInstitutionUpgrade/>
-                <IncidentInfectableUpgrade/>
-                <RecruitmentUpgrade/>
-                <AqueductUpgrade/>
-                <WarehouseUpgrade/>
-                <IrrigationUpgrade/>
             </Values>
         </Asset>
     </ModOp>
@@ -175,10 +164,6 @@
                 <Text>
                     <OasisId>1600000170</OasisId>
                 </Text>
-                <HealthUpgrade/>
-                <BuildingUpgrade>
-                </BuildingUpgrade>
-                <DistributionUpgrade/>
                 <Buff>
                     <SourceCategory>Adjacency</SourceCategory>
                 </Buff>
@@ -186,7 +171,7 @@
                   <GoodConsumptionUpgrade>
                     <Item>
                       <ProvidedNeed>31768</ProvidedNeed>
-                      <AmountInPercent>30</AmountInPercent>
+                      <AmountInPercent><ModValue Insert="$ConsumptionModifier_Rare"/></AmountInPercent>
                     </Item>
                   </GoodConsumptionUpgrade>
                   <NeedProvidedNeedAttributes>
@@ -235,15 +220,6 @@
                     </AdditionalNeedAttributes>
                   </NeedProvidedNeedAttributes>
                 </ResidenceUpgrade>
-                <FactoryUpgrade/>
-                <ModuleOwnerUpgrade/>
-                <MaintenanceUpgrade/>
-                <CityInstitutionUpgrade/>
-                <IncidentInfectableUpgrade/>
-                <RecruitmentUpgrade/>
-                <AqueductUpgrade/>
-                <WarehouseUpgrade/>
-                <IrrigationUpgrade/>
             </Values>
         </Asset>
     </ModOp>

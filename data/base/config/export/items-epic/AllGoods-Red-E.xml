@@ -58,24 +58,12 @@
                 <Text>
                     <OasisId>1600000104</OasisId>
                 </Text>
-                <HealthUpgrade/>
-                <BuildingUpgrade/>
-                <DistributionUpgrade/>
                 <Buff>
                     <SourceCategory>Item</SourceCategory>
                 </Buff>
                 <ResidenceUpgrade>
                   <ConsumptionModifierInPercent>-15</ConsumptionModifierInPercent>
                 </ResidenceUpgrade>
-                <FactoryUpgrade/>
-                <ModuleOwnerUpgrade/>
-                <MaintenanceUpgrade/>
-                <CityInstitutionUpgrade/>
-                <IncidentInfectableUpgrade/>
-                <RecruitmentUpgrade/>
-                <AqueductUpgrade/>
-                <WarehouseUpgrade/>
-                <IrrigationUpgrade/>
             </Values>
         </Asset>
     </ModOp>

@@ -58,9 +58,6 @@
                 <Text>
                     <OasisId>1600000566</OasisId>
                 </Text>
-                <HealthUpgrade/>
-                <BuildingUpgrade/>
-                <DistributionUpgrade/>
                 <Buff>
                     <SourceCategory>Item</SourceCategory>
                 </Buff>
@@ -68,15 +65,15 @@
                     <GoodConsumptionUpgrade>
                         <Item>
                             <ProvidedNeed>2153</ProvidedNeed>
-                            <AmountInPercent>15</AmountInPercent>
+                            <AmountInPercent><ModValue Insert="$ConsumptionModifier_Common"/></AmountInPercent>
                         </Item>
                         <Item>
                             <ProvidedNeed>8405</ProvidedNeed>
-                            <AmountInPercent>15</AmountInPercent>
+                            <AmountInPercent><ModValue Insert="$ConsumptionModifier_Common"/></AmountInPercent>
                         </Item>
                         <Item>
                             <ProvidedNeed>2158</ProvidedNeed>
-                            <AmountInPercent>15</AmountInPercent>
+                            <AmountInPercent><ModValue Insert="$ConsumptionModifier_Common"/></AmountInPercent>
                         </Item>
                     </GoodConsumptionUpgrade>
                     <NeedProvidedNeedAttributes>
@@ -101,15 +98,6 @@
                         </AdditionalNeedAttributes>
                     </NeedProvidedNeedAttributes>
                 </ResidenceUpgrade>
-                <FactoryUpgrade/>
-                <ModuleOwnerUpgrade/>
-                <MaintenanceUpgrade/>
-                <CityInstitutionUpgrade/>
-                <IncidentInfectableUpgrade/>
-                <RecruitmentUpgrade/>
-                <AqueductUpgrade/>
-                <WarehouseUpgrade/>
-                <IrrigationUpgrade/>
             </Values>
         </Asset>
     </ModOp>

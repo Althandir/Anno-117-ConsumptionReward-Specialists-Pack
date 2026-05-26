@@ -68,7 +68,7 @@
                   <GoodConsumptionUpgrade>
                     <Item>
                       <ProvidedNeed>2158</ProvidedNeed> 
-                      <AmountInPercent>40</AmountInPercent>
+                      <AmountInPercent><ModValue Insert="$ConsumptionModifier_Epic"/></AmountInPercent>
                     </Item>
                   </GoodConsumptionUpgrade>
                   <NeedProvidedNeedAttributes>
@@ -141,9 +141,6 @@
                 <Text>
                     <OasisId>1600000262</OasisId>
                 </Text>
-                <HealthUpgrade/>
-                <BuildingUpgrade/>
-                <DistributionUpgrade/>
                 <Buff>
                     <SourceCategory>Adjacency</SourceCategory>
                 </Buff>
@@ -151,7 +148,7 @@
                     <GoodConsumptionUpgrade>
                         <Item>
                             <ProvidedNeed>2158</ProvidedNeed> 
-                            <AmountInPercent>40</AmountInPercent>
+                            <AmountInPercent><ModValue Insert="$ConsumptionModifier_Epic"/></AmountInPercent>
                         </Item>
                     </GoodConsumptionUpgrade>
                     <NeedProvidedNeedAttributes>
