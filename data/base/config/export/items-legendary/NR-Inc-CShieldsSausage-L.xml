@@ -112,7 +112,7 @@
                         <Item>
                             <ProvidedNeed>8405</ProvidedNeed>
                             <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary"/></AmountInPercent>
-                        </Item>31706
+                        </Item>
                         <Item>
                             <ProvidedNeed>31706</ProvidedNeed>
                             <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary"/></AmountInPercent>
