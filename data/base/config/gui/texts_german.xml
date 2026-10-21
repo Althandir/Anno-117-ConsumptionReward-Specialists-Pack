@@ -13,6 +13,11 @@
             <Text>Durch die Verwendung von Seife in großen Wasserbecken können wir viele Menschen gleichzeitig reinigen. &#xD;Hinweis: Die Effekte gelten für jedes Gebäude in Straßenreichweite.&#xD;(Consumption-Pack)</Text>
             <LineId>1600000045</LineId> 
         </Text>
+        <!-- Boosted Description -->
+        <Text>
+            <Text>"Ohne ein Bad ist Seife nur teilweise nützlich." (2x Bäder on Island)</Text>
+            <LineId>1600000046</LineId> 
+        </Text>
         </ModOp>
     </Group>
 
