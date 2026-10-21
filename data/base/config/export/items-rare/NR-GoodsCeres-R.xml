@@ -1,22 +1,22 @@
 <ModOps>
-<!-- Item Definition GUID:1600000327 - 1600000328 | LineID:1600000327 - 1600000328 -->
+<!-- Item Definition GUID:1600000562 - 1600000563 | LineID:1600000562 - 1600000563 -->
     <Group>
         <ModOp Type="addNextSibling" GUID="106410">
         <Asset>
             <Template>Item</Template>
             <Values>
             <Standard>
-                <GUID>1600000327</GUID>
-                <Name>Specialist NR-Inc-BirdTongue-R</Name>
-                <IconFilename>data/base/graphics/icons/NR-Inc-BirdTongue-R.png</IconFilename>
-                <InfoDescription>1600000328</InfoDescription>
+                <GUID>1600000562</GUID>
+                <Name>Specialist NR-GoodsCeres-R</Name>
+                <IconFilename>data/base/graphics/icons/NR-Ceres-R.png</IconFilename>
+                <InfoDescription>1600000563</InfoDescription>
             </Standard>
             <Effect>
-                <EffectScope>Radius</EffectScope> 
+                <EffectScope>Radius</EffectScope>  
                 <SourceCategory>Item</SourceCategory>
                 <Buffs>
                     <Item>
-                        <GUID>1600000328</GUID>
+                        <GUID>1600000563</GUID>
                     </Item>
                 </Buffs>
                 <Targets> <!-- Targets of Buff -->
@@ -27,16 +27,16 @@
                 <HideInGovernorsBar>1</HideInGovernorsBar>
             </Effect>
             <Item>
-                <Niche>Culture</Niche> 
-                <TradePrice><ModValue Insert="$TradePrice_Rare"/></TradePrice>
-                <BarkPool>83333</BarkPool> <!-- <GUID>83333</GUID> -->
+                <Niche>Religion</Niche>
+                <TradePrice><ModValue Insert="$TradePrice_Rare"/></TradePrice> 
+                <BarkPool>83298</BarkPool> <!-- <GUID>83298</GUID> -->
                 <Rarity>Rare</Rarity> 
             </Item>
             <Locked>
                 <DefaultLockedState>0</DefaultLockedState>
             </Locked>
             <Text>
-                <OasisId>1600000327</OasisId>
+                <OasisId>1600000562</OasisId>
             </Text>
             </Values>
         </Asset>
@@ -45,50 +45,62 @@
 
     <!-- Buff Definitions-->
     <Group>
-    <!-- Buff Definition -->
-        <ModOp Type="addNextSibling" GUID="80193">
+    <!-- BuildingEffect Definition -->
+    <ModOp Type="addNextSibling" GUID="80193">
         <Asset>
             <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000328</GUID>
-                    <Name>Specialist NR-Inc-BirdTongue-R BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/NR-Inc-BirdTongue-R.png</IconFilename>
+                    <GUID>1600000563</GUID>
+                    <Name>Specialist NR-GoodsCeres-R BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/NR-Ceres-R.png</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600000327</OasisId>
+                    <OasisId>1600000562</OasisId>
                 </Text>
                 <Buff>
-                  <SourceCategory>Item</SourceCategory>
-                  <IsStackable>0</IsStackable>
+                    <SourceCategory>Item</SourceCategory>
                 </Buff>
                 <ResidenceUpgrade>
                     <GoodConsumptionUpgrade>
                         <Item>
-                            <ProvidedNeed>2155</ProvidedNeed>
+                            <ProvidedNeed>2154</ProvidedNeed>
+                            <AmountInPercent><ModValue Insert="$ConsumptionModifier_Rare"/></AmountInPercent>
+                        </Item>
+                        <Item>
+                            <ProvidedNeed>2137</ProvidedNeed>
+                            <AmountInPercent><ModValue Insert="$ConsumptionModifier_Rare"/></AmountInPercent>
+                        </Item>
+                        <Item>
+                            <ProvidedNeed>2149</ProvidedNeed>
                             <AmountInPercent><ModValue Insert="$ConsumptionModifier_Rare"/></AmountInPercent>
                         </Item>
                     </GoodConsumptionUpgrade>
                     <NeedProvidedNeedAttributes>
                         <ChangeNeedAttributesOf>
                             <Item>
-                                <ProvidedProduct>2155</ProvidedProduct> <!-- <GUID>2155</GUID> -->
+                                <ProvidedProduct>2154</ProvidedProduct> <!-- <GUID>2154</GUID> -->
+                            </Item>
+                            <Item>
+                                <ProvidedProduct>2137</ProvidedProduct> <!-- <GUID>2137</GUID> -->
+                            </Item>
+                            <Item>
+                                <ProvidedProduct>2149</ProvidedProduct> <!-- <GUID>2149</GUID> -->
                             </Item>
                         </ChangeNeedAttributesOf>
                         <AdditionalNeedAttributes>
-                            <Happiness>
+                            <Belief>
                                 <AmountOrPercent>
                                     <Value>2</Value>
                                     <Percental>0</Percental>
                                 </AmountOrPercent>
-                            </Happiness>
+                            </Belief>
                         </AdditionalNeedAttributes>
                     </NeedProvidedNeedAttributes>
                 </ResidenceUpgrade>
             </Values>
         </Asset>
     </ModOp>
-    
-    </Group>
 
+    </Group>
 </ModOps>

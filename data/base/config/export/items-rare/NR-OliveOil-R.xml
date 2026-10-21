@@ -1,42 +1,41 @@
 <ModOps>
-<!-- Item Definition GUID:1600000158 - 1600000159 | LineID:1600000158 - 1600000159 -->
+<!-- Item Definition GUID:1600000214 - 1600000215 | LineID:1600000214 - 1600000215 -->
     <Group>
         <ModOp Type="addNextSibling" GUID="106410">
         <Asset>
             <Template>Item</Template>
             <Values>
             <Standard>
-                <GUID>1600000158</GUID>
-                <Name>Specialist NR-Inc-Wigs-R</Name>
-                <IconFilename>data/base/graphics/icons/NR-Inc-Wigs-R.png</IconFilename>
-                <InfoDescription>1600000159</InfoDescription>
+                <GUID>1600000214</GUID>
+                <Name>Specialist NR-OliveOil-R</Name>
+                <IconFilename>data/base/graphics/icons/m_NR-OliveOil-R.png</IconFilename>
+                <InfoDescription>1600000215</InfoDescription>
             </Standard>
             <Effect>
-                <EffectScope>Radius</EffectScope>  
+                <EffectScope>Radius</EffectScope>
                 <SourceCategory>Item</SourceCategory>
                 <Buffs>
-                    <Item>
-                        <GUID>1600000159</GUID>
-                    </Item>
+                <Item>
+                    <GUID>1600000215</GUID>
+                </Item>
                 </Buffs>
                 <Targets> <!-- Targets of Buff -->
-                    <Item>
-                        <GUID>31046</GUID>
-                    </Item>
+                <Item>
+                    <GUID>31046</GUID>
+                </Item>
                 </Targets>
-                <HideInGovernorsBar>1</HideInGovernorsBar>
             </Effect>
             <Item>
-                <Niche>Military</Niche>
-                <TradePrice><ModValue Insert="$TradePrice_Rare"/></TradePrice> 
-                <BarkPool>83301</BarkPool> <!-- <GUID>83301</GUID> -->
+                <Niche>Agriculture</Niche> 
+                <TradePrice><ModValue Insert="$TradePrice_Rare"/></TradePrice>
+                <BarkPool>83305</BarkPool> <!-- <GUID>83305</GUID> -->
                 <Rarity>Rare</Rarity> 
             </Item>
             <Locked>
                 <DefaultLockedState>0</DefaultLockedState>
             </Locked>
             <Text>
-                <OasisId>1600000158</OasisId>
+                <OasisId>1600000214</OasisId>
             </Text>
             </Values>
         </Asset>
@@ -45,17 +44,18 @@
 
     <!-- Buff Definitions-->
     <Group>
-        <ModOp Type="addNextSibling" GUID="81445">
+        <!-- BuildingEffect Definition -->
+        <ModOp Type="addNextSibling" GUID="80193">
             <Asset>
-            <Template>BuildingBuff</Template>
+                <Template>BuildingBuff</Template>
                 <Values>
                     <Standard>
-                        <GUID>1600000159</GUID>
-                        <Name>Specialist NR-Inc-Wigs-R BuildingBuff</Name>
-                        <IconFilename>data/base/graphics/icons/NR-Inc-Wigs-R.png</IconFilename>
+                        <GUID>1600000215</GUID>
+                        <Name>WorkforceRomanCelticTowers-R BuildingBuff</Name>
+                        <IconFilename>data/base/graphics/icons/m_NR-OliveOil-R.png</IconFilename>
                     </Standard>
                     <Text>
-                        <OasisId>1600000158</OasisId>
+                        <OasisId>1600000214</OasisId>
                     </Text>
                     <Buff>
                         <SourceCategory>Item</SourceCategory>
@@ -63,36 +63,36 @@
                     <ResidenceUpgrade>
                         <GoodConsumptionUpgrade>
                             <Item>
-                                <ProvidedNeed>31708</ProvidedNeed>
+                                <ProvidedNeed>2149</ProvidedNeed>
                                 <AmountInPercent><ModValue Insert="$ConsumptionModifier_Rare"/></AmountInPercent>
                             </Item>
                         </GoodConsumptionUpgrade>
                         <NeedProvidedNeedAttributes>
                             <ChangeNeedAttributesOf>
                                 <Item>
-                                    <ProvidedProduct>31708</ProvidedProduct> <!-- <GUID>31708</GUID> -->
+                                    <ProvidedProduct>2149</ProvidedProduct> <!-- <GUID>2149</GUID> -->
                                 </Item>
                             </ChangeNeedAttributesOf>
                             <AdditionalNeedAttributes>
+                                <Population>
+                                    <AmountOrPercent>
+                                        <Value>1</Value>
+                                        <Percental>0</Percental>
+                                    </AmountOrPercent>
+                                </Population>
                                 <Health>
                                     <AmountOrPercent>
-                                        <Value>-1</Value>
+                                        <Value>1</Value>
                                         <Percental>0</Percental>
                                     </AmountOrPercent>
                                 </Health>
-                                <FireSafety>
-                                    <AmountOrPercent>
-                                        <Value>3</Value>
-                                        <Percental>0</Percental>
-                                    </AmountOrPercent>
-                                </FireSafety>
                             </AdditionalNeedAttributes>
                         </NeedProvidedNeedAttributes>
                     </ResidenceUpgrade>
                 </Values>
             </Asset>
         </ModOp>
-    
+        
     </Group>
 
 </ModOps>

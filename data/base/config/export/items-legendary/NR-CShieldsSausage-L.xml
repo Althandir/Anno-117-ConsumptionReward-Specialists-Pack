@@ -7,8 +7,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000141</GUID>
-                    <Name>Specialist NR-Inc-CShieldsSausage-L</Name>
-                    <IconFilename>data/base/graphics/icons/NR-Inc-CShieldsSausage-L.png</IconFilename>
+                    <Name>Specialist NR-CShieldsSausage-L</Name>
+                    <IconFilename>data/base/graphics/icons/NR-CShieldsSausage-L.png</IconFilename>
                     <InfoDescription>1600000142</InfoDescription>
                 </Standard>
                 <Effect>
@@ -98,8 +98,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000142</GUID>
-                    <Name>Specialist NR-Inc-CShieldsSausage-L BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/NR-Inc-CShieldsSausage-L.png</IconFilename>
+                    <Name>Specialist NR-CShieldsSausage-L BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/NR-CShieldsSausage-L.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000141</OasisId>
@@ -160,8 +160,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000143</GUID>
-                    <Name>Specialist NR-Inc-CShieldsSausage-L Boosted BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/NR-Inc-CShieldsSausage-L.png</IconFilename>
+                    <Name>Specialist NR-CShieldsSausage-L Boosted BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/NR-CShieldsSausage-L.png</IconFilename>
                 </Standard>
             <Text>
                 <OasisId>1600000141</OasisId>

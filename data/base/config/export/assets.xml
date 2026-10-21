@@ -6,20 +6,20 @@
 
 ### GUID-Ranges (Incomplete):  
 #    
-#    1600000562 - 1600000563 (NR-Inc-GoodsCeres-R)
-#    1600000564 - 1600000565 (NR-Inc-GoodsCernunnos-R)
-#    1600000566 - 1600000567 (NR-Inc-GoodsEpona-R)
-#    1600000568 - 1600000569 (NR-Inc-GoodsMars-R)
-#    1600000570 - 1600000571 (NR-Inc-GoodsMercury-R)
-#    1600000572 - 1600000573 (NR-Inc-GoodsMinerva-R)
-#    1600000574 - 1600000575 (NR-Inc-GoodsNeptune-R)
+#    1600000562 - 1600000563 (NR-GoodsCeres-R)
+#    1600000564 - 1600000565 (NR-GoodsCernunnos-R)
+#    1600000566 - 1600000567 (NR-GoodsEpona-R)
+#    1600000568 - 1600000569 (NR-GoodsMars-R)
+#    1600000570 - 1600000571 (NR-GoodsMercury-R)
+#    1600000572 - 1600000573 (NR-GoodsMinerva-R)
+#    1600000574 - 1600000575 (NR-GoodsNeptune-R)
 #
 #    1600000104 - 1600000105 (AllGoods-Red-E)
-#    1600000114 - 1600000115 (NR-Inc-Beer-E)
-#    1600000116 - 1600000117 (NR-Inc-Garum-E)
+#    1600000114 - 1600000115 (NR-Beer-E)
+#    1600000116 - 1600000117 (NR-Garum-E)
 #    1600000170 - 1600000173 (NR-Roast-R)
 #    1600000182 - 1600000185 (NR-Toga-R)
-#    1600000214 - 1600000215 (NR-Inc-OliveOil-R)
+#    1600000214 - 1600000215 (NR-OliveOil-R)
 #    1600000262 - 1600000265 (NR-Trouser-E)
 #    1600000313 - 1600000316 (NR-Cheese-E)
 #    1600000044 - 1600000047 (NR-Soap-E)
@@ -27,25 +27,25 @@
 <ModOps>
 <!-- Common Specialists -->
 <Group>
-    <Include File="items-common/NR-Inc-PileusReedShoes-C.xml" />
+    <Include File="items-common/NR-T1Regional-C.xml" />
 </Group>
 
 <!-- Rare Specialists -->
 <Group>
     <Include File="items-rare/NR-Roast-R.xml" />
     <Include File="items-rare/NR-Toga-R.xml" />
-    <Include File="items-rare/NR-Inc-OliveOil-R.xml" />
-    <Include File="items-rare/NR-Inc-GoodsCeres-R.xml" />
-    <Include File="items-rare/NR-Inc-GoodsCernunnos-R.xml" />
-    <Include File="items-rare/NR-Inc-GoodsEpona-R.xml" />
-    <Include File="items-rare/NR-Inc-GoodsMars-R.xml" />
-    <Include File="items-rare/NR-Inc-GoodsMinerva-R.xml" />
-    <Include File="items-rare/NR-Inc-GoodsNeptune-R.xml" />
-    <Include File="items-rare/NR-Inc-GoodsMercury-R.xml" />
-    <Include File="items-rare/NR-Inc-Soap-R.xml" />
-    <Include File="items-rare/NR-Inc-Wigs-R.xml" />
-    <Include File="items-rare/NR-Inc-BirdTongue-R.xml" />
-    <Include File="items-rare/NR-Inc-FineGlass-R.xml" />
+    <Include File="items-rare/NR-OliveOil-R.xml" />
+    <Include File="items-rare/NR-GoodsCeres-R.xml" />
+    <Include File="items-rare/NR-GoodsCernunnos-R.xml" />
+    <Include File="items-rare/NR-GoodsEpona-R.xml" />
+    <Include File="items-rare/NR-GoodsMars-R.xml" />
+    <Include File="items-rare/NR-GoodsMinerva-R.xml" />
+    <Include File="items-rare/NR-GoodsNeptune-R.xml" />
+    <Include File="items-rare/NR-GoodsMercury-R.xml" />
+    <Include File="items-rare/NR-Soap-R.xml" />
+    <Include File="items-rare/NR-Wigs-R.xml" />
+    <Include File="items-rare/NR-BirdTongue-R.xml" />
+    <Include File="items-rare/NR-FineGlass-R.xml" />
 </Group>
 
 <!-- Epic Specialists -->
@@ -54,18 +54,18 @@
     <Include File="items-epic/NR-Soap-E.xml" />
     <Include File="items-epic/NR-Trouser-E.xml" />
     <Include File="items-epic/AllGoods-Red-E.xml" />
-    <Include File="items-epic/NR-Inc-Beer-E.xml" />
-    <Include File="items-epic/NR-Inc-Garum-E.xml" />
-    <Include File="items-epic/NR-Inc-Wine-E.xml" />
+    <Include File="items-epic/NR-Beer-E.xml" />
+    <Include File="items-epic/NR-Garum-E.xml" />
+    <Include File="items-epic/NR-Wine-E.xml" />
 </Group>
 
 <!-- Legendary Specialists -->
 <Group>
-    <Include File="items-legendary/NR-Inc-Tunics-L.xml" />
-    <Include File="items-legendary/NR-Inc-SandalsShoes-L.xml" />
-    <Include File="items-legendary/NR-Inc-Necklaces-L.xml" />
-    <Include File="items-legendary/NR-Inc-CShieldsSausage-L.xml" />
-    <Include File="items-legendary/NR-Inc-Chariots-L.xml" />
+    <Include File="items-legendary/NR-Tunics-L.xml" />
+    <Include File="items-legendary/NR-SandalsShoes-L.xml" />
+    <Include File="items-legendary/NR-Necklaces-L.xml" />
+    <Include File="items-legendary/NR-CShieldsSausage-L.xml" />
+    <Include File="items-legendary/NR-Chariots-L.xml" />
 </Group>
 
 <!-- Add to Pools -->

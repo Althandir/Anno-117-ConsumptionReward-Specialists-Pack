@@ -32,7 +32,7 @@
         </ModOp>
     </Group>
 
-    <!-- Specialist NR-Inc-Beer-E -->
+    <!-- Specialist NR-Beer-E -->
     <Group>
         <ModOp Add="/TextExport/Texts">
         <!-- Title -->
@@ -48,7 +48,7 @@
         </ModOp>
     </Group>
 
-    <!-- Specialist NR-Inc-Garum-E -->
+    <!-- Specialist NR-Garum-E -->
     <Group>
         <ModOp Add="/TextExport/Texts">
         <!-- Title -->
@@ -128,7 +128,7 @@
         </ModOp>
     </Group>
 
-    <!-- Specialist NR-Inc-GoodsCeres-R -->
+    <!-- Specialist NR-GoodsCeres-R -->
     <Group>
         <ModOp Add="/TextExport/Texts">
             <!-- Title -->
@@ -144,7 +144,7 @@
         </ModOp>
     </Group>
 
-    <!-- Specialist NR-Inc-GoodsCernunnos-R -->
+    <!-- Specialist NR-GoodsCernunnos-R -->
     <Group>
         <ModOp Add="/TextExport/Texts">
             <!-- Title -->
@@ -160,7 +160,7 @@
         </ModOp>
     </Group>
 
-    <!-- Specialist NR-Inc-GoodsEpona-R -->
+    <!-- Specialist NR-GoodsEpona-R -->
     <Group>
         <ModOp Add="/TextExport/Texts">
             <!-- Title -->
@@ -176,7 +176,7 @@
         </ModOp>
     </Group>
 
-    <!-- Specialist NR-Inc-GoodsMars-R -->
+    <!-- Specialist NR-GoodsMars-R -->
     <Group>
         <ModOp Add="/TextExport/Texts">
             <!-- Title -->
@@ -192,7 +192,7 @@
         </ModOp>
     </Group>
 
-    <!-- Specialist NR-Inc-GoodsMercury-R -->
+    <!-- Specialist NR-GoodsMercury-R -->
     <Group>
         <ModOp Add="/TextExport/Texts">
             <!-- Title -->
@@ -208,7 +208,7 @@
         </ModOp>
     </Group>
 
-    <!-- Specialist NR-Inc-GoodsMinerva-R -->
+    <!-- Specialist NR-GoodsMinerva-R -->
     <Group>
         <ModOp Add="/TextExport/Texts">
             <!-- Title -->
@@ -224,7 +224,7 @@
         </ModOp>
     </Group>
 
-    <!-- Specialist NR-Inc-GoodsNeptune-R -->
+    <!-- Specialist NR-GoodsNeptune-R -->
     <Group>
         <ModOp Add="/TextExport/Texts">
             <!-- Title -->
@@ -240,7 +240,7 @@
         </ModOp>
     </Group>
 
-    <!-- Specialist NR-Inc-OliveOil-R -->
+    <!-- Specialist NR-OliveOil-R -->
     <Group>
         <ModOp Add="/TextExport/Texts">
         <!-- Title -->
@@ -256,7 +256,7 @@
         </ModOp>
     </Group>
 
-    <!-- Specialist NR-Inc-BirdTongue-R -->
+    <!-- Specialist NR-BirdTongue-R -->
     <Group>
     <ModOp Add="/TextExport/Texts">
         <!-- Title -->
@@ -272,7 +272,7 @@
     </ModOp>
     </Group>
 
-    <!-- Specialist NR-Inc-Necklaces-L -->
+    <!-- Specialist NR-Necklaces-L -->
     <Group>
     <ModOp Add="/TextExport/Texts">
         <!-- Title -->
@@ -293,7 +293,7 @@
     </ModOp>
     </Group>
 
-    <!-- Specialist NR-Inc-Chariots-L -->
+    <!-- Specialist NR-Chariots-L -->
     <Group>
         <ModOp Add="/TextExport/Texts">
         <!-- Title -->
@@ -314,7 +314,7 @@
         </ModOp>
     </Group>
 
-    <!-- Specialist NR-Inc-FineGlass-R -->
+    <!-- Specialist NR-FineGlass-R -->
     <Group>
         <ModOp Add="/TextExport/Texts">
         <!-- Title -->
@@ -330,7 +330,7 @@
         </ModOp>
     </Group>
 
-    <!-- Specialist NR-Inc-CShieldsSausage-L -->
+    <!-- Specialist NR-CShieldsSausage-L -->
     <Group>
         <ModOp Add="/TextExport/Texts">
         <!-- Title -->
@@ -351,7 +351,7 @@
         </ModOp>
     </Group>
 
-    <!-- Specialist NR-Inc-PileusReedShoes-C -->
+    <!-- Specialist NR-T1Regional-C -->
     <Group>
         <ModOp Add="/TextExport/Texts">
         <!-- Title -->
@@ -367,7 +367,7 @@
         </ModOp>
     </Group>
 
-    <!-- Specialist NR-Inc-Wine-E -->
+    <!-- Specialist NR-Wine-E -->
     <Group>
         <ModOp Add="/TextExport/Texts">
         <!-- Title -->
@@ -383,7 +383,7 @@
         </ModOp>
     </Group>
 
-    <!-- Specialist NR-Inc-Soap-R -->
+    <!-- Specialist NR-Soap-R -->
     <Group>
         <ModOp Add="/TextExport/Texts">
         <!-- Title -->
@@ -399,7 +399,7 @@
         </ModOp>
     </Group>  
     
-    <!-- Specialist NR-Inc-Tunics-L -->
+    <!-- Specialist NR-Tunics-L -->
     <Group>
         <ModOp Add="/TextExport/Texts">
         <!-- Title -->
@@ -420,7 +420,7 @@
         </ModOp>
     </Group>
 
-    <!-- Specialist NR-Inc-Wigs-R -->
+    <!-- Specialist NR-Wigs-R -->
     <Group>
         <ModOp Add="/TextExport/Texts">
         <!-- Title -->
@@ -436,7 +436,7 @@
         </ModOp>
     </Group>
 
-    <!-- Specialist NR-Inc-SandalsShoes-L -->
+    <!-- Specialist NR-SandalsShoes-L -->
     <Group>
         <ModOp Add="/TextExport/Texts">
         <!-- Title -->
