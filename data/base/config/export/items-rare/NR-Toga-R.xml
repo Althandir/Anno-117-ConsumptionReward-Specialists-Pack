@@ -7,8 +7,8 @@
         <Values>
           <Standard>
             <GUID>1600000182</GUID>
-            <Name>Specialist AE-NR-Theater-Inc-Toga-R</Name>
-            <IconFilename>data/base/graphics/icons/m_AE-NR-Theater-Inc-Toga-R.png</IconFilename>
+            <Name>Specialist NR-Toga-R</Name>
+            <IconFilename>data/base/graphics/icons/m_NR-Toga-R.png</IconFilename>
             <InfoDescription>1600000183</InfoDescription>
           </Standard>
           <Effect>
@@ -51,8 +51,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000183</GUID>
-                    <Name>Specialist AE-NR-Theater-Inc-Toga-R BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/m_AE-NR-Theater-Inc-Toga-R.png</IconFilename>
+                    <Name>Specialist NR-Toga-R BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/m_NR-Toga-R.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000182</OasisId>
@@ -102,8 +102,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000184</GUID>
-                    <Name>Specialist AE-NR-Theater-Inc-Toga-R FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/m_AE-NR-Theater-Inc-Toga-R.png</IconFilename>
+                    <Name>Specialist NR-Toga-R FunctionalEffect</Name>
+                    <IconFilename>data/base/graphics/icons/m_NR-Toga-R.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>StreetDistance</EffectScope>
@@ -134,8 +134,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000185</GUID>
-                    <Name>Specialist AE-NR-Theater-Inc-Toga-R FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/m_AE-NR-Theater-Inc-Toga-R.png</IconFilename>
+                    <Name>Specialist NR-Toga-R FunctionalEffect BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/m_NR-Toga-R.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000182</OasisId>

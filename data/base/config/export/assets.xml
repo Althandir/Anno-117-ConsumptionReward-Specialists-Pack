@@ -17,12 +17,12 @@
 #    1600000104 - 1600000105 (AllGoods-Red-E)
 #    1600000114 - 1600000115 (NR-Inc-Beer-E)
 #    1600000116 - 1600000117 (NR-Inc-Garum-E)
-#    1600000170 - 1600000173 (AE-NR-CTHall-Inc-Roast-R)
-#    1600000182 - 1600000185 (AE-NR-Theater-Inc-Toga-R)
+#    1600000170 - 1600000173 (NR-Roast-R)
+#    1600000182 - 1600000185 (NR-Toga-R)
 #    1600000214 - 1600000215 (NR-Inc-OliveOil-R)
-#    1600000262 - 1600000265 (AE-NR-CSport-Inc-Trouser-E)
-#    1600000313 - 1600000316 (AE-NR-ForumMar-Inc-Cheese-E)
-#    1600000044 - 1600000047 (AE-NR-Bath-Red-Soap-E)
+#    1600000262 - 1600000265 (NR-Trouser-E)
+#    1600000313 - 1600000316 (NR-Cheese-E)
+#    1600000044 - 1600000047 (NR-Soap-E)
 -->
 <ModOps>
 <!-- Common Specialists -->
@@ -32,8 +32,8 @@
 
 <!-- Rare Specialists -->
 <Group>
-    <Include File="items-rare/AE-NR-CTHall-Inc-Roast-R.xml" />
-    <Include File="items-rare/AE-NR-Theater-Inc-Toga-R.xml" />
+    <Include File="items-rare/NR-Roast-R.xml" />
+    <Include File="items-rare/NR-Toga-R.xml" />
     <Include File="items-rare/NR-Inc-OliveOil-R.xml" />
     <Include File="items-rare/NR-Inc-GoodsCeres-R.xml" />
     <Include File="items-rare/NR-Inc-GoodsCernunnos-R.xml" />
@@ -50,9 +50,9 @@
 
 <!-- Epic Specialists -->
 <Group>
-    <Include File="items-epic/AE-NR-ForumMar-Inc-Cheese-E.xml" />
-    <Include File="items-epic/AE-NR-Bath-Red-Soap-E.xml" />
-    <Include File="items-epic/AE-NR-CSport-Inc-Trouser-E.xml" />
+    <Include File="items-epic/NR-Cheese-E.xml" />
+    <Include File="items-epic/NR-Soap-E.xml" />
+    <Include File="items-epic/NR-Trouser-E.xml" />
     <Include File="items-epic/AllGoods-Red-E.xml" />
     <Include File="items-epic/NR-Inc-Beer-E.xml" />
     <Include File="items-epic/NR-Inc-Garum-E.xml" />

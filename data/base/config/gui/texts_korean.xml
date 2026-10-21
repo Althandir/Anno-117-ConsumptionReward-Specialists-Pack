@@ -1,6 +1,6 @@
 <ModOps>
 
-    <!-- Specialist AE-NR-Bath-Red-Soap-E -->
+    <!-- Specialist NR-Soap-E -->
     <Group>
         <ModOp Add="/TextExport/Texts">
         <!-- Title -->
@@ -64,7 +64,7 @@
         </ModOp>
     </Group>
 
-    <!-- Specialist AE-NR-CTHall-Inc-Roast-R -->
+    <!-- Specialist NR-Roast-R -->
     <Group>
         <ModOp Add="/TextExport/Texts">
         <!-- Title -->
@@ -80,7 +80,7 @@
         </ModOp>
     </Group>
 
-    <!-- Specialist AE-NR-Theater-Inc-Toga-R -->
+    <!-- Specialist NR-Toga-R -->
     <Group>
         <ModOp Add="/TextExport/Texts">
         <!-- Title -->
@@ -96,7 +96,7 @@
         </ModOp>
     </Group>  
     
-    <!-- Specialist AE-NR-CSport-Inc-Trouser-E -->
+    <!-- Specialist NR-Trouser-E -->
     <Group>
         <ModOp Add="/TextExport/Texts">
         <!-- Title -->
@@ -112,7 +112,7 @@
         </ModOp>
     </Group>
 
-    <!-- Specialist AE-NR-ForumMar-Inc-Cheese-E -->
+    <!-- Specialist NR-Cheese-E -->
     <Group>
         <ModOp Add="/TextExport/Texts">
         <!-- Title -->
