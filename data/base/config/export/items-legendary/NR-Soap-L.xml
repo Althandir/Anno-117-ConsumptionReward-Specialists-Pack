@@ -1,0 +1,188 @@
+<ModOps>
+  <!-- Item Definition GUID:1600000044 - 1600000046 | LineID:1600000044 - 1600000046 -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="106410">
+      <Asset>
+        <Template>ItemWithBoost</Template>
+        <Values>
+          <Standard>
+            <GUID>1600000044</GUID>
+            <Name>Specialist NR-Soap-L</Name>
+            <IconFilename>data/base/graphics/icons/m_NR-Soap-L.png</IconFilename>
+            <InfoDescription>1600000045</InfoDescription>
+          </Standard>
+          <Effect>
+            <EffectScope>Radius</EffectScope>
+            <SourceCategory>Item</SourceCategory>
+            <Buffs>
+              <Item>
+                <GUID>1600000045</GUID>
+              </Item>
+            </Buffs>
+            <Targets> <!-- Targets of Buff -->
+              <Item>
+                <GUID>31046</GUID>
+              </Item>
+            </Targets>
+            <HideInGovernorsBar>1</HideInGovernorsBar>
+          </Effect>
+          <Item>
+            <Niche>Agriculture</Niche>
+            <TradePrice><ModValue Insert="$TradePrice_Legendary"/></TradePrice>
+            <BarkPool>80249</BarkPool> <!-- <GUID>80249</GUID> -->
+            <Rarity>Legendary</Rarity>
+          </Item>
+          <Locked>
+            <DefaultLockedState>0</DefaultLockedState>
+          </Locked>
+          <Text>
+            <OasisId>1600000044</OasisId>
+          </Text>
+
+          <ItemWithBoost>
+            <BoostCondition>
+              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+              <Values>
+                <PreConditionList>
+                  <!-- Condition 1 - min. 2x Bath on Area -->
+                  <Condition>
+                    <Template>ConditionObjectCount</Template>
+                    <Values>
+                      <Condition/>
+                      <ConditionObjectCount>
+                        <Amount>2</Amount>
+                      </ConditionObjectCount>
+                      <ObjectFilter>
+                        <ObjectGUID>70714</ObjectGUID>
+                        <ObjectLocations>
+                          <Template>LocationFilter</Template>
+                          <Values>
+                            <LocationFilter>
+                              <ObjectLocations>
+                                <ObjectFilter>
+                                  <Template>ObjectFilter</Template>
+                                  <Values>
+                                    <ObjectFilter>
+                                      <UseContextObjects>1</UseContextObjects>
+                                    </ObjectFilter>
+                                  </Values>
+                                </ObjectFilter>
+                              </ObjectLocations>
+                            </LocationFilter>
+                          </Values>
+                        </ObjectLocations>
+                      </ObjectFilter>
+                    </Values>
+                  </Condition>
+                </PreConditionList>
+              </Values>
+            </BoostCondition>
+            <BoostBuffs>
+              <Item>
+                <GUID>1600000046</GUID>
+              </Item>
+            </BoostBuffs>
+            <BoostHint>1600000046</BoostHint>
+          </ItemWithBoost>
+        </Values>
+      </Asset>
+    </ModOp>
+  </Group>
+
+  <!-- Buff Definitions-->
+  <Group>
+    <!-- BuildingEffect Definition -->
+    <ModOp Type="addNextSibling" GUID="80193">
+      <Asset>
+        <Template>BuildingBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>1600000045</GUID>
+            <Name>Specialist NR-Soap-L BuildingBuff</Name>
+            <IconFilename>data/base/graphics/icons/m_NR-Soap-L.png</IconFilename>
+          </Standard>
+          <Text>
+            <OasisId>1600000044</OasisId>
+          </Text>
+          <Buff>
+            <SourceCategory>Item</SourceCategory>
+          </Buff>
+          <ResidenceUpgrade>
+            <GoodConsumptionUpgrade>
+              <Item>
+                <ProvidedNeed>2143</ProvidedNeed>
+                <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary"/></AmountInPercent>
+              </Item>
+            </GoodConsumptionUpgrade>
+            <NeedProvidedNeedAttributes>
+              <ChangeNeedAttributesOf>
+                <Item>
+                  <ProvidedProduct>2143</ProvidedProduct> <!-- <GUID>2143</GUID> -->
+                </Item>
+              </ChangeNeedAttributesOf>
+              <AdditionalNeedAttributes>
+                <Health>
+                  <AmountOrPercent>
+                    <Value>3</Value>
+                    <Percental>0</Percental>
+                  </AmountOrPercent>
+                </Health>
+              </AdditionalNeedAttributes>
+            </NeedProvidedNeedAttributes>
+          </ResidenceUpgrade>
+        </Values>
+      </Asset>
+    </ModOp>
+
+    <!-- Boosted Definition -->
+    <ModOp Type="addNextSibling" GUID="80193">
+      <Asset>
+        <Template>BuildingBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>1600000046</GUID>
+            <Name>Specialist NR-Soap-L Boosted BuildingBuff </Name>
+            <IconFilename>data/base/graphics/icons/m_NR-Soap-L.png</IconFilename>
+          </Standard>
+          <Text>
+            <OasisId>1600000044</OasisId>
+          </Text>
+          <Buff>
+            <SourceCategory>Item</SourceCategory>
+          </Buff>
+          <ResidenceUpgrade>
+            <GoodConsumptionUpgrade>
+              <Item>
+                <ProvidedNeed>2143</ProvidedNeed>
+                <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary"/></AmountInPercent>
+              </Item>
+            </GoodConsumptionUpgrade>
+            <NeedProvidedNeedAttributes>
+              <ChangeNeedAttributesOf>
+                <Item>
+                  <ProvidedProduct>2143</ProvidedProduct> <!-- <GUID>2143</GUID> -->
+                </Item>
+              </ChangeNeedAttributesOf>
+              <AdditionalNeedAttributes>
+                <Population>
+                  <AmountOrPercent>
+                    <Value>1</Value>
+                    <Percental>0</Percental>
+                  </AmountOrPercent>
+                </Population>
+                <Health>
+                  <AmountOrPercent>
+                    <Value>4</Value>
+                    <Percental>0</Percental>
+                  </AmountOrPercent>
+                </Health>
+              </AdditionalNeedAttributes>
+            </NeedProvidedNeedAttributes>
+          </ResidenceUpgrade>
+        </Values>
+      </Asset>
+    </ModOp>
+
+  </Group>
+</ModOps>
+

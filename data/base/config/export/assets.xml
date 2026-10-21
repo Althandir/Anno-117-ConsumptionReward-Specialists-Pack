@@ -22,7 +22,7 @@
 #    1600000214 - 1600000215 (NR-OliveOil-R)
 #    1600000262 - 1600000265 (NR-Trouser-E)
 #    1600000313 - 1600000316 (NR-Cheese-E)
-#    1600000044 - 1600000047 (NR-Soap-E)
+#    1600000044 - 1600000047 (NR-Soap-L)
 -->
 <ModOps>
 <!-- Common Specialists -->
@@ -51,7 +51,7 @@
 <!-- Epic Specialists -->
 <Group>
     <Include File="items-epic/NR-Cheese-E.xml" />
-    <Include File="items-epic/NR-Soap-E.xml" />
+    <Include File="items-epic/NR-Soap-L.xml" />
     <Include File="items-epic/NR-Trouser-E.xml" />
     <Include File="items-epic/AllGoods-Red-E.xml" />
     <Include File="items-epic/NR-Beer-E.xml" />
@@ -88,6 +88,7 @@
 <Include File="pools/RewardPool/Military-R.xml" />
 
 <Include File="pools/RewardPool/Nature-E.xml" />
+<Include File="pools/RewardPool/Nature-L.xml" />
 <Include File="pools/RewardPool/Nature-R.xml" />
 
 <Include File="pools/RewardPool/Religion-C.xml" />
