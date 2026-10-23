@@ -21,7 +21,7 @@
             </Buffs>
             <Targets> <!-- Targets of Buff -->
               <Item>
-                <GUID>6725</GUID>
+                <GUID>31046</GUID>
               </Item>
             </Targets>
             <HideInGovernorsBar>1</HideInGovernorsBar>
@@ -58,9 +58,6 @@
           <Text>
             <OasisId>1600000262</OasisId>
           </Text>
-          <BuildingUpgrade>
-            <AdditionalFunctionalEffect>1600000264</AdditionalFunctionalEffect>
-          </BuildingUpgrade>
           <Buff>
             <SourceCategory>Item</SourceCategory>
           </Buff>

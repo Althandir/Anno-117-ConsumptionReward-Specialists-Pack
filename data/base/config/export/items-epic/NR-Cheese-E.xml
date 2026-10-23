@@ -58,9 +58,6 @@
           <Text>
             <OasisId>1600000313</OasisId>
           </Text>
-          <BuildingUpgrade>
-            <AdditionalFunctionalEffect>1600000315</AdditionalFunctionalEffect>
-          </BuildingUpgrade>
           <Buff>
             <SourceCategory>Item</SourceCategory>
           </Buff>
