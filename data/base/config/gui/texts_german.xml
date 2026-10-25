@@ -10,7 +10,7 @@
         </Text>
         <!-- Description -->
         <Text>
-            <Text>Durch die Verwendung von Seife in großen Wasserbecken können wir viele Menschen gleichzeitig reinigen. &#xD;Hinweis: Die Effekte gelten für jedes Gebäude in Straßenreichweite.&#xD;(Consumption-Pack)</Text>
+            <Text>Durch die Verwendung von Seife in großen Wasserbecken können wir viele Menschen gleichzeitig reinigen. &#xD;Hinweis: Die Effekte gelten für jedes Gebäude in Straßenreichweite.&#xD;(Altdolphin-Consumption-Pack)</Text>
             <LineId>1600000045</LineId> 
         </Text>
         <!-- Boosted Description -->
@@ -31,7 +31,7 @@
         </Text>
         <!-- Description -->
         <Text>
-            <Text>Lehnt die Dekadenz ab und demonstiert stattdessen einen ökologischen Lebensstils ganz im Sinne der Natur.&#xD;(Consumption-Pack)</Text>
+            <Text>Lehnt die Dekadenz ab und demonstiert stattdessen einen ökologischen Lebensstils ganz im Sinne der Natur.&#xD;(Altdolphin-Consumption-Pack)</Text>
             <LineId>1600000105</LineId> 
         </Text>
         </ModOp>
@@ -47,7 +47,7 @@
         </Text>
         <!-- Description -->
         <Text>
-            <Text>"Und die nächste Runde geht auf mich!"&#xD;(Consumption-Pack)</Text>
+            <Text>"Und die nächste Runde geht auf mich!"&#xD;(Altdolphin-Consumption-Pack)</Text>
             <LineId>1600000115</LineId> 
         </Text>
         </ModOp>
@@ -63,7 +63,7 @@
         </Text>
         <!-- Description -->
         <Text>
-            <Text>Würzt alles besonders salzig und erzeugt dabei einen Hauch von Wüste im Gaumen.&#xD;(Consumption-Pack)</Text>
+            <Text>Würzt alles besonders salzig und erzeugt dabei einen Hauch von Wüste im Gaumen.&#xD;(Altdolphin-Consumption-Pack)</Text>
             <LineId>1600000117</LineId> 
         </Text>
         </ModOp>
@@ -79,7 +79,7 @@
         </Text>
         <!-- Description -->
         <Text>
-            <Text>Brät den Braten sehr schnell... leider nicht lang genug. &#xD;Hinweis: Der Effekt wirkt auf alle Wohngebäude in Straßenreichweite des Ältestensrats.&#xD;(Consumption-Pack)</Text>
+            <Text>Brät den Braten sehr schnell... leider nicht lang genug. &#xD;Hinweis: Der Effekt wirkt auf alle Wohngebäude in Straßenreichweite des Ältestensrats.&#xD;(Altdolphin-Consumption-Pack)</Text>
             <LineId>1600000171</LineId> 
         </Text>
         </ModOp>
@@ -95,7 +95,7 @@
         </Text>
         <!-- Description -->
         <Text>
-            <Text>Nutzt die Theaterbühne um seine erste Toga-Kollektion vorzustellen. &#xD;Hinweis: Der Effekt wirkt auf alle Wohnhäuser in Straßenreichweite des Theaters.&#xD;(Consumption-Pack)</Text>
+            <Text>Nutzt die Theaterbühne um seine erste Toga-Kollektion vorzustellen. &#xD;Hinweis: Der Effekt wirkt auf alle Wohnhäuser in Straßenreichweite des Theaters.&#xD;(Altdolphin-Consumption-Pack)</Text>
             <LineId>1600000183</LineId> 
         </Text>
         </ModOp>
@@ -111,7 +111,7 @@
         </Text>
         <!-- Description -->
         <Text>
-            <Text>Bringt die Leute so richtig ins Schwitzen. Jeder sollte ein extra Set an Hosten parat haben. &#xD;Hinweis: Der Effekt wirkt auf alle Wohngebäude in Straßenreichweite der Wettkampfwiese.&#xD;(Consumption-Pack)</Text>
+            <Text>Bringt die Leute so richtig ins Schwitzen. Jeder sollte ein extra Set an Hosten parat haben. &#xD;Hinweis: Der Effekt wirkt auf alle Wohngebäude in Straßenreichweite der Wettkampfwiese.&#xD;(Altdolphin-Consumption-Pack)</Text>
             <LineId>1600000263</LineId> 
         </Text>
         </ModOp>
@@ -127,7 +127,7 @@
         </Text>
         <!-- Description -->
         <Text>
-            <Text>Kam auf die Idee den Käse zu schmelzen und mit einer Süßfrucht zu kombinieren. Einige lieben diese experimentelle Küche, andere Hassen es und lassen ihrer Wut freien Lauf. &#xD;Hinweis: Der Effekt wirkt auf alle Wohngebäude in Straßenreichweite des Markts oder Forums.&#xD;(Consumption-Pack)</Text>
+            <Text>Kam auf die Idee den Käse zu schmelzen und mit einer Süßfrucht zu kombinieren. Einige lieben diese experimentelle Küche, andere Hassen es und lassen ihrer Wut freien Lauf. &#xD;Hinweis: Der Effekt wirkt auf alle Wohngebäude in Straßenreichweite des Markts oder Forums.&#xD;(Altdolphin-Consumption-Pack)</Text>
             <LineId>1600000314</LineId> 
         </Text>
         </ModOp>
@@ -143,7 +143,7 @@
             </Text>
             <!-- Description -->
             <Text>
-                <Text>Sammelt Waren für ein Opfer im Namen von Ceres.&#xD;(Consumption-Pack)</Text>
+                <Text>Sammelt Waren für ein Opfer im Namen von Ceres.&#xD;(Altdolphin-Consumption-Pack)</Text>
                 <LineId>1600000563</LineId> 
             </Text>
         </ModOp>
@@ -159,7 +159,7 @@
             </Text>
             <!-- Description -->
             <Text>
-                <Text>Sammelt Waren für ein Opfer im Namen von Cernunnos.&#xD;(Consumption-Pack)</Text>
+                <Text>Sammelt Waren für ein Opfer im Namen von Cernunnos.&#xD;(Altdolphin-Consumption-Pack)</Text>
                 <LineId>1600000565</LineId> 
             </Text>
         </ModOp>
@@ -175,7 +175,7 @@
             </Text>
             <!-- Description -->
             <Text>
-                <Text>Sammelt Waren für ein Opfer im Namen von Epona.&#xD;(Consumption-Pack)</Text>
+                <Text>Sammelt Waren für ein Opfer im Namen von Epona.&#xD;(Altdolphin-Consumption-Pack)</Text>
                 <LineId>1600000567</LineId> 
             </Text>
         </ModOp>
@@ -191,7 +191,7 @@
             </Text>
             <!-- Description -->
             <Text>
-                <Text>Sammelt Waren für ein Opfer im Namen von Mars.&#xD;(Consumption-Pack)</Text>
+                <Text>Sammelt Waren für ein Opfer im Namen von Mars.&#xD;(Altdolphin-Consumption-Pack)</Text>
                 <LineId>1600000569</LineId> 
             </Text>
         </ModOp>
@@ -207,7 +207,7 @@
             </Text>
             <!-- Description -->
             <Text>
-                <Text>Sammelt Waren für ein Opfer im Namen von Merkur-Lugus.&#xD;(Consumption-Pack)</Text>
+                <Text>Sammelt Waren für ein Opfer im Namen von Merkur-Lugus.&#xD;(Altdolphin-Consumption-Pack)</Text>
                 <LineId>1600000571</LineId> 
             </Text>
         </ModOp>
@@ -223,7 +223,7 @@
             </Text>
             <!-- Description -->
             <Text>
-                <Text>Sammelt Waren für ein Opfer im Namen von Minerva.&#xD;(Consumption-Pack)</Text>
+                <Text>Sammelt Waren für ein Opfer im Namen von Minerva.&#xD;(Altdolphin-Consumption-Pack)</Text>
                 <LineId>1600000573</LineId> 
             </Text>
         </ModOp>
@@ -239,7 +239,7 @@
             </Text>
             <!-- Description -->
             <Text>
-                <Text>Sammelt Waren für ein Opfer im Namen von Neptun.&#xD;(Consumption-Pack)</Text>
+                <Text>Sammelt Waren für ein Opfer im Namen von Neptun.&#xD;(Altdolphin-Consumption-Pack)</Text>
                 <LineId>1600000575</LineId> 
             </Text>
         </ModOp>
@@ -255,7 +255,7 @@
         </Text>
         <!-- Description -->
         <Text>
-            <Text>Rutscht häufig aus und landet in den Pfützen seiner Olivenölspur. &#xD;(Consumption-Pack)</Text>
+            <Text>Rutscht häufig aus und landet in den Pfützen seiner Olivenölspur. &#xD;(Altdolphin-Consumption-Pack)</Text>
             <LineId>1600000215</LineId> 
         </Text>
         </ModOp>
@@ -271,7 +271,7 @@
         </Text>
         <!-- Description -->
         <Text>
-            <Text>Testet verschiedene Gewürze um das Aspik wenigstens erträglich zu machen.&#xD;(Consumption-Pack)</Text>
+            <Text>Testet verschiedene Gewürze um das Aspik wenigstens erträglich zu machen.&#xD;(Altdolphin-Consumption-Pack)</Text>
             <LineId>1600000328</LineId> 
         </Text>
     </ModOp>
@@ -287,7 +287,7 @@
         </Text>
         <!-- Description -->
         <Text>
-            <Text>"Mein Schatz! Mein Eigen, mein Schatz!" &#xD;(Consumption-Pack)</Text>
+            <Text>"Mein Schatz! Mein Eigen, mein Schatz!" &#xD;(Altdolphin-Consumption-Pack)</Text>
             <LineId>1600000386</LineId> 
         </Text>
         <!-- Boosted Hint -->
@@ -308,7 +308,7 @@
         </Text>
         <!-- Description -->
         <Text>
-            <Text>Streitwägen als Alltagsfahrzeug? Vipera macht es möglich!.&#xD;(Consumption-Pack)</Text>
+            <Text>Streitwägen als Alltagsfahrzeug? Vipera macht es möglich!.&#xD;(Altdolphin-Consumption-Pack)</Text>
             <LineId>1600000038</LineId> 
         </Text>
         <!-- Boosted Hint -->
@@ -329,7 +329,7 @@
         </Text>
         <!-- Description -->
         <Text>
-            <Text>"Ahhh... nicht schon wieder! Verdammt! Schon wieder das Glas zerbrochen!"&#xD;(Consumption-Pack)</Text>
+            <Text>"Ahhh... nicht schon wieder! Verdammt! Schon wieder das Glas zerbrochen!"&#xD;(Altdolphin-Consumption-Pack)</Text>
             <LineId>1600000161</LineId> 
         </Text>
         </ModOp>
@@ -345,7 +345,7 @@
         </Text>
         <!-- Description -->
         <Text>
-            <Text>Dieser Söldner ist bereit ein Stadtviertel zu bewachen. Und als Bezahlung will er nur Ausrüstung und Würste.&#xD;(Consumption-Pack)</Text>
+            <Text>Dieser Söldner ist bereit ein Stadtviertel zu bewachen. Und als Bezahlung will er nur Ausrüstung und Würste.&#xD;(Altdolphin-Consumption-Pack)</Text>
             <LineId>1600000142</LineId> 
         </Text>
         <!-- Boosted Hint -->
@@ -366,7 +366,7 @@
         </Text>
         <!-- Description -->
         <Text>
-            <Text>Immer am Reparieren von Sachen um Erfahrung zu sammeln.&#xD;(Consumption-Pack)</Text>
+            <Text>Immer am Reparieren von Sachen um Erfahrung zu sammeln.&#xD;(Altdolphin-Consumption-Pack)</Text>
             <LineId>1600000032</LineId> 
         </Text>
         </ModOp>
@@ -382,7 +382,7 @@
         </Text>
         <!-- Description -->
         <Text>
-            <Text>"Mein Wein ist mir wichtiger als meine Kinder!"&#xD;(Consumption-Pack)</Text>
+            <Text>"Mein Wein ist mir wichtiger als meine Kinder!"&#xD;(Altdolphin-Consumption-Pack)</Text>
             <LineId>1600000696</LineId> 
         </Text>
         </ModOp>
@@ -398,7 +398,7 @@
         </Text>
         <!-- Description -->
         <Text>
-            <Text>"Seife ist viel zu wertvoll als dass man die benutzt! Dieser liebliche Geruch darf niemals aufhören!" &#xD;(Consumption-Pack)</Text>
+            <Text>"Seife ist viel zu wertvoll als dass man die benutzt! Dieser liebliche Geruch darf niemals aufhören!" &#xD;(Altdolphin-Consumption-Pack)</Text>
             <LineId>1600000197</LineId> 
         </Text>
         </ModOp>
@@ -414,7 +414,7 @@
         </Text>
         <!-- Description -->
         <Text>
-            <Text>"Toga-Träger sind Schwächlinge und Paragraphenreiter! Nur mit einer einfachen Tunika kann man seine Verpflichtungen erfüllen!" &#xD;(Consumption-Pack)</Text>
+            <Text>"Toga-Träger sind Schwächlinge und Paragraphenreiter! Nur mit einer einfachen Tunika kann man seine Verpflichtungen erfüllen!" &#xD;(Altdolphin-Consumption-Pack)</Text>
             <LineId>1600000501</LineId> 
         </Text>
         <!-- Boosted Hint -->
@@ -435,7 +435,7 @@
         </Text>
         <!-- Description -->
         <Text>
-            <Text>"Was nicht passt wird passend gemacht! Das könnte jetzt ein bisschen wehtun..." &#xD;(Consumption-Pack)</Text>
+            <Text>"Was nicht passt wird passend gemacht! Das könnte jetzt ein bisschen wehtun..." &#xD;(Altdolphin-Consumption-Pack)</Text>
             <LineId>1600000159</LineId> 
         </Text>
         </ModOp>
@@ -451,7 +451,7 @@
         </Text>
         <!-- Description -->
         <Text>
-            <Text>Seine Pilgerwege sind immer so langwierig, dass einem die Sandalen vom Fuß abfallen. &#xD;(Consumption-Pack)</Text>
+            <Text>Seine Pilgerwege sind immer so langwierig, dass einem die Sandalen vom Fuß abfallen. &#xD;(Altdolphin-Consumption-Pack)</Text>
             <LineId>1600000036</LineId> 
         </Text>
         <!-- Boosted Hint -->
