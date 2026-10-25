@@ -110,11 +110,11 @@
                 <ResidenceUpgrade>
                     <GoodConsumptionUpgrade>
                         <Item>
-                            <ProvidedNeed>2144</ProvidedNeed>
+                            <ProvidedNeedProduct>2144</ProvidedNeedProduct>
                             <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary"/></AmountInPercent>
                         </Item>
                         <Item>
-                            <ProvidedNeed>2159</ProvidedNeed> 
+                            <ProvidedNeedProduct>2159</ProvidedNeedProduct> 
                             <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary"/></AmountInPercent>
                         </Item>
                     </GoodConsumptionUpgrade>
@@ -172,11 +172,11 @@
                 <ResidenceUpgrade>
                     <GoodConsumptionUpgrade>
                         <Item>
-                            <ProvidedNeed>2144</ProvidedNeed>
+                            <ProvidedNeedProduct>2144</ProvidedNeedProduct>
                             <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary"/></AmountInPercent>
                         </Item>
                         <Item>
-                            <ProvidedNeed>2159</ProvidedNeed> 
+                            <ProvidedNeedProduct>2159</ProvidedNeedProduct> 
                             <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary"/></AmountInPercent>
                         </Item>
                     </GoodConsumptionUpgrade>

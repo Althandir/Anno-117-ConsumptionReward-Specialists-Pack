@@ -63,7 +63,7 @@
           <ResidenceUpgrade>
             <GoodConsumptionUpgrade>
               <Item>
-                <ProvidedNeed>2145</ProvidedNeed>
+                <ProvidedNeedProduct>2145</ProvidedNeedProduct>
                 <AmountInPercent><ModValue Insert="$ConsumptionModifier_Rare"/></AmountInPercent>
               </Item>
             </GoodConsumptionUpgrade>

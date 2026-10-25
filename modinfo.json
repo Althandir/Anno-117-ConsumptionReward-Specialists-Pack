@@ -92,11 +92,11 @@
     },
     "ConsumptionModifier_Epic":
     {
-      "default": "25.0"
+      "default": "20.0"
     },
     "ConsumptionModifier_Legendary":
     {
-      "default": "35.0"
+      "default": "30.0"
     }
   }
 

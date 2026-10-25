@@ -64,7 +64,7 @@
           <ResidenceUpgrade>
             <GoodConsumptionUpgrade>
               <Item>
-                <ProvidedNeed>2153</ProvidedNeed>
+                <ProvidedNeedProduct>2153</ProvidedNeedProduct>
                 <AmountInPercent><ModValue Insert="$ConsumptionModifier_Epic"/></AmountInPercent>
               </Item>
             </GoodConsumptionUpgrade>
