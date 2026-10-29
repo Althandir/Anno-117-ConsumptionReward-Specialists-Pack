@@ -35,7 +35,6 @@
 <!-- Epic Specialists -->
 <Group>
     <Include File="items-epic/NR-Cheese-E.xml" />
-    <Include File="items-epic/NR-Soap-L.xml" />
     <Include File="items-epic/NR-Trouser-E.xml" />
     <Include File="items-epic/AllGoods-Red-E.xml" />
     <Include File="items-epic/NR-Beer-E.xml" />
@@ -49,6 +48,7 @@
     <Include File="items-legendary/NR-SandalsShoes-L.xml" />
     <Include File="items-legendary/NR-Necklaces-L.xml" />
     <Include File="items-legendary/NR-CShieldsSausage-L.xml" />
+    <Include File="items-legendary/NR-Soap-L.xml" />
     <Include File="items-legendary/NR-Chariots-L.xml" />
 </Group>
 
