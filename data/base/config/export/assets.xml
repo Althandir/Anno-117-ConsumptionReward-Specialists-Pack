@@ -15,6 +15,10 @@
 <!-- Rare Specialists -->
 <Group>
     <Include File="items-rare/ND-Horses-R3R4-R.xml" />
+    <Include File="items-rare/ND-Loungers-RC3-R.xml" />
+    <Include File="items-rare/ND-Necklaces-C3-R.xml" />
+    <Include File="items-rare/ND-RoastBeef-R3R4-R.xml" />
+    <Include File="items-rare/ND-Wigs-R4-R.xml" />
 
     <Include File="items-rare/NR-Roast-R.xml" />
     <Include File="items-rare/NR-Toga-R.xml" />
@@ -34,9 +38,9 @@
 
 <!-- Epic Specialists -->
 <Group>
+    <Include File="items-epic/AllGoods-Red-E.xml" />
     <Include File="items-epic/NR-Cheese-E.xml" />
     <Include File="items-epic/NR-Trouser-E.xml" />
-    <Include File="items-epic/AllGoods-Red-E.xml" />
     <Include File="items-epic/NR-Beer-E.xml" />
     <Include File="items-epic/NR-Garum-E.xml" />
     <Include File="items-epic/NR-Wine-E.xml" />
@@ -63,6 +67,7 @@
 <Include File="pools/RewardPool/Diplomacy-R.xml" />
 
 <Include File="pools/RewardPool/Economy-C.xml" />
+<Include File="pools/RewardPool/Economy-E.xml" />
 <Include File="pools/RewardPool/Economy-L.xml" />
 <Include File="pools/RewardPool/Economy-R.xml" />
 

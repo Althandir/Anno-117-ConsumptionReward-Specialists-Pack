@@ -1,0 +1,81 @@
+<ModOps>
+  <!-- Item Definition GUID:1600001209 - 1600001210 | LineID:1600001209 - 1600001210 -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="106410">
+      <Asset>
+        <Template>Item</Template>
+        <Values>
+          <Standard>
+            <GUID>1600001209</GUID>
+            <Name>Specialist ND-RoastBeef-R3R4-R</Name>
+            <IconFilename>data/base/graphics/icons/Consump-Pack/_Placeholder.png</IconFilename>
+            <InfoDescription>1600001210</InfoDescription>
+          </Standard>
+          <Effect>
+            <EffectScope>Radius</EffectScope>
+            <SourceCategory>Item</SourceCategory>
+            <Buffs>
+              <Item>
+                <GUID>1600001210</GUID>
+              </Item>
+            </Buffs>
+            <Targets> <!-- Targets of Buff -->
+              <Item>
+                <GUID>3142</GUID>
+              </Item>
+              <Item>
+                <GUID>3145</GUID>
+              </Item>
+            </Targets>
+            <HideInGovernorsBar>1</HideInGovernorsBar>
+          </Effect>
+          <Item>
+            <Niche>Economy</Niche>
+            <TradePrice><ModValue Insert="$TradePrice_Rare"/></TradePrice>
+            <BarkPool>83301</BarkPool> <!-- <GUID>83301</GUID> -->
+            <Rarity>Rare</Rarity>
+          </Item>
+          <Locked>
+            <DefaultLockedState>0</DefaultLockedState>
+          </Locked>
+          <Text>
+            <OasisId>1600001209</OasisId>
+          </Text>
+        </Values>
+      </Asset>
+    </ModOp>
+  </Group>
+
+  <!-- Buff Definitions-->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="81445">
+      <Asset>
+        <Template>BuildingBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>1600001210</GUID>
+            <Name>Specialist ND-Horses-R3R4-R BuildingBuff</Name>
+            <IconFilename>data/base/graphics/icons/Consump-Pack/_Placeholder.png</IconFilename>
+          </Standard>
+          <Text>
+            <OasisId>1600001209</OasisId>
+          </Text>
+          <Buff>
+            <SourceCategory>Item</SourceCategory>
+          </Buff>
+          <ResidenceUpgrade>
+            <AdditionalNeedsDemand>
+              <Needs>
+                <Item>
+                  <Need>173172</Need>
+                </Item>
+              </Needs>
+            </AdditionalNeedsDemand>
+          </ResidenceUpgrade>
+        </Values>
+      </Asset>
+    </ModOp>
+
+  </Group>
+
+</ModOps>

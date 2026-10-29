@@ -28,7 +28,7 @@
     </Item>
     <Item>
         <Asset>1600000695</Asset>
-    </Item>
+    </Item>    
 
     <!-- Legendary -->
     <Item>
@@ -93,8 +93,21 @@
     <Item>
         <Asset>1600000196</Asset>
     </Item>
+
     <Item>
         <Asset>1600000264</Asset>
+    </Item>
+    <Item>
+        <Asset>1600001203</Asset>
+    </Item>
+    <Item>
+        <Asset>1600001205</Asset>
+    </Item>
+    <Item>
+        <Asset>1600001207</Asset>
+    </Item>
+    <Item>
+        <Asset>1600001209</Asset>
     </Item>
 
     </ModOp>

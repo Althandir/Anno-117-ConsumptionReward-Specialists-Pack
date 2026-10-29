@@ -462,7 +462,7 @@
         </ModOp>
     </Group>
 
-    <!-- Specialist NR-SandalsShoes-L -->
+    <!-- Specialist ND-Horses-R3R4-R -->
     <Group>
         <ModOp Add="/TextExport/Texts">
         <!-- Title -->
@@ -474,6 +474,86 @@
         <Text>
             <Text>PLACEHOLDER ND-Horses-R3R4-R &#xD;(Altdolphin-Consumption-Pack)</Text>
             <LineId>1600000265</LineId> 
+        </Text>
+        </ModOp>
+    </Group>
+
+    <!-- Specialist ND-Bread-R1-C -->
+    <Group>
+        <ModOp Add="/TextExport/Texts">
+        <!-- Title -->
+        <Text>
+            <Text>PLACEHOLDER ND-Bread-R1-C</Text>
+            <LineId>1600001201</LineId> <!-- <GUID>1600001201</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>PLACEHOLDER ND-Bread-R1-C &#xD;(Altdolphin-Consumption-Pack)</Text>
+            <LineId>1600001202</LineId> 
+        </Text>
+        </ModOp>
+    </Group>
+
+    <!-- Specialist ND-Wigs-R4-R -->
+    <Group>
+        <ModOp Add="/TextExport/Texts">
+        <!-- Title -->
+        <Text>
+            <Text>PLACEHOLDER ND-Wigs-R4-R</Text>
+            <LineId>1600001203</LineId> <!-- <GUID>1600001203</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>PLACEHOLDER ND-Wigs-R4-R &#xD;(Altdolphin-Consumption-Pack)</Text>
+            <LineId>1600001204</LineId> 
+        </Text>
+        </ModOp>
+    </Group>
+
+    <!-- Specialist ND-Loungers-RC3-R -->
+    <Group>
+        <ModOp Add="/TextExport/Texts">
+        <!-- Title -->
+        <Text>
+            <Text>PLACEHOLDER ND-Loungers-RC3-R</Text>
+            <LineId>1600001205</LineId> <!-- <GUID>1600001205</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>PLACEHOLDER ND-Loungers-RC3-R &#xD;(Altdolphin-Consumption-Pack)</Text>
+            <LineId>1600001206</LineId> 
+        </Text>
+        </ModOp>
+    </Group>
+
+    <!-- Specialist ND-Necklaces-C3-R -->
+    <Group>
+        <ModOp Add="/TextExport/Texts">
+        <!-- Title -->
+        <Text>
+            <Text>PLACEHOLDER ND-Necklaces-C3-R</Text>
+            <LineId>1600001207</LineId> <!-- <GUID>1600001207</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>PLACEHOLDER ND-Necklaces-C3-R &#xD;(Altdolphin-Consumption-Pack)</Text>
+            <LineId>1600001208</LineId> 
+        </Text>
+        </ModOp>
+    </Group>
+
+    <!-- Specialist ND-RoastBeef-R3R4-R -->
+    <Group>
+        <ModOp Add="/TextExport/Texts">
+        <!-- Title -->
+        <Text>
+            <Text>PLACEHOLDER ND-RoastBeef-R3R4-R</Text>
+            <LineId>1600001209</LineId> <!-- <GUID>1600001209</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>PLACEHOLDER ND-RoastBeef-R3R4-R &#xD;(Altdolphin-Consumption-Pack)</Text>
+            <LineId>1600001210</LineId> 
         </Text>
         </ModOp>
     </Group>
