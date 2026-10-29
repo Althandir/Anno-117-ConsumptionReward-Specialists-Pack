@@ -5,25 +5,10 @@
     <ModOp Type="add" GUID="113059" Path="/Values/AssetPool/AssetList">
     <!-- Common -->
     <Item>
-        <Asset>1600000562</Asset>
-    </Item>
-    <Item>
-        <Asset>1600000564</Asset>
-    </Item>
-    <Item>
-        <Asset>1600000566</Asset>
-    </Item>
-    <Item>
-        <Asset>1600000568</Asset>
-    </Item>
-    <Item>
-        <Asset>1600000572</Asset>
-    </Item>
-    <Item>
-        <Asset>1600000574</Asset>
-    </Item>
-    <Item>
         <Asset>1600000031</Asset>
+    </Item>
+    <Item>
+        <Asset>1600001201</Asset>
     </Item>
     <!-- Epic -->
     <Item>
@@ -67,6 +52,24 @@
 
     <!-- Rare -->
     <Item>
+        <Asset>1600000562</Asset>
+    </Item>
+    <Item>
+        <Asset>1600000564</Asset>
+    </Item>
+    <Item>
+        <Asset>1600000566</Asset>
+    </Item>
+    <Item>
+        <Asset>1600000568</Asset>
+    </Item>
+    <Item>
+        <Asset>1600000572</Asset>
+    </Item>
+    <Item>
+        <Asset>1600000574</Asset>
+    </Item>
+    <Item>
         <Asset>1600000170</Asset>
     </Item>
     <Item>
@@ -90,7 +93,10 @@
     <Item>
         <Asset>1600000196</Asset>
     </Item>
-        
+    <Item>
+        <Asset>1600000264</Asset>
+    </Item>
+
     </ModOp>
 </Group>
 

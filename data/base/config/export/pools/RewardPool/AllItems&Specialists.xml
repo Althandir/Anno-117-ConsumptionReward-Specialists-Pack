@@ -5,25 +5,10 @@
     <ModOp Type="add" GUID="43037,82598" Path="/Values/RewardPool/ItemsPool">
     <!-- Common -->
     <Item>
-        <ItemLink>1600000562</ItemLink>
-    </Item>
-    <Item>
-        <ItemLink>1600000564</ItemLink>
-    </Item>
-    <Item>
-        <ItemLink>1600000566</ItemLink>
-    </Item>
-    <Item>
-        <ItemLink>1600000568</ItemLink>
-    </Item>
-    <Item>
-        <ItemLink>1600000572</ItemLink>
-    </Item>
-    <Item>
-        <ItemLink>1600000574</ItemLink>
-    </Item>
-    <Item>
         <ItemLink>1600000031</ItemLink>
+    </Item>
+    <Item>
+        <ItemLink>1600001201</ItemLink>
     </Item>
     <!-- Epic -->
     <Item>
@@ -67,6 +52,24 @@
 
     <!-- Rare -->
     <Item>
+        <ItemLink>1600000562</ItemLink>
+    </Item>
+    <Item>
+        <ItemLink>1600000564</ItemLink>
+    </Item>
+    <Item>
+        <ItemLink>1600000566</ItemLink>
+    </Item>
+    <Item>
+        <ItemLink>1600000568</ItemLink>
+    </Item>
+    <Item>
+        <ItemLink>1600000572</ItemLink>
+    </Item>
+    <Item>
+        <ItemLink>1600000574</ItemLink>
+    </Item>
+    <Item>
         <ItemLink>1600000170</ItemLink>
     </Item>
     <Item>
@@ -90,7 +93,9 @@
     <Item>
         <ItemLink>1600000196</ItemLink>
     </Item>
-
+    <Item>
+        <ItemLink>1600000264</ItemLink>
+    </Item>
     </ModOp>
 </Group>
 

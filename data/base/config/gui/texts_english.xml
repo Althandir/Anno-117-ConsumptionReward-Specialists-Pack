@@ -462,4 +462,20 @@
         </ModOp>
     </Group>
 
+    <!-- Specialist NR-SandalsShoes-L -->
+    <Group>
+        <ModOp Add="/TextExport/Texts">
+        <!-- Title -->
+        <Text>
+            <Text>PLACEHOLDER ND-Horses-R3R4-R</Text>
+            <LineId>1600000264</LineId> <!-- <GUID>1600000264</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>PLACEHOLDER ND-Horses-R3R4-R &#xD;(Altdolphin-Consumption-Pack)</Text>
+            <LineId>1600000265</LineId> 
+        </Text>
+        </ModOp>
+    </Group>
+
 </ModOps>

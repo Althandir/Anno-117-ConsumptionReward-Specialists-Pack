@@ -3,35 +3,19 @@
 # NOTE: 
 # GUIDs might be all over the place (not outside of my Range but inside this mod) due to my experiments all the time
 # or my stupid brain getting new Ideas all the time and never finishing something >~<
-
-### GUID-Ranges (Incomplete):  
-#    
-#    1600000562 - 1600000563 (NR-GoodsCeres-R)
-#    1600000564 - 1600000565 (NR-GoodsCernunnos-R)
-#    1600000566 - 1600000567 (NR-GoodsEpona-R)
-#    1600000568 - 1600000569 (NR-GoodsMars-R)
-#    1600000570 - 1600000571 (NR-GoodsMercury-R)
-#    1600000572 - 1600000573 (NR-GoodsMinerva-R)
-#    1600000574 - 1600000575 (NR-GoodsNeptune-R)
-#
-#    1600000104 - 1600000105 (AllGoods-Red-E)
-#    1600000114 - 1600000115 (NR-Beer-E)
-#    1600000116 - 1600000117 (NR-Garum-E)
-#    1600000170 - 1600000173 (NR-Roast-R)
-#    1600000182 - 1600000185 (NR-Toga-R)
-#    1600000214 - 1600000215 (NR-OliveOil-R)
-#    1600000262 - 1600000265 (NR-Trouser-E)
-#    1600000313 - 1600000316 (NR-Cheese-E)
-#    1600000044 - 1600000047 (NR-Soap-L)
 -->
 <ModOps>
 <!-- Common Specialists -->
 <Group>
+    <Include File="items-common/ND-Bread-R1-C.xml" />
+
     <Include File="items-common/NR-T1Regional-C.xml" />
 </Group>
 
 <!-- Rare Specialists -->
 <Group>
+    <Include File="items-rare/ND-Horses-R3R4-R.xml" />
+
     <Include File="items-rare/NR-Roast-R.xml" />
     <Include File="items-rare/NR-Toga-R.xml" />
     <Include File="items-rare/NR-OliveOil-R.xml" />
@@ -80,6 +64,7 @@
 
 <Include File="pools/RewardPool/Economy-C.xml" />
 <Include File="pools/RewardPool/Economy-L.xml" />
+<Include File="pools/RewardPool/Economy-R.xml" />
 
 <Include File="pools/RewardPool/Finance-E.xml" />
 <Include File="pools/RewardPool/Finance-L.xml" />
