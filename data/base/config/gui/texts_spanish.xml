@@ -462,4 +462,100 @@
         </ModOp>
     </Group>
 
+    <!-- Specialist ND-Horses-R3R4-R -->
+    <Group>
+        <ModOp Add="/TextExport/Texts">
+        <!-- Title -->
+        <Text>
+            <Text>Horse Whisperer</Text>
+            <LineId>1600000264</LineId> <!-- <GUID>1600000264</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>"Every household should get a horse." &#xD;(Altdolphin-Consumption-Pack)</Text>
+            <LineId>1600000265</LineId> 
+        </Text>
+        </ModOp>
+    </Group>
+
+    <!-- Specialist ND-Bread-R1-C -->
+    <Group>
+        <ModOp Add="/TextExport/Texts">
+        <!-- Title -->
+        <Text>
+            <Text>Well-Nourished Baker</Text>
+            <LineId>1600001201</LineId> <!-- <GUID>1600001201</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>"A good bread keeps you working." &#xD;(Altdolphin-Consumption-Pack)</Text>
+            <LineId>1600001202</LineId> 
+        </Text>
+        </ModOp>
+    </Group>
+
+    <!-- Specialist ND-Wigs-R4-R -->
+    <Group>
+        <ModOp Add="/TextExport/Texts">
+        <!-- Title -->
+        <Text>
+            <Text>Wig Trader</Text>
+            <LineId>1600001203</LineId> <!-- <GUID>1600001203</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>"Look how my hair can look now!" &#xD;(Altdolphin-Consumption-Pack)</Text>
+            <LineId>1600001204</LineId> 
+        </Text>
+        </ModOp>
+    </Group>
+
+    <!-- Specialist ND-Loungers-RC3-R -->
+    <Group>
+        <ModOp Add="/TextExport/Texts">
+        <!-- Title -->
+        <Text>
+            <Text>Ambitious Lounger Trader</Text>
+            <LineId>1600001205</LineId> <!-- <GUID>1600001205</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>Reaches out to new customers. &#xD;(Altdolphin-Consumption-Pack)</Text>
+            <LineId>1600001206</LineId> 
+        </Text>
+        </ModOp>
+    </Group>
+
+    <!-- Specialist ND-Necklaces-C3-R -->
+    <Group>
+        <ModOp Add="/TextExport/Texts">
+        <!-- Title -->
+        <Text>
+            <Text>Jewel-adorned Elder</Text>
+            <LineId>1600001207</LineId> <!-- <GUID>1600001207</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>Even in Albion Roman Jewels are seen as luxurious. &#xD;(Altdolphin-Consumption-Pack)</Text>
+            <LineId>1600001208</LineId> 
+        </Text>
+        </ModOp>
+    </Group>
+
+    <!-- Specialist ND-RoastBeef-R3R4-R -->
+    <Group>
+        <ModOp Add="/TextExport/Texts">
+        <!-- Title -->
+        <Text>
+            <Text>Albionic Cook</Text>
+            <LineId>1600001209</LineId> <!-- <GUID>1600001209</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>Brings albionic cuisine to Latium. &#xD;(Altdolphin-Consumption-Pack)</Text>
+            <LineId>1600001210</LineId> 
+        </Text>
+        </ModOp>
+    </Group>
+
 </ModOps>
