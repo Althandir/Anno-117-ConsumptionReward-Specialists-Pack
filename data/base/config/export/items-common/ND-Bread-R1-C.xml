@@ -1,0 +1,78 @@
+<ModOps>
+  <!-- Item Definition GUID:1600001201 - 1600001202 | LineID:1600001201 - 1600001202 -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="106410">
+      <Asset>
+        <Template>Item</Template>
+        <Values>
+          <Standard>
+            <GUID>1600001201</GUID>
+            <Name>Specialist ND-Bread-R1-C</Name>
+            <IconFilename>data/base/graphics/icons/Consump-Pack/ND-Bread-R1-C.png</IconFilename>
+            <InfoDescription>1600001202</InfoDescription>
+          </Standard>
+          <Effect>
+            <EffectScope>Radius</EffectScope>
+            <SourceCategory>Item</SourceCategory>
+            <Buffs>
+              <Item>
+                <GUID>1600001202</GUID>
+              </Item>
+            </Buffs>
+            <Targets> <!-- Targets of Buff -->
+              <Item>
+                <GUID>3087</GUID>
+              </Item>
+            </Targets>
+            <HideInGovernorsBar>1</HideInGovernorsBar>
+          </Effect>
+          <Item>
+            <Niche>Economy</Niche>
+            <TradePrice><ModValue Insert="$TradePrice_Common"/></TradePrice>
+            <BarkPool>83301</BarkPool> <!-- <GUID>83301</GUID> -->
+            <Rarity>Common</Rarity>
+          </Item>
+          <Locked>
+            <DefaultLockedState>0</DefaultLockedState>
+          </Locked>
+          <Text>
+            <OasisId>1600001201</OasisId>
+          </Text>
+        </Values>
+      </Asset>
+    </ModOp>
+  </Group>
+
+  <!-- Buff Definitions-->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="81445">
+      <Asset>
+        <Template>BuildingBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>1600001202</GUID>
+            <Name>Specialist ND-Bread-R1-C BuildingBuff</Name>
+            <IconFilename>data/base/graphics/icons/Consump-Pack/ND-Bread-R1-C.png</IconFilename>
+          </Standard>
+          <Text>
+            <OasisId>1600001201</OasisId>
+          </Text>
+          <Buff>
+            <SourceCategory>Item</SourceCategory>
+          </Buff>
+          <ResidenceUpgrade>
+            <AdditionalNeedsDemand>
+              <Needs>
+                <Item>
+                  <Need>2689</Need>
+                </Item>
+              </Needs>
+            </AdditionalNeedsDemand>
+          </ResidenceUpgrade>
+        </Values>
+      </Asset>
+    </ModOp>
+
+  </Group>
+
+</ModOps>

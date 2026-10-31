@@ -1,6 +1,6 @@
 <ModOps>
 
-    <!-- Specialist AE-NR-Bath-Red-Soap-E -->
+    <!-- Specialist NR-Soap-L -->
     <Group>
         <ModOp Add="/TextExport/Texts">
         <!-- Title -->
@@ -10,8 +10,13 @@
         </Text>
         <!-- Description -->
         <Text>
-            <Text>By using soap in big pools of water we can clean so many people at once. &#xD;Hint: The Effects are applying to every building in Street Range.&#xD;(Consumption-Pack)</Text>
+            <Text>By using soap in big pools of water we can clean so many people at once. &#xD;(Altdolphin-Consumption-Pack)</Text>
             <LineId>1600000045</LineId> 
+        </Text>
+        <!-- Boosted Description -->
+        <Text>
+            <Text>"Without a bath, soap is only partly useful." (2x Baths on Island)</Text>
+            <LineId>1600000046</LineId> 
         </Text>
         </ModOp>
     </Group>
@@ -26,13 +31,13 @@
         </Text>
         <!-- Description -->
         <Text>
-            <Text>Rejects decadence and instead demonstrates an ecological lifestyle in harmony with nature.&#xD;(Consumption-Pack)</Text>
+            <Text>Rejects decadence and instead demonstrates an ecological lifestyle in harmony with nature.&#xD;(Altdolphin-Consumption-Pack)</Text>
             <LineId>1600000105</LineId> 
         </Text>
         </ModOp>
     </Group>
 
-    <!-- Specialist NR-Inc-Beer-E -->
+    <!-- Specialist NR-Beer-E -->
     <Group>
         <ModOp Add="/TextExport/Texts">
         <!-- Title -->
@@ -42,13 +47,13 @@
         </Text>
         <!-- Description -->
         <Text>
-            <Text>"And the next round goes on me!"&#xD;(Consumption-Pack)</Text>
+            <Text>"And the next round goes on me!"&#xD;(Altdolphin-Consumption-Pack)</Text>
             <LineId>1600000115</LineId> 
         </Text>
         </ModOp>
     </Group>
 
-    <!-- Specialist NR-Inc-Garum-E -->
+    <!-- Specialist NR-Garum-E -->
     <Group>
         <ModOp Add="/TextExport/Texts">
         <!-- Title -->
@@ -58,13 +63,13 @@
         </Text>
         <!-- Description -->
         <Text>
-            <Text>Adds a particularly salty flavor to everything. Creates a taste of the desert on the tongue.&#xD;(Consumption-Pack)</Text>
+            <Text>Adds a particularly salty flavor to everything. Creates a taste of the desert on the tongue.&#xD;(Altdolphin-Consumption-Pack)</Text>
             <LineId>1600000117</LineId> 
         </Text>
         </ModOp>
     </Group>
 
-    <!-- Specialist AE-NR-CTHall-Inc-Roast-R -->
+    <!-- Specialist NR-Roast-R -->
     <Group>
         <ModOp Add="/TextExport/Texts">
         <!-- Title -->
@@ -74,13 +79,13 @@
         </Text>
         <!-- Description -->
         <Text>
-            <Text>Cooks the roast very quickly... unfortunately not long enough. &#xD;Hint: The effect applies to all residential buildings within Street Range of the Alder Council.&#xD;(Consumption-Pack)</Text>
+            <Text>Cooks the roast very quickly... unfortunately not long enough. &#xD;(Altdolphin-Consumption-Pack)</Text>
             <LineId>1600000171</LineId> 
         </Text>
         </ModOp>
     </Group>
 
-    <!-- Specialist AE-NR-Theater-Inc-Toga-R -->
+    <!-- Specialist NR-Toga-R -->
     <Group>
         <ModOp Add="/TextExport/Texts">
         <!-- Title -->
@@ -90,13 +95,13 @@
         </Text>
         <!-- Description -->
         <Text>
-            <Text>Uses the theater stage to present his first toga collection. &#xD;Hint: The effect applies to all residential buildings within Street Range of the theater.&#xD;(Consumption-Pack)</Text>
+            <Text>Uses the theater stage to present his first toga collection. &#xD;(Altdolphin-Consumption-Pack)</Text>
             <LineId>1600000183</LineId> 
         </Text>
         </ModOp>
     </Group>  
     
-    <!-- Specialist AE-NR-CSport-Inc-Trouser-E -->
+    <!-- Specialist NR-Trouser-E -->
     <Group>
         <ModOp Add="/TextExport/Texts">
         <!-- Title -->
@@ -106,13 +111,13 @@
         </Text>
         <!-- Description -->
         <Text>
-            <Text>His training units will make you really sweat. Everyone should bring a extra set of trousers. &#xD;Hint: The effect applies to all residential buildings within Street Range of the Sportsground.&#xD;(Consumption-Pack)</Text>
+            <Text>His training units will make you really sweat. Everyone should bring a extra set of trousers. &#xD;(Altdolphin-Consumption-Pack)</Text>
             <LineId>1600000263</LineId> 
         </Text>
         </ModOp>
     </Group>
 
-    <!-- Specialist AE-NR-ForumMar-Inc-Cheese-E -->
+    <!-- Specialist NR-Cheese-E -->
     <Group>
         <ModOp Add="/TextExport/Texts">
         <!-- Title -->
@@ -122,13 +127,13 @@
         </Text>
         <!-- Description -->
         <Text>
-            <Text>Came up with the idea of melting cheese and combining it with sweet fruit. Some love this experimental cuisine, others hate it and give free rein to their anger. &#xD;Hint: The effect applies to all residential buildings within Street Range of the Market or Forum.&#xD;(Consumption-Pack)</Text>
+            <Text>Came up with the idea of melting cheese and combining it with sweet fruit. Some love this experimental cuisine, others hate it and give free rein to their anger. &#xD;(Altdolphin-Consumption-Pack)</Text>
             <LineId>1600000314</LineId> 
         </Text>
         </ModOp>
     </Group>
 
-    <!-- Specialist NR-Inc-GoodsCeres-R -->
+    <!-- Specialist NR-GoodsCeres-R -->
     <Group>
         <ModOp Add="/TextExport/Texts">
             <!-- Title -->
@@ -138,13 +143,13 @@
             </Text>
             <!-- Description -->
             <Text>
-                <Text>Collects goods for a sacrifice in the name of Ceres.&#xD;(Consumption-Pack)</Text>
+                <Text>Collects goods for a sacrifice in the name of Ceres.&#xD;(Altdolphin-Consumption-Pack)</Text>
                 <LineId>1600000563</LineId> 
             </Text>
         </ModOp>
     </Group>
 
-    <!-- Specialist NR-Inc-GoodsCernunnos-R -->
+    <!-- Specialist NR-GoodsCernunnos-R -->
     <Group>
         <ModOp Add="/TextExport/Texts">
             <!-- Title -->
@@ -154,13 +159,13 @@
             </Text>
             <!-- Description -->
             <Text>
-                <Text>Collects goods for a sacrifice in the name of Cernunnos.&#xD;(Consumption-Pack)</Text>
+                <Text>Collects goods for a sacrifice in the name of Cernunnos.&#xD;(Altdolphin-Consumption-Pack)</Text>
                 <LineId>1600000565</LineId> 
             </Text>
         </ModOp>
     </Group>
 
-    <!-- Specialist NR-Inc-GoodsEpona-R -->
+    <!-- Specialist NR-GoodsEpona-R -->
     <Group>
         <ModOp Add="/TextExport/Texts">
             <!-- Title -->
@@ -170,13 +175,13 @@
             </Text>
             <!-- Description -->
             <Text>
-                <Text>Collects goods for a sacrifice in the name of Epona.&#xD;(Consumption-Pack)</Text>
+                <Text>Collects goods for a sacrifice in the name of Epona.&#xD;(Altdolphin-Consumption-Pack)</Text>
                 <LineId>1600000567</LineId> 
             </Text>
         </ModOp>
     </Group>
 
-    <!-- Specialist NR-Inc-GoodsMars-R -->
+    <!-- Specialist NR-GoodsMars-R -->
     <Group>
         <ModOp Add="/TextExport/Texts">
             <!-- Title -->
@@ -186,13 +191,13 @@
             </Text>
             <!-- Description -->
             <Text>
-                <Text>Collects goods for a sacrifice in the name of Mars.&#xD;(Consumption-Pack)</Text>
+                <Text>Collects goods for a sacrifice in the name of Mars.&#xD;(Altdolphin-Consumption-Pack)</Text>
                 <LineId>1600000569</LineId> 
             </Text>
         </ModOp>
     </Group>
 
-    <!-- Specialist NR-Inc-GoodsMercury-R -->
+    <!-- Specialist NR-GoodsMercury-R -->
     <Group>
         <ModOp Add="/TextExport/Texts">
             <!-- Title -->
@@ -202,13 +207,13 @@
             </Text>
             <!-- Description -->
             <Text>
-                <Text>Collects goods for a sacrifice in the name of Merkur-Lugus.&#xD;(Consumption-Pack)</Text>
+                <Text>Collects goods for a sacrifice in the name of Merkur-Lugus.&#xD;(Altdolphin-Consumption-Pack)</Text>
                 <LineId>1600000571</LineId> 
             </Text>
         </ModOp>
     </Group>
 
-    <!-- Specialist NR-Inc-GoodsMinerva-R -->
+    <!-- Specialist NR-GoodsMinerva-R -->
     <Group>
         <ModOp Add="/TextExport/Texts">
             <!-- Title -->
@@ -218,13 +223,13 @@
             </Text>
             <!-- Description -->
             <Text>
-                <Text>Collects goods for a sacrifice in the name of Minerva.&#xD;(Consumption-Pack)</Text>
+                <Text>Collects goods for a sacrifice in the name of Minerva.&#xD;(Altdolphin-Consumption-Pack)</Text>
                 <LineId>1600000573</LineId> 
             </Text>
         </ModOp>
     </Group>
 
-    <!-- Specialist NR-Inc-GoodsNeptune-R -->
+    <!-- Specialist NR-GoodsNeptune-R -->
     <Group>
         <ModOp Add="/TextExport/Texts">
             <!-- Title -->
@@ -234,13 +239,13 @@
             </Text>
             <!-- Description -->
             <Text>
-                <Text>Collects goods for a sacrifice in the name of Neptun.&#xD;(Consumption-Pack)</Text>
+                <Text>Collects goods for a sacrifice in the name of Neptun.&#xD;(Altdolphin-Consumption-Pack)</Text>
                 <LineId>1600000575</LineId> 
             </Text>
         </ModOp>
     </Group>
 
-    <!-- Specialist NR-Inc-OliveOil-R -->
+    <!-- Specialist NR-OliveOil-R -->
     <Group>
         <ModOp Add="/TextExport/Texts">
         <!-- Title -->
@@ -250,13 +255,13 @@
         </Text>
         <!-- Description -->
         <Text>
-            <Text>Frequently slips and ends up in the puddles left by his trail of olive oil. &#xD;(Consumption-Pack)</Text>
+            <Text>Frequently slips and ends up in the puddles left by his trail of olive oil. &#xD;(Altdolphin-Consumption-Pack)</Text>
             <LineId>1600000215</LineId> 
         </Text>
         </ModOp>
     </Group>
 
-    <!-- Specialist NR-Inc-BirdTongue-R -->
+    <!-- Specialist NR-BirdTongue-R -->
     <Group>
     <ModOp Add="/TextExport/Texts">
         <!-- Title -->
@@ -266,13 +271,13 @@
         </Text>
         <!-- Description -->
         <Text>
-            <Text>Tries different spices to make the aspic at least tolerable.&#xD;(Consumption-Pack)</Text>
+            <Text>Tries different spices to make the aspic at least tolerable.&#xD;(Altdolphin-Consumption-Pack)</Text>
             <LineId>1600000328</LineId> 
         </Text>
     </ModOp>
     </Group>
 
-    <!-- Specialist NR-Inc-Necklaces-L -->
+    <!-- Specialist NR-Necklaces-L -->
     <Group>
     <ModOp Add="/TextExport/Texts">
         <!-- Title -->
@@ -282,7 +287,7 @@
         </Text>
         <!-- Description -->
         <Text>
-            <Text>"My Precious!" &#xD;(Consumption-Pack)</Text>
+            <Text>"My Precious!" &#xD;(Altdolphin-Consumption-Pack)</Text>
             <LineId>1600000386</LineId> 
         </Text>
         <!-- Boosted Hint -->
@@ -293,7 +298,7 @@
     </ModOp>
     </Group>
 
-    <!-- Specialist NR-Inc-Chariots-L -->
+    <!-- Specialist NR-Chariots-L -->
     <Group>
         <ModOp Add="/TextExport/Texts">
         <!-- Title -->
@@ -303,7 +308,7 @@
         </Text>
         <!-- Description -->
         <Text>
-            <Text>Chariots as everyday vehicles? Vipera makes it possible!&#xD;(Consumption-Pack)</Text>
+            <Text>Chariots as everyday vehicles? Vipera makes it possible!&#xD;(Altdolphin-Consumption-Pack)</Text>
             <LineId>1600000038</LineId> 
         </Text>
         <!-- Boosted Hint -->
@@ -314,7 +319,7 @@
         </ModOp>
     </Group>
 
-    <!-- Specialist NR-Inc-FineGlass-R -->
+    <!-- Specialist NR-FineGlass-R -->
     <Group>
         <ModOp Add="/TextExport/Texts">
         <!-- Title -->
@@ -324,13 +329,13 @@
         </Text>
         <!-- Description -->
         <Text>
-            <Text>"Ahhh... not again! Damn it! I broke the glass again!"&#xD;(Consumption-Pack)</Text>
+            <Text>"Ahhh... not again! Damn it! I broke the glass again!"&#xD;(Altdolphin-Consumption-Pack)</Text>
             <LineId>1600000161</LineId> 
         </Text>
         </ModOp>
     </Group>
 
-    <!-- Specialist NR-Inc-CShieldsSausage-L -->
+    <!-- Specialist NR-CShieldsSausage-L -->
     <Group>
         <ModOp Add="/TextExport/Texts">
         <!-- Title -->
@@ -340,7 +345,7 @@
         </Text>
         <!-- Description -->
         <Text>
-            <Text>This mercenary is ready to guard a neighborhood. And all he wants in payment is gear and sausages.&#xD;(Consumption-Pack)</Text>
+            <Text>This mercenary is ready to guard a neighborhood. And all he wants in payment is gear and sausages.&#xD;(Altdolphin-Consumption-Pack)</Text>
             <LineId>1600000142</LineId> 
         </Text>
         <!-- Boosted Hint -->
@@ -351,23 +356,23 @@
         </ModOp>
     </Group>
 
-    <!-- Specialist NR-Inc-PileusReedShoes-C -->
+    <!-- Specialist NR-T1Regional-C -->
     <Group>
         <ModOp Add="/TextExport/Texts">
         <!-- Title -->
         <Text>
-            <Text>Young Tailor</Text>
+            <Text>Young Artisan</Text>
             <LineId>1600000031</LineId> <!-- <GUID>1600000031</GUID> -->
         </Text>
         <!-- Description -->
         <Text>
-            <Text>Repairs some clothes to gain experience.&#xD;(Consumption-Pack)</Text>
+            <Text>Always repairs stuff to gain experience.&#xD;(Altdolphin-Consumption-Pack)</Text>
             <LineId>1600000032</LineId> 
         </Text>
         </ModOp>
     </Group>
 
-    <!-- Specialist NR-Inc-Wine-E -->
+    <!-- Specialist NR-Wine-E -->
     <Group>
         <ModOp Add="/TextExport/Texts">
         <!-- Title -->
@@ -377,13 +382,13 @@
         </Text>
         <!-- Description -->
         <Text>
-            <Text>“My wine is more important to me than my children!”&#xD;(Consumption-Pack)</Text>
+            <Text>“My wine is more important to me than my children!”&#xD;(Altdolphin-Consumption-Pack)</Text>
             <LineId>1600000696</LineId> 
         </Text>
         </ModOp>
     </Group>
 
-    <!-- Specialist NR-Inc-Soap-R -->
+    <!-- Specialist NR-Soap-R -->
     <Group>
         <ModOp Add="/TextExport/Texts">
         <!-- Title -->
@@ -393,13 +398,13 @@
         </Text>
         <!-- Description -->
         <Text>
-            <Text>"Soap is far too precious to use! This lovely scent must never fade!"&#xD;(Consumption-Pack)</Text>
+            <Text>"Soap is far too precious to use! This lovely scent must never fade!"&#xD;(Altdolphin-Consumption-Pack)</Text>
             <LineId>1600000197</LineId> 
         </Text>
         </ModOp>
     </Group>  
     
-    <!-- Specialist NR-Inc-Tunics-L -->
+    <!-- Specialist NR-Tunics-L -->
     <Group>
         <ModOp Add="/TextExport/Texts">
         <!-- Title -->
@@ -409,7 +414,7 @@
         </Text>
         <!-- Description -->
         <Text>
-            <Text>"People who dress in togas are weaklings and legalistic nitpickers! You can only fulfill your duties in a simple tunic!" &#xD;(Consumption-Pack)</Text>
+            <Text>"People who dress in togas are weaklings and legalistic nitpickers! You can only fulfill your duties in a simple tunic!" &#xD;(Altdolphin-Consumption-Pack)</Text>
             <LineId>1600000501</LineId> 
         </Text>
         <!-- Boosted Hint -->
@@ -420,7 +425,7 @@
         </ModOp>
     </Group>
 
-    <!-- Specialist NR-Inc-Wigs-R -->
+    <!-- Specialist NR-Wigs-R -->
     <Group>
         <ModOp Add="/TextExport/Texts">
         <!-- Title -->
@@ -430,13 +435,13 @@
         </Text>
         <!-- Description -->
         <Text>
-            <Text>"If it doesn't fit, we'll make it fit! This might hurt a little..." &#xD;(Consumption-Pack)</Text>
+            <Text>"If it doesn't fit, we'll make it fit! This might hurt a little..." &#xD;(Altdolphin-Consumption-Pack)</Text>
             <LineId>1600000159</LineId> 
         </Text>
         </ModOp>
     </Group>
 
-    <!-- Specialist NR-Inc-SandalsShoes-L -->
+    <!-- Specialist NR-SandalsShoes-L -->
     <Group>
         <ModOp Add="/TextExport/Texts">
         <!-- Title -->
@@ -446,13 +451,109 @@
         </Text>
         <!-- Description -->
         <Text>
-            <Text>His pilgrimages are always so long that your sandals practically fall off your feet. &#xD;(Consumption-Pack)</Text>
+            <Text>His pilgrimages are always so long that your sandals practically fall off your feet. &#xD;(Altdolphin-Consumption-Pack)</Text>
             <LineId>1600000036</LineId> 
         </Text>
         <!-- Boosted Hint -->
         <Text>
             <Text>A small religious community is needed. (1500 Belief on Island) </Text>
             <LineId>1600000004</LineId> 
+        </Text>
+        </ModOp>
+    </Group>
+
+    <!-- Specialist ND-Horses-R3R4-R -->
+    <Group>
+        <ModOp Add="/TextExport/Texts">
+        <!-- Title -->
+        <Text>
+            <Text>Horse Whisperer</Text>
+            <LineId>1600000264</LineId> <!-- <GUID>1600000264</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>"Every household should get a horse." &#xD;(Altdolphin-Consumption-Pack)</Text>
+            <LineId>1600000265</LineId> 
+        </Text>
+        </ModOp>
+    </Group>
+
+    <!-- Specialist ND-Bread-R1-C -->
+    <Group>
+        <ModOp Add="/TextExport/Texts">
+        <!-- Title -->
+        <Text>
+            <Text>Well-Nourished Baker</Text>
+            <LineId>1600001201</LineId> <!-- <GUID>1600001201</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>"A good bread keeps you working." &#xD;(Altdolphin-Consumption-Pack)</Text>
+            <LineId>1600001202</LineId> 
+        </Text>
+        </ModOp>
+    </Group>
+
+    <!-- Specialist ND-Wigs-R4-R -->
+    <Group>
+        <ModOp Add="/TextExport/Texts">
+        <!-- Title -->
+        <Text>
+            <Text>Wig Trader</Text>
+            <LineId>1600001203</LineId> <!-- <GUID>1600001203</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>"Look how my hair can look now!" &#xD;(Altdolphin-Consumption-Pack)</Text>
+            <LineId>1600001204</LineId> 
+        </Text>
+        </ModOp>
+    </Group>
+
+    <!-- Specialist ND-Loungers-RC3-R -->
+    <Group>
+        <ModOp Add="/TextExport/Texts">
+        <!-- Title -->
+        <Text>
+            <Text>Ambitious Lounger Trader</Text>
+            <LineId>1600001205</LineId> <!-- <GUID>1600001205</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>Reaches out to new customers. &#xD;(Altdolphin-Consumption-Pack)</Text>
+            <LineId>1600001206</LineId> 
+        </Text>
+        </ModOp>
+    </Group>
+
+    <!-- Specialist ND-Necklaces-C3-R -->
+    <Group>
+        <ModOp Add="/TextExport/Texts">
+        <!-- Title -->
+        <Text>
+            <Text>Jewel-adorned Elder</Text>
+            <LineId>1600001207</LineId> <!-- <GUID>1600001207</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>Even in Albion Roman Jewels are seen as luxurious. &#xD;(Altdolphin-Consumption-Pack)</Text>
+            <LineId>1600001208</LineId> 
+        </Text>
+        </ModOp>
+    </Group>
+
+    <!-- Specialist ND-RoastBeef-R3R4-R -->
+    <Group>
+        <ModOp Add="/TextExport/Texts">
+        <!-- Title -->
+        <Text>
+            <Text>Albionic Cook</Text>
+            <LineId>1600001209</LineId> <!-- <GUID>1600001209</GUID> -->
+        </Text>
+        <!-- Description -->
+        <Text>
+            <Text>Brings albionic cuisine to Latium. &#xD;(Altdolphin-Consumption-Pack)</Text>
+            <LineId>1600001210</LineId> 
         </Text>
         </ModOp>
     </Group>

@@ -1,0 +1,105 @@
+<ModOps>
+<!-- Item Definition GUID: 1600000160 - 1600000161 | LineID:1600000160 - 1600000161 -->
+    <Group>
+        <ModOp Type="addNextSibling" GUID="106410">
+        <Asset>
+            <Template>Item</Template>
+            <Values>
+            <Standard>
+                <GUID>1600000160</GUID>
+                <Name>Specialist NR-FineGlass-R</Name>
+                <IconFilename>data/base/graphics/icons/Consump-Pack/NR-FineGlass-R.png</IconFilename>
+                <InfoDescription>1600000161</InfoDescription>
+            </Standard>
+            <Effect>
+                <EffectScope>Radius</EffectScope>  
+                <SourceCategory>Item</SourceCategory>
+                <Buffs>
+                    <Item>
+                        <GUID>1600000161</GUID>
+                    </Item>
+                </Buffs>
+                <Targets> <!-- Targets of Buff -->
+                    <Item>
+                        <GUID>31046</GUID>
+                    </Item>
+                </Targets>
+                <HideInGovernorsBar>1</HideInGovernorsBar>
+            </Effect>
+            <Item>
+                <Niche>Finance</Niche>
+                <TradePrice><ModValue Insert="$TradePrice_Rare"/></TradePrice> 
+                <BarkPool>80242</BarkPool> <!-- <GUID>80242</GUID> -->
+                <Rarity>Rare</Rarity> 
+            </Item>
+            <Locked>
+                <DefaultLockedState>0</DefaultLockedState>
+            </Locked>
+            <Text>
+                <OasisId>1600000160</OasisId>
+            </Text>
+            </Values>
+        </Asset>
+        </ModOp>
+    </Group>
+
+    <!-- Buff Definitions-->
+    <Group>
+        <!-- BuildingBuff Definition -->
+        <ModOp Type="addNextSibling" GUID="81445">
+            <Asset>
+            <Template>BuildingBuff</Template>
+            <Values>
+                <Standard>
+                <GUID>1600000161</GUID>
+                <Name>Specialist NR-FineGlass-R BuildingBuff</Name>
+                <IconFilename>data/base/graphics/icons/Consump-Pack/NR-FineGlass-R.png</IconFilename>
+                </Standard>
+                <Text>
+                    <OasisId>1600000160</OasisId>
+                </Text>
+                <Buff>
+                    <SourceCategory>Item</SourceCategory>
+                </Buff>
+                <ResidenceUpgrade>
+                    <GoodConsumptionUpgrade>
+                        <Item>
+                            <ProvidedNeedProduct>2151</ProvidedNeedProduct>
+                            <AmountInPercent><ModValue Insert="$ConsumptionModifier_Rare"/></AmountInPercent>
+                        </Item>
+                    </GoodConsumptionUpgrade>
+                    <NeedProvidedNeedAttributes>
+                        <ChangeNeedAttributesOf>
+                            <Item>
+                                <ProvidedProduct>2151</ProvidedProduct> <!-- <GUID>2151</GUID> -->
+                            </Item>
+                        </ChangeNeedAttributesOf>
+                        <AdditionalNeedAttributes>
+                            <Money>
+                                <AmountOrPercent>
+                                    <Value>2</Value>
+                                    <Percental>0</Percental>
+                                </AmountOrPercent>
+                            </Money>
+                            <Prestige>
+                                <AmountOrPercent>
+                                    <Value>2</Value>
+                                    <Percental>0</Percental>
+                                </AmountOrPercent>
+                            </Prestige>
+                            <Health>
+                                <AmountOrPercent>
+                                    <Value>-2</Value>
+                                    <Percental>0</Percental>
+                                </AmountOrPercent>
+                            </Health>
+                        </AdditionalNeedAttributes>
+                    </NeedProvidedNeedAttributes>
+                </ResidenceUpgrade>
+            </Values>
+            </Asset>
+        </ModOp>
+        
+    </Group>
+
+</ModOps>

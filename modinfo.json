@@ -1,6 +1,6 @@
 {
-  "ModID": "althandir-altdolphin-specialists-consumptionreward-pack",
-  "Version": "1.0.2",
+  "ModID": "althandir-altdolphin-specialists-consumption-pack",
+  "Version": "1.0.3",
   "Anno": 8,
   "IncompatibleIds": null,
   "ModDependencies": null,
@@ -12,7 +12,7 @@
     "Require": [],
     "Optional": [],
     "LoadAfter": [],
-    "Deprecate": []
+    "Deprecate": ["althandir-altdolphin-specialists-consumptionreward-pack"]
   },
   "GameSetup": {
     "RequiresNewGame": false,
@@ -84,19 +84,19 @@
     },
     "ConsumptionModifier_Common":
     {
-      "default": "15"
+      "default": "10.0"
     },
     "ConsumptionModifier_Rare":
     {
-      "default": "25"
+      "default": "15.0"
     },
     "ConsumptionModifier_Epic":
     {
-      "default": "35"
+      "default": "20.0"
     },
     "ConsumptionModifier_Legendary":
     {
-      "default": "50"
+      "default": "25.0"
     }
   }
 
