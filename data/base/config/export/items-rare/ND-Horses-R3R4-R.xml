@@ -32,7 +32,7 @@
           <Item>
             <Niche>Economy</Niche>
             <TradePrice><ModValue Insert="$TradePrice_Rare"/></TradePrice>
-            <BarkPool>83301</BarkPool> <!-- <GUID>83301</GUID> -->
+            <BarkPool>0</BarkPool> <!-- <GUID>0</GUID> -->
             <Rarity>Rare</Rarity>
           </Item>
           <Locked>
